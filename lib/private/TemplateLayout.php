@@ -209,6 +209,8 @@ class TemplateLayout extends \OC_Template {
 
 		$lang = str_replace('_', '-', $lang);
 		$this->assign('language', $lang);
+		$isRtl = \OCP\Util::isRtlLanguage($lang);
+		$this->assign('direction', $isRtl ? "rtl" : "ltr");
 		$this->assign('locale', $locale);
 
 		if (\OC::$server->getSystemConfig()->getValue('installed', false)) {
