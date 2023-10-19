@@ -17,14 +17,14 @@
 }
 
 #listOfTrustedServers .status {
-	margin-right: 10px;
+	margin-inline-end: 10px;
 }
 
 #listOfTrustedServers .icon {
 	cursor: pointer;
 	display: inline-block;
 	vertical-align: middle;
-	margin-left: 10px;
+	margin-inline-start: 10px;
 }
 
 #ocFederationAddServer #serverUrl {

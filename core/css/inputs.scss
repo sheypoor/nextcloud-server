@@ -334,7 +334,7 @@ input {
 	&[type='password'],
 	&[type='email'] {
 		+ .icon-confirm {
-			margin-left: -13px !important;
+			margin-inline-start: -13px !important;
 			border-left-color: transparent !important;
 			border-radius: 0 var(--border-radius-large) var(--border-radius-large) 0 !important;
 			border-width: 2px;
@@ -346,7 +346,7 @@ input {
 			width: $default-height;
 			padding: 7px 6px;
 			cursor: pointer;
-			margin-right: 0;
+			margin-inline-end: 0;
 			&:disabled {
 				cursor: default;
 				@include icon-color('confirm-fade', 'actions', variables.$color-black, 2, true);
@@ -457,7 +457,7 @@ input {
 			// Detail description below label of checkbox or radio button
 			& + label ~ em {
 				display: inline-block;
-				margin-left: 25px;
+				margin-inline-start: 25px;
 			}
 			& + label ~ em:last-of-type {
 				margin-bottom: $checkbox-radio-size;
@@ -530,7 +530,7 @@ div.select2-drop {
 	}
 	.avatar {
 		display: inline-block;
-		margin-right: 8px;
+		margin-inline-end: 8px;
 		vertical-align: middle;
 		img {
 			cursor: pointer;
@@ -705,7 +705,7 @@ div.select2-container {
 			display: inline-flex;
 			align-items: center;
 			.close {
-				margin-left: 3px;
+				margin-inline-start: 3px;
 			}
 		}
 	}
@@ -745,7 +745,7 @@ div.select2-container {
 					min-height: 16px;
 					display: block;
 					opacity: 0.5;
-					margin-right: 5px;
+					margin-inline-end: 5px;
 					visibility: hidden;
 				}
 			}

@@ -277,8 +277,8 @@ input[type='email'] {
 	cursor: text;
 	font-family: inherit;
 	font-weight: normal;
-	margin-left: 0;
-	margin-right: 0;
+	margin-inline-start: 0;
+	margin-inline-end: 0;
 }
 input[type='password'].password-with-toggle, input[type='text'].password-with-toggle {
 	width: 238px;
@@ -405,7 +405,7 @@ input[type='checkbox'].checkbox--white:checked + label:before {
 	display: block;
 }
 #passwordbutton {
-	margin-left: .5em;
+	margin-inline-start: .5em;
 }
 
 /* Dark subtle label text */
@@ -596,8 +596,8 @@ p.info {
 	.appList {
 		list-style: disc;
 		text-align: left;
-		margin-left: 25px;
-		margin-right: 25px;
+		margin-inline-start: 25px;
+		margin-inline-end: 25px;
 	}
 
 	img.float-spinner {

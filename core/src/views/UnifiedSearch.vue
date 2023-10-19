@@ -756,7 +756,7 @@ $input-padding: 6px;
 			align-self: flex-start;
 			font-weight: bold;
 			font-size: 19px;
-			margin-left: 13px;
+			margin-inline-start: 13px;
 		}
 	}
 
@@ -833,7 +833,7 @@ $input-padding: 6px;
 			opacity: .5;
 			border: none;
 			background-color: transparent;
-			margin-right: 0;
+			margin-inline-end: 0;
 
 			&:hover,
 			&:focus,
@@ -852,7 +852,7 @@ $input-padding: 6px;
 			display: block;
 			margin: $margin;
 			margin-bottom: $margin - 4px;
-			margin-left: 13px;
+			margin-inline-start: 13px;
 			color: var(--color-primary-element);
 			font-size: 19px;
 			font-weight: bold;

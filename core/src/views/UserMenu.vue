@@ -149,7 +149,7 @@ export default {
 
 <style lang="scss" scoped>
 .user-menu {
-	margin-right: 12px;
+	margin-inline-end: 12px;
 
 	&:deep {
 		.header-menu {
@@ -228,7 +228,7 @@ export default {
 					img {
 						width: 16px;
 						height: 16px;
-						margin-right: 10px;
+						margin-inline-end: 10px;
 					}
 
 					img,

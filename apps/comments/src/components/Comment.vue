@@ -301,7 +301,7 @@ $comment-padding: 10px;
 	}
 
 	&__actions {
-		margin-left: $comment-padding !important;
+		margin-inline-start: $comment-padding !important;
 	}
 
 	&__author {
@@ -313,7 +313,7 @@ $comment-padding: 10px;
 
 	&_loading,
 	&__timestamp {
-		margin-left: auto;
+		margin-inline-start: auto;
 		text-align: right;
 		white-space: nowrap;
 		color: var(--color-text-maxcontrast);

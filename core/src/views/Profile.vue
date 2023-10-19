@@ -359,7 +359,7 @@ $content-max-width: 640px;
 
 			&__edit-button {
 				border: none;
-				margin-left: 18px;
+				margin-inline-start: 18px;
 				margin-top: 2px;
 				color: var(--color-primary-element-text);
 				background-color: var(--color-primary-element);
@@ -389,7 +389,7 @@ $content-max-width: 640px;
 				width: max-content;
 				max-width: $content-max-width;
 				padding: 5px 10px;
-				margin-left: -12px;
+				margin-inline-start: -12px;
 				margin-top: 2px;
 
 				&.interactive {
@@ -516,7 +516,7 @@ $content-max-width: 640px;
 
 		&-empty-info {
 			margin-top: 80px;
-			margin-right: 100px;
+			margin-inline-end: 100px;
 			display: flex;
 			flex-direction: column;
 			text-align: center;

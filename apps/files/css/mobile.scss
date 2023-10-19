@@ -32,7 +32,7 @@ table.multiselect thead {
 }
 
 .fileList .fileActionsMenu {
-	margin-right: 6px;
+	margin-inline-end: 6px;
 }
 /* hide text of the share action on mobile */
 /* .hidden-visually for accessbility */
@@ -85,6 +85,6 @@ table.dragshadow {
 
 	/* Remove the margin to reduce the overlap between the name and the icons */
 	table.multiselect th .columntitle.name {
-		margin-left: 0;
+		margin-inline-start: 0;
 	}
 }

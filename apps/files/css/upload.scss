@@ -3,7 +3,7 @@
 	height: 36px;
 	width: 39px;
 	padding: 0 !important; /* override default control bar button padding */
-	margin-left: 3px;
+	margin-inline-start: 3px;
 	overflow: hidden;
 	vertical-align: top;
 	position: relative;
@@ -31,11 +31,11 @@
 	display: inline-block;
 	vertical-align: top;
 	height: 36px;
-	margin-left: 3px;
+	margin-inline-start: 3px;
 }
 .uploadprogresswrapper > input[type='button'] {
 	height: 36px;
-	margin-left: 3px;
+	margin-inline-start: 3px;
 }
 #uploadprogressbar {
 	border-color: var(--color-border-dark);
@@ -120,7 +120,7 @@
 	padding-right: 0;
 }
 .oc-dialog .fileexists th input[type='checkbox'] {
-	margin-right: 3px;
+	margin-inline-end: 3px;
 }
 .oc-dialog .fileexists th:first-child {
 	width: 225px;
@@ -130,7 +130,7 @@
 	color: var(--color-main-text);
 }
 .oc-dialog .fileexists th .count {
-	margin-left: 3px;
+	margin-inline-start: 3px;
 }
 .oc-dialog .fileexists .conflicts .template {
 	display: none;

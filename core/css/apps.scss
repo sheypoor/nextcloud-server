@@ -148,7 +148,7 @@ kbd {
 		box-shadow: none !important;
 		user-select: none;
 		pointer-events:none;
-		margin-left: 10px;
+		margin-inline-start: 10px;
 	}
 }
 
@@ -291,13 +291,13 @@ kbd {
 
 					> .app-navigation-entry-deleted {
 						/* margin to keep active indicator visible */
-						margin-left: 4px;
+						margin-inline-start: 4px;
 						padding-left: 84px;
 					}
 
 					> .app-navigation-entry-edit {
 						/* margin to keep active indicator visible */
-						margin-left: 4px;
+						margin-inline-start: 4px;
 						/* align the input correctly with the link text
 						44px+44px-4px-6px padding for the input */
 						padding-left: 78px !important;
@@ -345,7 +345,7 @@ kbd {
 					}
 				}
 				&:first-child img {
-					margin-right: 11px!important;
+					margin-inline-end: 11px!important;
 					width: 16px;
 					height: 16px;
 					// Legacy invert if bright background
@@ -564,7 +564,7 @@ kbd {
 		}
 		input {
 			padding: 5px;
-			margin-right: 0;
+			margin-inline-end: 0;
 			height: 38px;
 			&:hover,
 			&:focus {
@@ -587,7 +587,7 @@ kbd {
 				border-radius: 0 !important;
 			}
 			&:not(:first-child) {
-				margin-left: -1px;
+				margin-inline-start: -1px;
 			}
 			&:last-child {
 				border-bottom-right-radius: var(--border-radius);
@@ -883,14 +883,14 @@ $min-content-width: variables.$breakpoint-mobile - variables.$navigation-width -
 		&[type='checkbox'],
 		&[type='radio'] {
 			vertical-align: -2px;
-			margin-right: 4px;
+			margin-inline-end: 4px;
 		}
 	}
 }
 .sub-section {
 	position: relative;
 	margin-top: 10px;
-	margin-left: 27px;
+	margin-inline-start: 27px;
 	margin-bottom: 10px;
 }
 
@@ -943,7 +943,7 @@ $min-content-width: variables.$breakpoint-mobile - variables.$navigation-width -
 			background-size: 16px;
 			vertical-align: middle;
 			margin-top: -2px;
-			margin-right: 3px;
+			margin-inline-end: 3px;
 			opacity: .7;
 			cursor: pointer;
 		}
@@ -1028,7 +1028,7 @@ $outter-margin: math.div($popoveritem-height - $popovericon-size, 2);
 	&.menu-center {
 		transform: translateX(50%);
 		right: 50%;
-		margin-right: 0;
+		margin-inline-end: 0;
 		&:after {
 			right: 50%;
 			transform: translateX(50%);
@@ -1038,7 +1038,7 @@ $outter-margin: math.div($popoveritem-height - $popovericon-size, 2);
 	&.menu-left {
 		right: auto;
 		left: 0;
-		margin-right: 0;
+		margin-inline-end: 0;
 		&:after {
 			left: 6px;
 			right: auto;
@@ -1105,7 +1105,7 @@ $outter-margin: math.div($popoveritem-height - $popovericon-size, 2);
 				> input,
 				> form {
 					&:not([class^='icon-']):not([class*='icon-']):first-child {
-						margin-left: $popoveritem-height;
+						margin-inline-start: $popoveritem-height;
 					}
 				}
 			}
@@ -1141,7 +1141,7 @@ $outter-margin: math.div($popoveritem-height - $popovericon-size, 2);
 			}
 			> select {
 				margin: 0;
-				margin-left: 6px;
+				margin-inline-start: 6px;
 			}
 			/* Add padding if contains icon+text */
 			&:not(:empty) {
@@ -1175,13 +1175,13 @@ $outter-margin: math.div($popoveritem-height - $popovericon-size, 2);
 				   if there is an element before */
 				align-items: center;
 				&:not(:first-child)  {
-					margin-left: 5px;
+					margin-inline-start: 5px;
 				}
 			}
 			/* no margin if hidden span before */
 			> span.hidden + form,
 			> span[style*='display:none'] + form {
-				margin-left: 0;
+				margin-inline-start: 0;
 			}
 			/* Inputs inside popover supports text, submit & reset */
 			input {
@@ -1191,7 +1191,7 @@ $outter-margin: math.div($popoveritem-height - $popovericon-size, 2);
 				flex: 1 1 auto;
 				// space between inline inputs
 				&:not(:first-child) {
-					margin-left: 5px;
+					margin-inline-start: 5px;
 				}
 			}
 		}
@@ -1373,7 +1373,7 @@ $outter-margin: math.div($popoveritem-height - $popovericon-size, 2);
 			line-height: 40px;
 			border-radius: 50%;
 			vertical-align: middle;
-			margin-right: 10px;
+			margin-inline-end: 10px;
 			color: #fff;
 			text-align: center;
 			font-size: 1.5em;

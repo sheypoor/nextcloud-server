@@ -261,7 +261,7 @@ export default {
 			&-placeholder {
 				width: 16px !important;
 				height: 24px !important;
-				margin-right: 10px !important;
+				margin-inline-end: 10px !important;
 				visibility: hidden !important;
 			}
 		}
@@ -275,7 +275,7 @@ export default {
 		&-icon {
 			width: 16px;
 			height: 16px;
-			margin-right: 10px;
+			margin-inline-end: 10px;
 			opacity: 1 !important;
 			background-size: 16px;
 			vertical-align: middle !important;

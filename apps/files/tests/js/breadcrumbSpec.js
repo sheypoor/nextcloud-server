@@ -445,7 +445,7 @@ describe('OCA.Files.BreadCrumb tests', function() {
 			// handling in the browsers used to run the tests.
 			$creatableActions.css('width', '20px');
 			$creatableActions.css('min-width', '20px');
-			$creatableActions.css('margin-left', '40px');
+			$creatableActions.css('margin-inline-start', '40px');
 			$creatableActions.css('padding-right', '40px');
 			$('.files-controls').append($creatableActions);
 
@@ -627,7 +627,7 @@ describe('OCA.Files.BreadCrumb tests', function() {
 			$nextSibling.css('display', 'flex');
 			$nextSibling.css('flex', '1 1');
 			var $nextSiblingChild = $('<div class="siblingChild"></div>');
-			$nextSiblingChild.css('margin-left', 'auto');
+			$nextSiblingChild.css('margin-inline-start', 'auto');
 			$nextSibling.append($nextSiblingChild);
 			$('.files-controls').append($nextSibling);
 

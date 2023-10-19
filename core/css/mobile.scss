@@ -4,7 +4,7 @@
 
 	/* position share dropdown */
 	#dropdown {
-		margin-right: 10% !important;
+		margin-inline-end: 10% !important;
 		width: 80% !important;
 	}
 
@@ -16,7 +16,7 @@
 	/* fix error display on smaller screens */
 	.error-wide {
 		width: 100%;
-		margin-left: 0 !important;
+		margin-inline-start: 0 !important;
 		box-sizing: border-box;
 	}
 
@@ -33,12 +33,12 @@
 	}
 
 	#app-navigation:not(.hidden) + #app-content {
-		margin-left: 0;
+		margin-inline-start: 0;
 	}
 
 	.skip-navigation.skip-content {
 		left: 3px;
-		margin-left: 0;
+		margin-inline-start: 0;
 	}
 
 	/* full width for message list on mobile */

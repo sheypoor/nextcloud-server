@@ -71,7 +71,7 @@
 }
 
 #selectBackend {
-	margin-left: -10px;
+	margin-inline-start: -10px;
 	width: 150px;
 }
 
@@ -84,11 +84,11 @@
 }
 
 #externalStorage td.configuration input.added  {
-	margin-right: 6px;
+	margin-inline-end: 6px;
 }
 
 #externalStorage label > input[type="checkbox"] {
-	margin-right: 3px;
+	margin-inline-end: 3px;
 }
 
 #externalStorage td.configuration label {
@@ -133,7 +133,7 @@
 .files-external-select2 .select2-results .select2-result-label .avatardiv + span {
 	position: absolute;
 	top: 5px;
-	margin-left: 10px;
+	margin-inline-start: 10px;
 }
 .files-external-select2 .select2-results .select2-result-label .avatardiv[data-type="group"] + span {
 	vertical-align: top;

@@ -136,7 +136,7 @@ $stack-shift: 6px;
 
 	&__icon {
 		overflow: visible;
-		margin-right: 12px;
+		margin-inline-end: 12px;
 
 		img {
 			max-width: 100%;
@@ -157,7 +157,7 @@ $stack-shift: 6px;
 			// Stack effect if more than one element
 			.files-list__row-icon + .files-list__row-icon {
 				margin-top: $stack-shift;
-				margin-left: $stack-shift - $size;
+				margin-inline-start: $stack-shift - $size;
 				& + .files-list__row-icon {
 					margin-top: $stack-shift * 2;
 				}

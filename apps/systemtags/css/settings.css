@@ -4,7 +4,7 @@
 	align-items: center;
 }
 .systemtag-input--name {
-	margin-right: 3px;
+	margin-inline-end: 3px;
 }
 .systemtag-input--name,
 .systemtag-input--level {

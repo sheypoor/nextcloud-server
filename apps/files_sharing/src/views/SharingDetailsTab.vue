@@ -1054,10 +1054,10 @@ export default {
 			margin-top: 16px;
 
 			button {
-				margin-left: 16px;
+				margin-inline-start: 16px;
 
 				&:first-child {
-					margin-left: 0;
+					margin-inline-start: 0;
 				}
 			}
 		}
