@@ -49,7 +49,7 @@
 	text-align: center;
 
 	.ui-progressbar-value {
-		margin-top:.1em;
+		margin-block-start:.1em;
 	}
 }
 #uploadprogressbar .ui-progressbar-value.ui-widget-header.ui-corner-left {
@@ -96,7 +96,7 @@
 	-moz-user-select: none;
 	-ms-user-select: none;
 	user-select: none;
-	margin-bottom: 30px;
+	margin-block-end: 30px;
 }
 
 .oc-dialog .fileexists .conflict .filename,

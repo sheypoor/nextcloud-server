@@ -293,7 +293,7 @@ export default {
 		background-size: cover;
 		background-position: center;
 		text-align: center;
-		margin-top: 10px;
+		margin-block-start: 10px;
 		/* This is basically https://github.com/nextcloud/server/blob/master/core/css/guest.css
 		   But without the user variables. That way the admin can preview the render as guest*/
 		/* As guest, there is no user color color-background-plain */
@@ -307,7 +307,7 @@ export default {
 		&-logo {
 			width: 20%;
 			height: 20%;
-			margin-top: 20px;
+			margin-block-start: 20px;
 			display: inline-block;
 			background-size: contain;
 			background-position: center;

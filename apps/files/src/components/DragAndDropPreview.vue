@@ -156,10 +156,10 @@ $stack-shift: 6px;
 
 			// Stack effect if more than one element
 			.files-list__row-icon + .files-list__row-icon {
-				margin-top: $stack-shift;
+				margin-block-start: $stack-shift;
 				margin-inline-start: $stack-shift - $size;
 				& + .files-list__row-icon {
-					margin-top: $stack-shift * 2;
+					margin-block-start: $stack-shift * 2;
 				}
 			}
 			// If we have manually clone the preview,

@@ -183,7 +183,7 @@ export default {
 		& > .button-vue,
 		& > input[type=text] {
 			margin-inline-end: 5px;
-			margin-bottom: 5px;
+			margin-block-end: 5px;
 		}
 	}
 	input[type=text] {

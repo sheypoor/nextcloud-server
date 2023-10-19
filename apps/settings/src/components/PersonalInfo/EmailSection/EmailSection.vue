@@ -206,7 +206,7 @@ section {
 
 	.additional-emails-label {
 		display: block;
-		margin-top: 16px;
+		margin-block-start: 16px;
 	}
 }
 </style>

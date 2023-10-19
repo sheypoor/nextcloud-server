@@ -102,7 +102,7 @@ export default {
 
 		.multiselect {
 			width: 100%;
-			margin-bottom: 5px;
+			margin-block-end: 5px;
 		}
 
 		.multiselect::v-deep .multiselect__tags:not(:hover):not(:focus):not(:active) {
@@ -112,7 +112,7 @@ export default {
 		input[type=text] {
 			width: 50%;
 			margin: 0;
-			margin-bottom: 5px;
+			margin-block-end: 5px;
 			min-height: 48px;
 
 			&.timeslot--start {

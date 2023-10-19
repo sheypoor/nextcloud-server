@@ -339,7 +339,7 @@ $comment-padding: 10px;
 		word-break: break-word;
 		max-height: 70px;
 		overflow: hidden;
-		margin-top: -6px;
+		margin-block-start: -6px;
 		&--expanded {
 			max-height: none;
 			overflow: visible;

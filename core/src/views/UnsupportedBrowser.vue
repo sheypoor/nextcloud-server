@@ -192,8 +192,8 @@ $spacing: 30px;
 	}
 
 	&__list {
-		margin-top: 2 * $spacing;
-		margin-bottom: $spacing;
+		margin-block-start: 2 * $spacing;
+		margin-block-end: $spacing;
 		li {
 			text-align: left;
 		}

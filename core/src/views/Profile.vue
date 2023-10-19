@@ -343,24 +343,24 @@ $content-max-width: 640px;
 			&__displayname {
 				width: $content-max-width;
 				height: 45px;
-				margin-top: 128px;
+				margin-block-start: 128px;
 				// Override the global style declaration
-				margin-bottom: 0;
+				margin-block-end: 0;
 				font-size: 30px;
 				display: flex;
 				align-items: center;
 				cursor: text;
 
 				&:not(:last-child) {
-					margin-top: 100px;
-					margin-bottom: 4px;
+					margin-block-start: 100px;
+					margin-block-end: 4px;
 				}
 			}
 
 			&__edit-button {
 				border: none;
 				margin-inline-start: 18px;
-				margin-top: 2px;
+				margin-block-start: 2px;
 				color: var(--color-primary-element-text);
 				background-color: var(--color-primary-element);
 				box-shadow: 0 0 0 2px var(--color-primary-element);
@@ -381,7 +381,7 @@ $content-max-width: 640px;
 				.pencil-icon {
 					display: inline-block;
 					vertical-align: middle;
-					margin-top: 2px;
+					margin-block-start: 2px;
 				}
 			}
 
@@ -390,7 +390,7 @@ $content-max-width: 640px;
 				max-width: $content-max-width;
 				padding: 5px 10px;
 				margin-inline-start: -12px;
-				margin-top: 2px;
+				margin-block-start: 2px;
 
 				&.interactive {
 					cursor: pointer;
@@ -497,7 +497,7 @@ $content-max-width: 640px;
 		}
 
 		&-headline {
-			margin-top: 10px;
+			margin-block-start: 10px;
 
 			h3 {
 				font-weight: bold;
@@ -515,7 +515,7 @@ $content-max-width: 640px;
 		}
 
 		&-empty-info {
-			margin-top: 80px;
+			margin-block-start: 80px;
 			margin-inline-end: 100px;
 			display: flex;
 			flex-direction: column;
@@ -585,7 +585,7 @@ $content-max-width: 640px;
 	display: flex;
 	flex-direction: column;
 	gap: 8px 0;
-	margin-top: 20px;
+	margin-block-start: 20px;
 
 	&__primary {
 		margin: 0 auto;

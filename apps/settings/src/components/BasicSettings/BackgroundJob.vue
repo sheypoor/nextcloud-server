@@ -192,7 +192,7 @@ export default {
 
 <style lang="scss" scoped>
 .error {
-	margin-top: 8px;
+	margin-block-start: 8px;
 	padding: 5px;
 	border-radius: var(--border-radius);
 	color: var(--color-primary-element-text);
@@ -200,7 +200,7 @@ export default {
 	width: initial;
 }
 .warning {
-	margin-top: 8px;
+	margin-block-start: 8px;
 	padding: 5px;
 	border-radius: var(--border-radius);
 	color: var(--color-primary-element-text);
@@ -208,6 +208,6 @@ export default {
 	width: initial;
 }
 .ajaxSwitch {
-	margin-top: 1rem;
+	margin-block-start: 1rem;
 }
 </style>

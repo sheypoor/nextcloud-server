@@ -293,7 +293,7 @@ table th.column-last, table td.column-last {
 #app-content-sharinglinks,
 #app-content-deletedshares,
 #app-content-pendingshares {
-	margin-top: 22px;
+	margin-block-start: 22px;
 	thead {
 		top: 0;
 	}
@@ -355,7 +355,7 @@ table td.filename .thumbnail {
 	background-position: center;
 	background-repeat: no-repeat;
 	margin-inline-start: 9px;
-	margin-top: 9px;
+	margin-block-start: 9px;
 	border-radius: var(--border-radius);
 	cursor: pointer;
 	position: absolute;
@@ -376,7 +376,7 @@ table:not(.view-grid) td.filename input.filename {
 	cursor: text;
 }
 table td.filename form {
-	margin-top: -40px;
+	margin-block-start: -40px;
 	position: relative;
 	top: -6px;
 }
@@ -617,11 +617,11 @@ a.action.action-setreminder {
 .selectedActions a img {
 	position:relative;
 	vertical-align: text-bottom;
-	margin-bottom: -1px;
+	margin-block-end: -1px;
 }
 
 .selectedActions .actions-selected .icon-more {
-	margin-top: -3px;
+	margin-block-start: -3px;
 }
 
 .files-fileList td a {
@@ -800,7 +800,7 @@ table.dragshadow td.size {
 	font-weight: 300;
 	top: 100%;
 	left: -48px !important;
-	margin-top: 4px;
+	margin-block-start: 4px;
 	min-width: 100px;
 	z-index: 1001;
 
@@ -919,7 +919,7 @@ table.dragshadow td.size {
 .notCreatable {
 	margin-inline-start: 12px;
 	margin-inline-end: 44px;
-	margin-top: 12px;
+	margin-block-start: 12px;
 	color: var(--color-main-text);
 	overflow: auto;
 	min-width: 160px;
@@ -1075,7 +1075,7 @@ table.dragshadow td.size {
 					.nametext {
 						display: flex;
 						height: 44px;
-						margin-top: $grid-size - $grid-pad;
+						margin-block-start: $grid-size - $grid-pad;
 						text-align: center;
 						line-height: 44px;
 						padding: 0;
@@ -1111,7 +1111,7 @@ table.dragshadow td.size {
 
 					.fileactions {
 						height: initial;
-						margin-top: $grid-size - $grid-pad;
+						margin-block-start: $grid-size - $grid-pad;
 						display: flex;
 						align-items: center;
 						position: absolute;
@@ -1306,7 +1306,7 @@ table.dragshadow td.size {
 	position: relative;
 	display: flex;
 	flex-wrap: wrap;
-	margin-bottom: 10px;
+	margin-block-end: 10px;
 
 	h3 {
 		width: 100%;

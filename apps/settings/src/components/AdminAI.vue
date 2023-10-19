@@ -152,7 +152,7 @@ export default {
 </script>
 <style scoped>
 .draggable__item {
-	margin-bottom: 5px;
+	margin-block-end: 5px;
   display: flex;
   align-items: center;
 }

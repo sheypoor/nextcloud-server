@@ -190,7 +190,7 @@ export default {
 		display: flex;
 		align-items: center;
 		flex-wrap: wrap;
-		margin-top: calc(var(--default-grid-baseline) * 2);
+		margin-block-start: calc(var(--default-grid-baseline) * 2);
 
 		.icon {
 			background-size: 16px 16px;

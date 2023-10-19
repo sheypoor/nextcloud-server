@@ -325,13 +325,13 @@ export default {
 	&__custom-input {
 		display: flex;
 		width: 100%;
-		margin-bottom: 10px;
+		margin-block-end: 10px;
 	}
 
 	&__automation-hint {
 		display: flex;
 		width: 100%;
-		margin-bottom: 10px;
+		margin-block-end: 10px;
 		color: var(--color-text-maxcontrast);
 	}
 

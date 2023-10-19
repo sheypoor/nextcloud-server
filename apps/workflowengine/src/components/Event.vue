@@ -84,7 +84,7 @@ export default {
 
 <style scoped lang="scss">
 	.event {
-		margin-bottom: 5px;
+		margin-block-end: 5px;
 
 		&__trigger {
 			max-width: 550px;

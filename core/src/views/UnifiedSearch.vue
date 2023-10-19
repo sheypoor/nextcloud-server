@@ -851,7 +851,7 @@ $input-padding: 6px;
 		&-header {
 			display: block;
 			margin: $margin;
-			margin-bottom: $margin - 4px;
+			margin-block-end: $margin - 4px;
 			margin-inline-start: 13px;
 			color: var(--color-primary-element);
 			font-size: 19px;

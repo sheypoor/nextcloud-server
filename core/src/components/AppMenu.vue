@@ -231,7 +231,7 @@ $header-icon-size: 20px;
 		opacity: 1;
 
 		img {
-			margin-top: -8px;
+			margin-block-start: -8px;
 		}
 
 		.app-menu-entry--label {

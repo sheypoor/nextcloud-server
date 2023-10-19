@@ -175,11 +175,11 @@ export default {
 
 <style lang="scss" scoped>
 	.social-button {
-		margin-top: 0.5rem;
+		margin-block-start: 0.5rem;
 		button {
 			display: inline-flex;
 			margin-inline-start: 0.5rem;
-			margin-top: 1rem;
+			margin-block-start: 1rem;
 		}
 		&__website-button {
 			width: min(100%, 400px) !important;
@@ -194,7 +194,7 @@ export default {
 		}
 	}
 	pre {
-		margin-top: 0;
+		margin-block-start: 0;
 		white-space: pre-wrap;
 	}
 	#cloudid {

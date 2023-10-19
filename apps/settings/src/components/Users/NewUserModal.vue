@@ -420,7 +420,7 @@ export default {
 
 	&__hint {
 		color: var(--color-text-maxcontrast);
-		margin-top: 8px;
+		margin-block-start: 8px;
 		align-self: flex-start;
 	}
 
@@ -434,7 +434,7 @@ export default {
 	}
 
 	&__submit {
-		margin-top: 20px;
+		margin-block-start: 20px;
 	}
 }
 </style>

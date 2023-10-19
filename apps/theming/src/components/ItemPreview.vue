@@ -124,7 +124,7 @@ export default {
 	}
 
 	&-explanation {
-		margin-bottom: 10px;
+		margin-block-end: 10px;
 	}
 
 	&-description {
@@ -133,7 +133,7 @@ export default {
 
 		h3 {
 			font-weight: bold;
-			margin-bottom: 0;
+			margin-block-end: 0;
 		}
 
 		label {

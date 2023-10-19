@@ -240,7 +240,7 @@ section {
 			display: flex;
 			gap: 0 2px;
 			margin-inline-end: 5px;
-			margin-bottom: 5px;
+			margin-block-end: 5px;
 		}
 	}
 
@@ -252,7 +252,7 @@ section {
 		&__icon {
 			margin-inline-end: 8px;
 			align-self: start;
-			margin-top: 4px;
+			margin-block-start: 4px;
 		}
 
 		&--error {

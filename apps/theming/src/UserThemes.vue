@@ -304,7 +304,7 @@ export default {
 		--gap: 30px;
 
 		display: grid;
-		margin-top: var(--gap);
+		margin-block-start: var(--gap);
 		column-gap: var(--gap);
 		row-gap: var(--gap);
 		grid-template-columns: 1fr 1fr;
@@ -313,7 +313,7 @@ export default {
 
 .background {
 	&__grid {
-		margin-top: 30px;
+		margin-block-start: 30px;
 	}
 }
 

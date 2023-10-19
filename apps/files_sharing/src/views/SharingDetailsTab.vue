@@ -952,7 +952,7 @@ export default {
 	&__quick-permissions {
 		display: flex;
 		justify-content: center;
-		margin-bottom: 0.2em;
+		margin-block-end: 0.2em;
 		width: 100%;
 		margin: 0 auto;
 		border-radius: 0;
@@ -986,14 +986,14 @@ export default {
 		width: 100%;
 
 		button {
-			margin-top: 0.5em;
+			margin-block-start: 0.5em;
 		}
 
 	}
 
 	&__advanced {
 		width: 100%;
-		margin-bottom: 0.5em;
+		margin-block-end: 0.5em;
 		text-align: left;
 		padding-left: 0;
 
@@ -1051,7 +1051,7 @@ export default {
 			display: flex;
 			justify-content: space-between;
 			width: 100%;
-			margin-top: 16px;
+			margin-block-start: 16px;
 
 			button {
 				margin-inline-start: 16px;

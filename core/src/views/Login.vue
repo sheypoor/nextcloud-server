@@ -229,7 +229,7 @@ body {
 
 .login-passwordless {
 	.button-vue {
-		margin-top: 0.5rem;
+		margin-block-start: 0.5rem;
 	}
 }
 </style>

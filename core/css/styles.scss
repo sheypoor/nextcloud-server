@@ -116,7 +116,7 @@ body {
 	text-align: center;
 	width: 100% !important;
 	display: inline-block;
-	margin-bottom: 0 !important;
+	margin-block-end: 0 !important;
 	background-color: var(--color-background-darker) !important;
 	border: none !important;
 }
@@ -204,16 +204,16 @@ body {
 .emptycontent {
 	color: var(--color-text-maxcontrast);
 	text-align: center;
-	margin-top: 30vh;
+	margin-block-start: 30vh;
 	width: 100%;
 	#app-sidebar & {
-		margin-top: 10vh;
+		margin-block-start: 10vh;
 	}
 	.emptycontent-search {
 		position: static;
 	}
 	h2 {
-		margin-bottom: 10px;
+		margin-block-end: 10px;
 	}
 	[class^='icon-'],
 	[class*='icon-'] {
@@ -311,7 +311,7 @@ body {
 #personal-show + label {
 	display: block;
 	right: 0;
-	margin-top: -43px;
+	margin-block-start: -43px;
 	margin-inline-end: -4px;
 	padding: 22px;
 }
@@ -319,7 +319,7 @@ body {
 /* Warnings and errors are the same */
 
 #body-user .warning, #body-settings .warning {
-	margin-top: 8px;
+	margin-block-start: 8px;
 	padding: 5px;
 	border-radius: var(--border-radius);
 	color: var(--color-main-text);
@@ -464,7 +464,7 @@ code {
 
 /* ---- jQuery UI datepicker ---- */
 .ui-widget.ui-datepicker {
-	margin-top: 10px;
+	margin-block-start: 10px;
 	padding: 4px 8px;
 	width: auto;
 	border-radius: var(--border-radius);
@@ -543,7 +543,7 @@ code {
 
 /* ---- jQuery UI timepicker ---- */
 .ui-widget.ui-timepicker {
-	margin-top: 10px !important;
+	margin-block-start: 10px !important;
 	width: auto !important;
 	border-radius: var(--border-radius);
 	z-index: 1600 !important;
@@ -810,7 +810,7 @@ fieldset {
 		position: relative;
 	}
 	&.warning legend + p, &.update legend + p {
-		margin-top: 12px;
+		margin-block-start: 12px;
 	}
 }
 

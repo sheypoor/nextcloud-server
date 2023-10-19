@@ -222,8 +222,8 @@ export default {
 	vertical-align: middle;
 }
 p {
-	margin-top: 12px;
-	margin-bottom: 12px;
+	margin-block-start: 12px;
+	margin-block-end: 12px;
 }
 .new-owner-row {
 	display: flex;
@@ -232,7 +232,7 @@ p {
 	label {
 		display: flex;
 		align-items: center;
-		margin-bottom: calc(var(--default-grid-baseline) * 2);
+		margin-block-end: calc(var(--default-grid-baseline) * 2);
 
 		span {
 			margin-inline-end: 8px;

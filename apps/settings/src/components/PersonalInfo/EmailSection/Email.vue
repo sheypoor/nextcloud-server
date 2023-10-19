@@ -414,7 +414,7 @@ export default {
 		&__icon {
 			margin-inline-end: 8px;
 			align-self: start;
-			margin-top: 4px;
+			margin-block-start: 4px;
 		}
 
 		&--error {

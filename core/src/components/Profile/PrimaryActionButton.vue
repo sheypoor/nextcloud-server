@@ -86,7 +86,7 @@ export default {
 		.icon {
 			display: inline-block;
 			vertical-align: middle;
-			margin-bottom: 2px;
+			margin-block-end: 2px;
 			margin-inline-end: 4px;
 
 			&.icon-invert {

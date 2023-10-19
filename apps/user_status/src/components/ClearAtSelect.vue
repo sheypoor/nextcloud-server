@@ -88,7 +88,7 @@ export default {
 <style lang="scss" scoped>
 .clear-at-select {
 	display: flex;
-	margin-bottom: 10px;
+	margin-block-end: 10px;
 	align-items: center;
 
 	&__label {

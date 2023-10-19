@@ -153,8 +153,8 @@ export default {
 		text-decoration: underline;
 	}
 	.settings-hint {
-		margin-top: -.2em;
-		margin-bottom: 1em;
+		margin-block-start: -.2em;
+		margin-block-end: 1em;
 		opacity: .7;
 	}
 </style>

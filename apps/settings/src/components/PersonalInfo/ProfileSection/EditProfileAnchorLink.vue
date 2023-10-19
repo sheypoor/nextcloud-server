@@ -82,7 +82,7 @@ a {
 	.anchor-icon {
 		display: inline-block;
 		vertical-align: middle;
-		margin-top: 6px;
+		margin-block-start: 6px;
 		margin-inline-end: 8px;
 	}
 

@@ -56,7 +56,7 @@ $download-button-section-height: 200px;
 
 #imgframe #viewer[data-handler=audios] {
 	// for speed settings
-    margin-top: 400px;
+    margin-block-start: 400px;
 }
 
 #imgframe .plyr {
@@ -117,7 +117,7 @@ thead {
 	display: inline-block;
 	margin-inline-start: auto;
 	margin-inline-end: auto;
-	margin-top: 16px;
+	margin-block-start: 16px;
 }
 
 .download-size {
@@ -147,7 +147,7 @@ thead {
 
 .emptycontent {
 	&.has-note {
-		margin-top: 5vh;
+		margin-block-start: 5vh;
 	}
 }
 
@@ -156,7 +156,7 @@ thead {
 }
 
 #public-upload .emptycontent h2+p {
-	margin-bottom: 30px;
+	margin-block-end: 30px;
 }
 
 #public-upload .emptycontent .icon-folder {
@@ -165,7 +165,7 @@ thead {
 	background-size: 16px;
 	display: inline-block;
 	vertical-align: text-top;
-	margin-bottom: 0;
+	margin-block-end: 0;
 	margin-inline-end: 5px;
 	opacity: 1;
 }

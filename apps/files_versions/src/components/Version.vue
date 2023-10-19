@@ -344,19 +344,19 @@ export default {
 	padding: 16px;
 
 	&__title {
-		margin-bottom: 12px;
+		margin-block-end: 12px;
 		font-weight: 600;
 	}
 
 	&__info {
-		margin-top: 12px;
+		margin-block-start: 12px;
 		color: var(--color-text-maxcontrast);
 	}
 
 	&__actions {
 		display: flex;
 		justify-content: space-between;
-		margin-top: 64px;
+		margin-block-start: 64px;
 	}
 }
 </style>

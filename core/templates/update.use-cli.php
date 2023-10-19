@@ -19,7 +19,7 @@
 	<?php if ($_['tooBig']) { ?>
 		<div class="notecard warning">
 			<p><?php p($l->t('I know that if I continue doing the update via web UI has the risk, that the request runs into a timeout and could cause data loss, but I have a backup and know how to restore my instance in case of a failure.')); ?></p>
-			<a class="button error margin-top" href="?IKnowThatThisIsABigInstanceAndTheUpdateRequestCouldRunIntoATimeoutAndHowToRestoreABackup=IAmSuperSureToDoThis"><?php p($l->t('Upgrade via web on my own risk')); ?></a>
+			<a class="button error margin-block-start" href="?IKnowThatThisIsABigInstanceAndTheUpdateRequestCouldRunIntoATimeoutAndHowToRestoreABackup=IAmSuperSureToDoThis"><?php p($l->t('Upgrade via web on my own risk')); ?></a>
 		</div>
 	<?php } ?>
 </div>

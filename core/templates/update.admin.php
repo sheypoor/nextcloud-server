@@ -31,10 +31,10 @@
 			<?php p($l->t('The theme %s has been disabled.', [$_['oldTheme']])) ?>
 		</div>
 		<?php } ?>
-		<div class="text-left margin-top bold">
+		<div class="text-left margin-block-start bold">
 			<?php p($l->t('Please make sure that the database, the config folder and the data folder have been backed up before proceeding.')) ?>
 		</div>
-		<input class="updateButton primary margin-top" type="button" value="<?php p($l->t('Start update')) ?>">
+		<input class="updateButton primary margin-block-start" type="button" value="<?php p($l->t('Start update')) ?>">
 		<div class="notecard warning">
 			<?php p($l->t('To avoid timeouts with larger installations, you can instead run the following command from your installation directory:')) ?>
 			<pre>./occ upgrade</pre>

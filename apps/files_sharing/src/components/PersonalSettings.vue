@@ -79,7 +79,7 @@ export default {
 
 <style scoped lang="scss">
 p {
-	margin-top: 12px;
-	margin-bottom: 12px;
+	margin-block-start: 12px;
+	margin-block-end: 12px;
 }
 </style>

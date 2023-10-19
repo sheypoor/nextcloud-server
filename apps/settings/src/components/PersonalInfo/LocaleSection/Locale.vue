@@ -190,7 +190,7 @@ export default {
 
 	&::v-deep .material-design-icon {
 		align-self: flex-start;
-		margin-top: 2px;
+		margin-block-start: 2px;
 	}
 }
 </style>

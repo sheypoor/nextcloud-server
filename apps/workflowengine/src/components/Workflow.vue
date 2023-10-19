@@ -119,8 +119,8 @@ export default {
 		max-width: 100vw;
 
 		h2.configured-flows {
-			margin-top: 50px;
-			margin-bottom: 0;
+			margin-block-start: 50px;
+			margin-block-end: 0;
 		}
 	}
 	.actions {
@@ -133,7 +133,7 @@ export default {
 		}
 	}
 	.actions__more {
-		margin-bottom: 10px;
+		margin-block-end: 10px;
 	}
 
 	.slide-enter-active {

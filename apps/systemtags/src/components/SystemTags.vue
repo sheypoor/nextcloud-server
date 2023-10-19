@@ -230,7 +230,7 @@ export default Vue.extend({
 	flex-direction: column;
 
 	label[for="system-tags-input"] {
-		margin-bottom: 2px;
+		margin-block-end: 2px;
 	}
 
 	&__select {

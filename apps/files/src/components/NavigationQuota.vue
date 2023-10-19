@@ -135,7 +135,7 @@ export default {
 .app-navigation-entry__settings-quota {
 	// Align title with progress and icon
 	&--not-unlimited::v-deep .app-navigation-entry__name {
-		margin-top: -6px;
+		margin-block-start: -6px;
 	}
 
 	progress {

@@ -460,7 +460,7 @@ input {
 				margin-inline-start: 25px;
 			}
 			& + label ~ em:last-of-type {
-				margin-bottom: $checkbox-radio-size;
+				margin-block-end: $checkbox-radio-size;
 			}
 		}
 		&.checkbox {
@@ -523,7 +523,7 @@ input {
 
 /* Select2 overriding. Merged to core with vendor stylesheet */
 div.select2-drop {
-	margin-top: -2px;
+	margin-block-start: -2px;
 	background-color: var(--color-main-background);
 	&.select2-drop-active {
 		border-color: var(--color-border-dark);

@@ -539,10 +539,10 @@ export default {
 .sharing-search {
 	display: flex;
 	flex-direction: column;
-	margin-bottom: 4px;
+	margin-block-end: 4px;
 
 	label[for="sharing-search-input"] {
-		margin-bottom: 2px;
+		margin-block-end: 2px;
 	}
 
 	&__input {

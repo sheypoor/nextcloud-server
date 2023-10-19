@@ -40,7 +40,7 @@
 				<li>{{ t('settings', 'It is always good to create regular backups of your data, in case of encryption make sure to backup the encryption keys along with your data.') }}</li>
 			</ul>
 
-			<p class="margin-bottom">
+			<p class="margin-block-end">
 				{{ t('settings', 'This is the final warning: Do you really want to enable encryption?') }}
 			</p>
 			<NcButton type="primary"
@@ -194,7 +194,7 @@ export default {
 	border-radius: var(--border-radius);
 	box-shadow: rgba(43, 42, 51, 0.05) 0px 1px 2px 0px;
 	margin: 1rem 0;
-	margin-top: 1rem;
+	margin-block-start: 1rem;
 	padding: 1rem;
 }
 
@@ -204,7 +204,7 @@ li {
 	padding: 0.25rem 0;
 }
 
-.margin-bottom {
-	margin-bottom: 0.75rem;
+.margin-block-end {
+	margin-block-end: 0.75rem;
 }
 </style>

@@ -3,7 +3,7 @@
 }
 
 .challenge {
-	margin-top: 0 !important;
+	margin-block-start: 0 !important;
 	margin-inline-start: 0 !important;
 	box-sizing: border-box !important;
 	width: 100% !important;

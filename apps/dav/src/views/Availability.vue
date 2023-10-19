@@ -166,7 +166,7 @@ export default {
 }
 .grid-table {
 	display: grid;
-	margin-bottom: 32px;
+	margin-block-end: 32px;
 	grid-column-gap: 24px;
 	grid-row-gap: 6px;
 	grid-template-columns: min-content auto min-content;
@@ -196,7 +196,7 @@ export default {
 
 .empty-content {
 	color: var(--color-text-lighter);
-	margin-top: 4px;
+	margin-block-start: 4px;
 	align-self: center;
 }
 

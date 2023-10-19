@@ -516,7 +516,7 @@ export default Vue.extend({
 				max-width: calc(var(--icon-preview-size) * 0.5);
 				color: var(--color-main-background);
 				// better alignment with the folder icon
-				margin-top: 2px;
+				margin-block-start: 2px;
 			}
 		}
 

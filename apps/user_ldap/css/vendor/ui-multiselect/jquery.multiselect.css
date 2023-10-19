@@ -3,7 +3,7 @@
 .ui-multiselect-single .ui-multiselect-checkboxes input { position:absolute !important; top: auto !important; left:-9999px; }
 .ui-multiselect-single .ui-multiselect-checkboxes label { padding:5px !important; }
 
-.ui-multiselect-header { margin-bottom:3px; padding:3px 0 3px 4px; }
+.ui-multiselect-header { margin-block-end:3px; padding:3px 0 3px 4px; }
 .ui-multiselect-header ul { font-size:14px; }
 .ui-multiselect-header ul li { float:left; padding:0 10px 0 0; }
 .ui-multiselect-header a { text-decoration:none; }

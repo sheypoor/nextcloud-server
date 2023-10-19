@@ -950,7 +950,7 @@ export default {
 	}
 
 	&__progress {
-		margin-top: 4px;
+		margin-block-start: 4px;
 
 		&--warn {
 			&::-moz-progress-bar {

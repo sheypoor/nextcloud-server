@@ -62,7 +62,7 @@ body {
 h2 {
 	font-weight: bold;
 	font-size: 20px;
-	margin-bottom: 12px;
+	margin-block-end: 12px;
 	line-height: 30px;
 	color: var(--color-text-light);
 }
@@ -195,7 +195,7 @@ kbd {
 			order: 1;
 			flex-shrink: 0;
 			margin: 0;
-			margin-bottom: 3px;
+			margin-block-end: 3px;
 			width: 100%;
 			border-radius: var(--border-radius-pill);
 
@@ -203,7 +203,7 @@ kbd {
 			&.pinned {
 				order: 2;
 				&.first-pinned {
-					margin-top: auto !important;
+					margin-block-start: auto !important;
 				}
 			}
 
@@ -265,7 +265,7 @@ kbd {
 					flex-wrap: wrap;
 					padding-left: 44px;
 					width: 100%;
-					margin-bottom: 3px;
+					margin-block-end: 3px;
 
 					&:hover,
 					&:focus {
@@ -665,7 +665,7 @@ kbd {
 	box-sizing: border-box;
 	position: static;
 	margin: var(--body-container-margin);
-	margin-top: 50px;
+	margin-block-start: 50px;
 	padding: 0;
 	display: flex;
 	width: calc(100% - var(--body-container-margin) * 2);
@@ -771,7 +771,7 @@ $min-content-width: variables.$breakpoint-mobile - variables.$navigation-width -
 /* settings area */
 #app-settings {
 	// To the bottom w/ flex
-	margin-top: auto;
+	margin-block-start: auto;
 	&.open,
 	&.opened {
 		#app-settings-content {
@@ -844,7 +844,7 @@ $min-content-width: variables.$breakpoint-mobile - variables.$navigation-width -
 		&.opened {
 			border-top: solid 1px var(--color-border);
 			background-color: var(--color-main-background);
-			margin-top: 8px;
+			margin-block-start: 8px;
 		}
 		&:hover,
 		&:focus {
@@ -874,7 +874,7 @@ $min-content-width: variables.$breakpoint-mobile - variables.$navigation-width -
 .section {
 	display: block;
 	padding: 30px;
-	margin-bottom: 24px;
+	margin-block-end: 24px;
 	&.hidden {
 		display: none !important;
 	}
@@ -889,9 +889,9 @@ $min-content-width: variables.$breakpoint-mobile - variables.$navigation-width -
 }
 .sub-section {
 	position: relative;
-	margin-top: 10px;
+	margin-block-start: 10px;
 	margin-inline-start: 27px;
-	margin-bottom: 10px;
+	margin-block-end: 10px;
 }
 
 .appear {
@@ -909,7 +909,7 @@ $min-content-width: variables.$breakpoint-mobile - variables.$navigation-width -
 /* TABS ------------------------------------------------------------ */
 .tabHeaders {
 	display: flex;
-	margin-bottom: 16px;
+	margin-block-end: 16px;
 
 	.tabHeader {
 		display: flex;
@@ -921,7 +921,7 @@ $min-content-width: variables.$breakpoint-mobile - variables.$navigation-width -
 		text-overflow: ellipsis;
 		cursor: pointer;
 		color: var(--color-text-lighter);
-		margin-bottom: 1px;
+		margin-block-end: 1px;
 		padding: 5px;
 
 		&.hidden {
@@ -942,7 +942,7 @@ $min-content-width: variables.$breakpoint-mobile - variables.$navigation-width -
 			height: 16px;
 			background-size: 16px;
 			vertical-align: middle;
-			margin-top: -2px;
+			margin-block-start: -2px;
 			margin-inline-end: 3px;
 			opacity: .7;
 			cursor: pointer;
@@ -950,7 +950,7 @@ $min-content-width: variables.$breakpoint-mobile - variables.$navigation-width -
 
 		a {
 			color: var(--color-text-lighter);
-			margin-bottom: 1px;
+			margin-block-end: 1px;
 			overflow: hidden;
 			text-overflow: ellipsis;
 		}
@@ -960,7 +960,7 @@ $min-content-width: variables.$breakpoint-mobile - variables.$navigation-width -
 		&.selected,
 		&:hover,
 		&:focus {
-			margin-bottom: 0px;
+			margin-block-end: 0px;
 			color: var(--color-main-text);
 			border-bottom: 1px solid var(--color-text-lighter);
 		}
@@ -1001,7 +1001,7 @@ $outter-margin: math.div($popoveritem-height - $popovericon-size, 2);
 	padding: 3px;
 	z-index: 110;
 	margin: 5px;
-	margin-top: -5px;
+	margin-block-start: -5px;
 	right: 0;
 	filter: drop-shadow(0 1px 3px var(--color-box-shadow));
 	display: none;
@@ -1200,14 +1200,14 @@ $outter-margin: math.div($popoveritem-height - $popovericon-size, 2);
 			&:first-of-type {
 				> button, > a, > .menuitem {
 					> form, > input {
-						margin-top: $outter-margin - 2px; // minus the input margin
+						margin-block-start: $outter-margin - 2px; // minus the input margin
 					}
 				}
 			}
 			&:last-of-type {
 				> button, > a, > .menuitem {
 					> form, > input {
-						margin-bottom: 0px;
+						margin-block-end: 0px;
 					}
 				}
 			}
@@ -1382,7 +1382,7 @@ $outter-margin: math.div($popoveritem-height - $popovericon-size, 2);
 			user-select: none;
 			cursor: pointer;
 			top: 50%;
-			margin-top: -20px;
+			margin-block-start: -20px;
 		}
 
 		.app-content-list-item-line-one,

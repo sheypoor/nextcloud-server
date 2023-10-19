@@ -57,7 +57,7 @@ input {
 	.section {
 		padding: 10px 30px;
 		.headerbar-label {
-			margin-bottom: 0;
+			margin-block-end: 0;
 		}
 
 		input {
@@ -97,7 +97,7 @@ select {
 		border: 0;
 
 		h2 {
-			margin-bottom: 12px;
+			margin-block-end: 12px;
 		}
 
 		h3 {
@@ -109,8 +109,8 @@ select {
 
 	.personal-info {
 		margin-inline-end: 10%;
-		margin-bottom: 12px;
-		margin-top: 12px;
+		margin-block-end: 12px;
+		margin-block-start: 12px;
 	}
 
 	.personal-info[class^='icon-'], .personal-info[class*=' icon-'] {
@@ -366,7 +366,7 @@ table.nostyle {
 			flex-wrap: wrap;
 			flex-direction: column;
 			label {
-				margin-bottom: 0.5rem;
+				margin-block-end: 0.5rem;
 			}
 		}
 
@@ -385,7 +385,7 @@ table.nostyle {
 			.personal-show-label {
 				top: 34px !important;
 				margin-inline-end: 0;
-				margin-top: 0 !important;
+				margin-block-start: 0 !important;
 				right: 3px;
 			}
 		}
@@ -403,7 +403,7 @@ table.nostyle {
 			left: 0;
 			width: 100%;
 			border-radius: 0 0 2px 2px;
-			margin-top: 5px;
+			margin-block-start: 5px;
 			overflow: hidden;
 			height: 3px;
 		}
@@ -414,7 +414,7 @@ table.nostyle {
 
 #two-factor-auth {
 	h3 {
-		margin-top: 24px;
+		margin-block-start: 24px;
 	}
 
 	li > div {
@@ -552,7 +552,7 @@ span.usersLastLoginTooltip {
 }
 
 #app-category-app-bundles {
-	margin-bottom: 20px;
+	margin-block-end: 20px;
 }
 
 .appinfo {
@@ -562,7 +562,7 @@ span.usersLastLoginTooltip {
 #app-navigation {
 	/* Navigation icons */
 	img {
-		margin-bottom: -3px;
+		margin-block-end: -3px;
 		margin-inline-end: 6px;
 		width: 16px;
 	}
@@ -673,7 +673,7 @@ span.version {
 	}
 
 	.actions {
-		margin-top: 10px;
+		margin-block-start: 10px;
 	}
 }
 
@@ -813,7 +813,7 @@ span.version {
 }
 
 .section {
-	margin-bottom: 0;
+	margin-block-end: 0;
 	/* section divider lines, none needed for last one */
 	&:not(:last-child) {
 		border-bottom: 1px solid var(--color-border);
@@ -821,7 +821,7 @@ span.version {
 
 	/* correctly display help icons next to headings */
 	h2 {
-		margin-bottom: 22px;
+		margin-block-end: 22px;
 
 		.icon-info {
 			padding: 6px 20px;
@@ -861,7 +861,7 @@ span.version {
 }
 
 #app-category-1 {
-	margin-bottom: 18px;
+	margin-block-end: 18px;
 }
 
 /* capitalize 'Other' category */
@@ -918,7 +918,7 @@ span.version {
 			white-space: normal;
 		}
 
-		margin-bottom: 100px;
+		margin-block-end: 100px;
 
 		.section {
 			display: table-row;
@@ -949,7 +949,7 @@ span.version {
 		}
 
 		.groups-enable {
-			margin-top: 0;
+			margin-block-start: 0;
 
 			label {
 				margin-inline-end: 3px;
@@ -964,7 +964,7 @@ span.version {
 
 		.app-image-icon svg,
 		.app-image-icon .icon-settings-dark {
-			margin-top: 5px;
+			margin-block-start: 5px;
 			width: 20px;
 			height: 20px;
 			opacity: .5;
@@ -1056,7 +1056,7 @@ span.version {
 		h2 {
 			padding-left: 6px;
 			padding-top: 15px;
-			margin-bottom: 12px;
+			margin-block-end: 12px;
 			.enable {
 				position: relative;
 				top: -1px;
@@ -1064,7 +1064,7 @@ span.version {
 			}
 
 			+ .section {
-				margin-top: 50px;
+				margin-block-start: 50px;
 			}
 		}
 	}
@@ -1080,7 +1080,7 @@ span.version {
 #apps-list-search {
 	.section {
 		h2 {
-			margin-bottom: 0;
+			margin-block-end: 0;
 		}
 	}
 }
@@ -1088,7 +1088,7 @@ span.version {
 /* LOG */
 #log {
 	white-space: normal;
-	margin-bottom: 14px;
+	margin-block-end: 14px;
 }
 
 #lessLog {
@@ -1100,7 +1100,7 @@ table.grid td.date {
 }
 
 #log-section p {
-	margin-top: 20px;
+	margin-block-start: 20px;
 }
 
 #security-warning-state-ok,
@@ -1211,7 +1211,7 @@ table.grid td.date {
 		width: unset;
 		text-align: left;
 		display: block;
-		margin-top: calc(var(--default-grid-baseline) * 2);
+		margin-block-start: calc(var(--default-grid-baseline) * 2);
 	}
 }
 
@@ -1315,17 +1315,17 @@ doesnotexist:-o-prefocus, .strengthify-wrapper {
 	}
 
 	.extra-top-margin {
-		margin-top: 12px;
+		margin-block-start: 12px;
 	}
 }
 
 .security-warning__heading {
 	display: flex;
 	flex-wrap: wrap;
-	margin-bottom: calc(var(--default-grid-baseline) * 8);
+	margin-block-end: calc(var(--default-grid-baseline) * 8);
 
 	> h2 {
-		margin-bottom: 0px;
+		margin-block-end: 0px;
 	}
 
 	> a {
@@ -1347,8 +1347,8 @@ doesnotexist:-o-prefocus, .strengthify-wrapper {
 }
 
 .settings-hint {
-	margin-top: -12px;
-	margin-bottom: 12px;
+	margin-block-start: -12px;
+	margin-block-end: 12px;
 	opacity: .7;
 }
 

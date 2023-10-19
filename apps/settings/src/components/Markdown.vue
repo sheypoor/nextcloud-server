@@ -118,19 +118,19 @@ export default {
 	h6 {
 		font-weight: 600;
 		line-height: 120%;
-		margin-top: 24px;
-		margin-bottom: 12px;
+		margin-block-start: 24px;
+		margin-block-end: 12px;
 		color: var(--color-main-text);
 	}
 
 	h1 {
 		font-size: 36px;
-		margin-top: 48px;
+		margin-block-start: 48px;
 	}
 
 	h2 {
 		font-size: 28px;
-		margin-top: 48px;
+		margin-block-start: 48px;
 	}
 
 	h3 {
@@ -155,7 +155,7 @@ export default {
 		background-color: var(--color-background-dark);
 		border-radius: var(--border-radius);
 		padding: 1em 1.3em;
-		margin-bottom: 1em;
+		margin-block-end: 1em;
 	}
 
 	p code {

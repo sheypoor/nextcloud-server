@@ -465,15 +465,15 @@ export default {
 		}
 
 		.topMargin {
-			margin-top: 15px;
+			margin-block-start: 15px;
 		}
 
 		div.update,
 		p:not(.inlineblock) {
-			margin-bottom: 25px;
+			margin-block-end: 25px;
 		}
 		h2.inlineblock {
-			margin-top: 25px;
+			margin-block-start: 25px;
 		}
 		h3 {
 			&.clickable {
@@ -493,13 +493,13 @@ export default {
 		}
 		.icon {
 			display: inline-block;
-			margin-bottom: -3px;
+			margin-block-end: -3px;
 		}
 		.icon-triangle-s, .icon-triangle-n {
 			opacity: 0.5;
 		}
 		.applist {
-			margin-bottom: 25px;
+			margin-block-end: 25px;
 		}
 
 		.update-menu {

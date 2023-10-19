@@ -547,7 +547,7 @@ export default {
 				margin-inline-end: 16px;
 				background-position: center;
 				float: left;
-				margin-top: -6px;
+				margin-block-start: -6px;
 			}
 		}
 	}
@@ -666,7 +666,7 @@ export default {
 		font-weight: bold;
 
 		&:not(:first-of-type) {
-			margin-top: 64px;
+			margin-block-start: 64px;
 		}
 	}
 
@@ -706,7 +706,7 @@ export default {
 	flex-direction: row;
 	justify-content: center;
 	flex-wrap: wrap;
-	margin-bottom: 36px;
+	margin-block-end: 36px;
 
 	& > li {
 		margin: 8px;

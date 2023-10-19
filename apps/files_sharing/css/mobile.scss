@@ -27,7 +27,7 @@ table td.filename .nametext {
 }
 /* some margin for the file type icon */
 #imgframe .publicpreview {
-	margin-top: 32px;
+	margin-block-start: 32px;
 }
 
 /* some padding for better clickability */
@@ -56,6 +56,6 @@ table td.filename .nametext {
 }
 
 .emptycontent {
-	margin-top: 10vh;
+	margin-block-start: 10vh;
 }
 }
