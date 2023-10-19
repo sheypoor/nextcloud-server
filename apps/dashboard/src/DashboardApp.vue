@@ -579,7 +579,7 @@ export default {
 	margin:auto;
 	background-position: 16px center;
 	padding: 12px 16px;
-	padding-left: 36px;
+	padding-inline-start: 36px;
 	border-radius: var(--border-radius-pill);
 	max-width: 200px;
 	opacity: 1;
@@ -616,7 +616,7 @@ export default {
 		flex-direction: row;
 		justify-content: center;
 		list-style-type: none;
-		padding-bottom: 16px;
+		padding-block-end: 16px;
 	}
 	li {
 		label {
@@ -688,7 +688,7 @@ export default {
 	}
 
 	.credits--end {
-		padding-bottom: 32px;
+		padding-block-end: 32px;
 		color: var(--color-text-maxcontrast);
 
 		a {

@@ -29,7 +29,7 @@
 .actions__item_options {
 	width: 100%;
 	margin-block-start: 10px;
-	padding-left: 60px;
+	padding-inline-start: 60px;
 }
 h3, small {
 	padding: 6px;
@@ -56,7 +56,7 @@ small {
 	flex-direction: row;
 
 	.actions__item__description {
-		padding-top: 5px;
+		padding-block-start: 5px;
 		text-align: left;
 		width: calc(100% - 105px);
 		small {

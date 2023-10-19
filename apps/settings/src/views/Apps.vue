@@ -344,7 +344,7 @@ export default {
 
 	.app-sidebar-header__description {
 		.app-version {
-			padding-left: 10px;
+			padding-inline-start: 10px;
 		}
 	}
 

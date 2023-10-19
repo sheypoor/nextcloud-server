@@ -169,7 +169,7 @@ export default {
 	}
 
 	ul, ol {
-		padding-left: 10px;
+		padding-inline-start: 10px;
 		margin-inline-start: 10px;
 	}
 
@@ -186,7 +186,7 @@ export default {
 	}
 
 	blockquote {
-		padding-left: 1em;
+		padding-inline-start: 1em;
 		border-left: 4px solid var(--color-primary-element);
 		color: var(--color-text-maxcontrast);
 		margin-inline-start: 0;

@@ -166,8 +166,8 @@ export default {
 	.slide-enter, .slide-leave-to {
 		overflow: hidden;
 		max-height: 0;
-		padding-top: 0;
-		padding-bottom: 0;
+		padding-block-start: 0;
+		padding-block-end: 0;
 	}
 
 	@import "./../styles/operation";

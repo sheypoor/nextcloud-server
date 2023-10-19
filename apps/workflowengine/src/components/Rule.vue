@@ -225,7 +225,7 @@ export default {
 		}
 		.icon-confirm {
 			background-position: right 27px;
-			padding-right: 20px;
+			padding-inline-end: 20px;
 			margin-inline-end: 20px;
 		}
 	}
@@ -237,8 +237,8 @@ export default {
 			min-width: 50px;
 			text-align: right;
 			color: var(--color-text-maxcontrast);
-			padding-right: 10px;
-			padding-top: 6px;
+			padding-inline-end: 10px;
+			padding-block-start: 6px;
 		}
 		.multiselect {
 			flex-grow: 1;
@@ -246,16 +246,16 @@ export default {
 		}
 	}
 	.trigger p:first-child span {
-			padding-top: 3px;
+			padding-block-start: 3px;
 	}
 	.trigger p:last-child {
-			padding-top: 8px;
+			padding-block-start: 8px;
 	}
 
 	.check--add {
 		background-position: 7px center;
 		background-color: transparent;
-		padding-left: 6px;
+		padding-inline-start: 6px;
 		margin: 0;
 		width: 180px;
 		border-radius: var(--border-radius);

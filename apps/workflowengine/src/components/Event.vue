@@ -95,7 +95,7 @@ export default {
 			vertical-align: text-top;
 		}
 		span {
-			padding-top: 2px;
+			padding-block-start: 2px;
 			display: inline-block;
 		}
 	}

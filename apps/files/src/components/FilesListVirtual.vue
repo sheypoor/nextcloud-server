@@ -690,7 +690,7 @@ tbody.files-list__tbody.files-list__tbody--grid {
 			height: 100%;
 			// Visual balance, we use half of the clickable area
 			// as a margin around the preview
-			padding-top: var(--half-clickable-area);
+			padding-block-start: var(--half-clickable-area);
 		}
 
 		a.files-list__row-name-link {
@@ -701,7 +701,7 @@ tbody.files-list__tbody.files-list__tbody--grid {
 
 		.files-list__row-name-text {
 			margin: 0;
-			padding-right: 0;
+			padding-inline-end: 0;
 		}
 	}
 

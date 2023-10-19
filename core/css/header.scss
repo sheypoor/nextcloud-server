@@ -69,7 +69,7 @@
 /* LOGO and APP NAME -------------------------------------------------------- */
 #nextcloud {
 	padding: 5px 0;
-	padding-left: 86px; // logo width + 2* pa
+	padding-inline-start: 86px; // logo width + 2* pa
 	position: relative;
 	height: calc(100% - 4px);
 	box-sizing: border-box;
@@ -148,7 +148,7 @@
 
 	.header-appname-container {
 		display: none;
-		padding-right: 10px;
+		padding-inline-end: 10px;
 		flex-shrink: 0;
 	}
 
@@ -212,7 +212,7 @@
 	font-weight: bold;
 	margin: 0;
 	padding: 0;
-	padding-right: 5px;
+	padding-inline-end: 5px;
 	overflow: hidden;
 	text-overflow: ellipsis;
 	// Take full width to push the header-shared-by bellow (if any)

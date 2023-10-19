@@ -101,12 +101,12 @@
 
 	/* position controls for apps with app-navigation */
 	#app-navigation + #app-content .files-controls {
-		padding-left: 44px;
+		padding-inline-start: 44px;
 	}
 
 	/* .viewer-mode is when text editor, PDF viewer, etc is open */
 	#body-user .app-files.viewer-mode .files-controls {
-		padding-left: 0 !important;
+		padding-inline-start: 0 !important;
 	}
 	.app-files.viewer-mode #app-navigation-toggle {
 		display: none !important;

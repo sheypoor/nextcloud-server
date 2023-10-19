@@ -117,7 +117,7 @@
 
 					var targetRatio = getTargetRatio(img);
 					$thumbnailDiv.find('.stretcher').css({
-						'padding-bottom': (100 / targetRatio) + '%'
+						'padding-block-end': (100 / targetRatio) + '%'
 					});
 				},
 				error: function () {

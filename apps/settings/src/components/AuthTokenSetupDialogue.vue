@@ -213,7 +213,7 @@ export default {
 
 	.app-name-text-field {
 		height: 44px !important;
-		padding-left: 12px;
+		padding-inline-start: 12px;
 		margin-inline-end: 12px;
 		width: 200px;
 	}
@@ -234,6 +234,6 @@ export default {
 	}
 
 	.spacing {
-		padding-top: 16px;
+		padding-block-start: 16px;
 	}
 </style>

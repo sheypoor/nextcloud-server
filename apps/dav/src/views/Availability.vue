@@ -178,12 +178,12 @@ export default {
 :deep(.label-weekday) {
 	position: relative;
 	display: inline-flex;
-	padding-top: 4px;
+	padding-block-start: 4px;
 	align-self: center;
 }
 
 :deep(.delete-slot) {
-	padding-bottom: unset;
+	padding-block-end: unset;
 }
 
 :deep(.add-another) {
@@ -191,7 +191,7 @@ export default {
 }
 
 .to-text {
-	padding-right: 12px;
+	padding-inline-end: 12px;
 }
 
 .empty-content {

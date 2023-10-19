@@ -198,7 +198,7 @@ export default {
 	.federation-actions--additional {
 		&::v-deep button {
 			// TODO remove this hack
-			padding-bottom: 7px;
+			padding-block-end: 7px;
 			height: 30px !important;
 			min-height: 30px !important;
 			width: 30px !important;

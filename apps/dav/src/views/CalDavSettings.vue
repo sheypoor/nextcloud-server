@@ -146,7 +146,7 @@ export default {
 
 <style scoped>
 	.indented {
-		padding-left: 28px;
+		padding-inline-start: 28px;
 	}
 	/** Use deep selector to affect v-html */
 	* >>> a {

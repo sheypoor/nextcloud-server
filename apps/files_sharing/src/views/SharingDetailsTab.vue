@@ -943,7 +943,7 @@ export default {
 
 			h1 {
 				font-size: 15px;
-				padding-left: 0.3em;
+				padding-inline-start: 0.3em;
 			}
 
 		}
@@ -995,7 +995,7 @@ export default {
 		width: 100%;
 		margin-block-end: 0.5em;
 		text-align: left;
-		padding-left: 0;
+		padding-inline-start: 0;
 
 		section {
 
@@ -1019,14 +1019,14 @@ export default {
             */
 			span {
 				::v-deep label {
-					padding-left: 0 !important;
+					padding-inline-start: 0 !important;
 					background-color: initial !important;
 					border: none !important;
 				}
 			}
 
 			section.custom-permissions-group {
-				padding-left: 1.5em;
+				padding-inline-start: 1.5em;
 			}
 		}
 	}

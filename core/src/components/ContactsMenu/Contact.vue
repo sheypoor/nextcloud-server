@@ -133,7 +133,7 @@ export default {
 
 	&__body {
 		flex-grow: 1;
-		padding-left: 8px;
+		padding-inline-start: 8px;
 		min-width: 0;
 
 		div {

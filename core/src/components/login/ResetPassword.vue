@@ -140,7 +140,7 @@ export default {
 	&__link {
 		display: block;
 		font-weight: normal !important;
-		padding-bottom: 1rem;
+		padding-block-end: 1rem;
 		cursor: pointer;
 		font-size: var(--default-font-size);
 		text-align: center;

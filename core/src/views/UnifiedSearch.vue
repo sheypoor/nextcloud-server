@@ -818,7 +818,7 @@ $input-padding: 6px;
 			// Ellipsis earlier if reset button is here
 			.icon-loading-small &,
 			&--with-reset {
-				padding-right: $input-height;
+				padding-inline-end: $input-height;
 			}
 		}
 

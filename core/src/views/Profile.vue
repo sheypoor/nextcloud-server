@@ -302,7 +302,7 @@ export default {
 }
 
 #content {
-	padding-top: 0px;
+	padding-block-start: 0px;
 }
 </style>
 
@@ -413,7 +413,7 @@ $content-max-width: 640px;
 		position: sticky;
 		top: var(--header-height);
 		align-self: flex-start;
-		padding-top: 20px;
+		padding-block-start: 20px;
 		min-width: 220px;
 		margin: -150px 20px 0 0;
 

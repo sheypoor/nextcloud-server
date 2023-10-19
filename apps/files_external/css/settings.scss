@@ -40,8 +40,8 @@
 		width: 15%;
 	}
 }
-#externalStorage td>img { padding-top:7px; opacity: 0.5; }
-#externalStorage td>img:hover { padding-top:7px; cursor:pointer; opacity: 1; }
+#externalStorage td>img { padding-block-start:7px; opacity: 0.5; }
+#externalStorage td>img:hover { padding-block-start:7px; cursor:pointer; opacity: 1; }
 #addMountPoint>td { border:none; }
 #addMountPoint>td.applicable { visibility:hidden; }
 #addMountPoint>td.hidden { visibility:hidden; }
@@ -116,7 +116,7 @@
 }
 
 #userMountingBackends {
-	padding-left: 25px;
+	padding-inline-start: 25px;
 }
 
 .files-external-select2 .select2-results .select2-result-label {

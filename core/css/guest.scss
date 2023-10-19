@@ -282,7 +282,7 @@ input[type='email'] {
 }
 input[type='password'].password-with-toggle, input[type='text'].password-with-toggle {
 	width: 238px;
-	padding-right: 40px !important;
+	padding-inline-end: 40px !important;
 }
 input.login {
 	width: 260px;
@@ -654,7 +654,7 @@ p.info {
 /* Loading */
 .float-spinner {
 	margin-block-start: -32px;
-	padding-top: 32px;
+	padding-block-start: 32px;
 	height: 32px;
 	display: none;
 }

@@ -269,7 +269,7 @@ export default Vue.extend({
 	&__form {
 		padding: calc(var(--margin) * 2);
 		// Will be handled by the buttons
-		padding-bottom: 0;
+		padding-block-end: 0;
 
 		h2 {
 			text-align: center;

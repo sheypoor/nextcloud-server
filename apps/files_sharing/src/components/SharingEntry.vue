@@ -154,7 +154,7 @@ export default {
 	height: 44px;
 	&__summary {
 		padding: 8px;
-		padding-left: 10px;
+		padding-inline-start: 10px;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
@@ -163,7 +163,7 @@ export default {
 
 		&__desc {
 			display: inline-block;
-			padding-bottom: 0;
+			padding-block-end: 0;
 			line-height: 1.2em;
 			white-space: nowrap;
 			overflow: hidden;

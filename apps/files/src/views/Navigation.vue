@@ -247,13 +247,13 @@ export default {
 
 .app-navigation > ul.app-navigation__list {
 	// Use flex gap value for more elegant spacing
-	padding-bottom: var(--default-grid-baseline, 4px);
+	padding-block-end: var(--default-grid-baseline, 4px);
 }
 
 .app-navigation-entry__settings {
 	height: auto !important;
 	overflow: hidden !important;
-	padding-top: 0 !important;
+	padding-block-start: 0 !important;
 	// Prevent shrinking or growing
 	flex: 0 0 auto;
 }

@@ -446,7 +446,7 @@ describe('OCA.Files.BreadCrumb tests', function() {
 			$creatableActions.css('width', '20px');
 			$creatableActions.css('min-width', '20px');
 			$creatableActions.css('margin-inline-start', '40px');
-			$creatableActions.css('padding-right', '40px');
+			$creatableActions.css('padding-inline-end', '40px');
 			$('.files-controls').append($creatableActions);
 
 			var $nextHiddenSibling = $('<div class="otherSibling hidden"></div>');

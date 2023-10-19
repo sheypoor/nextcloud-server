@@ -237,13 +237,13 @@ export default {
 		opacity: .7;
 	}
 	&__documentation {
-		padding-top: 20px;
+		padding-block-start: 20px;
 		a.appslink {
 			display: block;
 		}
 	}
 	&__description {
-		padding-top: 20px;
+		padding-block-start: 20px;
 	}
 }
 

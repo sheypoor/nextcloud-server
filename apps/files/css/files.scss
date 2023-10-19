@@ -217,7 +217,7 @@ table.multiselect th .columntitle {
 	margin-inline-end: -20px;
 }
 table th .columntitle.name {
-	padding-left: 0;
+	padding-inline-start: 0;
 	margin-inline-start: 44px;
 }
 
@@ -271,7 +271,7 @@ table th.column-name {
 }
 
 table th.column-selection {
-	padding-top: 2px;
+	padding-block-start: 2px;
 }
 table th.column-size, table td.filesize {
 	text-align: right;
@@ -443,7 +443,7 @@ table td.filename .uploadtext {
 	height: 20px;
 	padding: 0 4px;
 	// align with file name
-	padding-left: 1px;
+	padding-inline-start: 1px;
 	font-size: 11px;
 	// double the font size
 	line-height: 22px;
@@ -499,8 +499,8 @@ table td.selection {
 .files-fileList tr td.filename {
 	position: relative;
 	width: 100%;
-	padding-left: 0;
-	padding-right:0;
+	padding-inline-start: 0;
+	padding-inline-end:0;
 	-webkit-transition:background-image 500ms; -moz-transition:background-image 500ms; -o-transition:background-image 500ms; transition:background-image 500ms;
 }
 
@@ -648,10 +648,10 @@ a.action.action-setreminder {
 			}
 		}
 		&.action-menu {
-			padding-top: 17px;
-			padding-bottom: 17px;
-			padding-left: 14px;
-			padding-right: 14px;
+			padding-block-start: 17px;
+			padding-block-end: 17px;
+			padding-inline-start: 14px;
+			padding-inline-end: 14px;
 		}
 		&.no-permission {
 			&:hover, &:focus {
@@ -734,7 +734,7 @@ a.action.action-setreminder {
 .files-filestable .summary .filesummary {
 	width: 100%;
 	/* Width of checkbox and file preview */
-	padding-left: 101px;
+	padding-inline-start: 101px;
 }
 /* Less whitespace needed on link share page
  * as there is a footer and action menus have fewer entries.
@@ -751,7 +751,7 @@ table tr.summary td {
 .summary td {
 	border-bottom: none;
 	vertical-align: top;
-	padding-top: 20px;
+	padding-block-start: 20px;
 }
 .summary td:first-child {
 	padding: 0;
@@ -765,15 +765,15 @@ table.dragshadow {
 	z-index: 2000;
 }
 table.dragshadow td.filename {
-	padding-left:60px;
-	padding-right:16px;
+	padding-inline-start:60px;
+	padding-inline-end:16px;
 	height: 36px;
 
 	/* Override "max-width: 0" to prevent file name and size from overlapping */
 	max-width: unset;
 }
 table.dragshadow td.size {
-	padding-right:8px;
+	padding-inline-end:8px;
 }
 .mask {
 	z-index: 50;
@@ -826,7 +826,7 @@ table.dragshadow td.size {
 	user-select: none;
 	display: flex;
 	top: 0;
-	padding-left: 50px; /* width of the nav toggle button; */
+	padding-inline-start: 50px; /* width of the nav toggle button; */
 
 	.actions {
 		> div,
@@ -1054,9 +1054,9 @@ table.dragshadow td.size {
 					bottom: auto;
 					// checkbox align
 					height: 28px;
-					padding-top: 4px;
+					padding-block-start: 4px;
 					// checkbox margins
-					padding-left: calc(44px - 16px);
+					padding-inline-start: calc(44px - 16px);
 				}
 
 				.name {
@@ -1222,7 +1222,7 @@ table.dragshadow td.size {
 			height: 44px * ($action-menu-items-count + 0.5); // 0.5 is added to show some whitespace below
 
 			td {
-				padding-top: 50px;
+				padding-block-start: 50px;
 
 				&:first-child,
 				&.date {

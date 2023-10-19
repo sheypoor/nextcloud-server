@@ -52,7 +52,7 @@
 .app-sidebar .large .thumbnail .stretcher {
 	content: '';
 	display: block;
-	padding-bottom: 56.25%; /* sets height of .thumbnail to 9/16 of the width */
+	padding-block-end: 56.25%; /* sets height of .thumbnail to 9/16 of the width */
 }
 
 .app-sidebar .large.portrait .thumbnail {
@@ -66,7 +66,7 @@
 .app-sidebar .large.text {
 	overflow-y: scroll;
 	overflow-x: hidden;
-	padding-top: 14px;
+	padding-block-start: 14px;
 	font-size: 80%;
 	margin-inline-start: 0;
 }
@@ -89,8 +89,8 @@
 
 .app-sidebar .fileName {
 	font-size: 16px;
-	padding-top: 13px;
-	padding-bottom: 3px;
+	padding-block-start: 13px;
+	padding-block-end: 3px;
 }
 
 .app-sidebar .fileName h3 {

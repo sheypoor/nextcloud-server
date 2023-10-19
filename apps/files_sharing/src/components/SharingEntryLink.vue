@@ -752,7 +752,7 @@ export default {
 
 	&__summary {
 		padding: 8px;
-		padding-left: 10px;
+		padding-inline-start: 10px;
 		display: flex;
 		justify-content: space-between;
 		width: 80%;

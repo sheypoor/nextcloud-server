@@ -1,15 +1,15 @@
 #ocFederationSettings p {
-	padding-bottom: 10px;
+	padding-block-end: 10px;
 }
 
 #listOfTrustedServers li {
-	padding-bottom: 10px;
+	padding-block-end: 10px;
 }
 
 .removeTrustedServer {
 	display: none;
 	vertical-align:middle;
-	padding-left: 10px;
+	padding-inline-start: 10px;
 }
 
 #ocFederationAddServerButton {

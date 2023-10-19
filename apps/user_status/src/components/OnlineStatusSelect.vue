@@ -87,7 +87,7 @@ $label-padding: 8px;
 		display: block;
 		margin: $label-padding;
 		padding: $label-padding;
-		padding-left: $icon-size + $label-padding * 2;
+		padding-inline-start: $icon-size + $label-padding * 2;
 		border: 2px solid var(--color-main-background);
 		border-radius: var(--border-radius-large);
 		background-color: var(--color-background-hover);

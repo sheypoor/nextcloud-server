@@ -217,7 +217,7 @@ export default {
 					}
 
 					span {
-						padding-bottom: 0;
+						padding-block-end: 0;
 						color: var(--color-main-text);
 						white-space: nowrap;
 						overflow: hidden;

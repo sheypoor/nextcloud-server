@@ -285,7 +285,7 @@ $comment-padding: 10px;
 	&__side {
 		display: flex;
 		align-items: flex-start;
-		padding-top: 16px;
+		padding-block-start: 16px;
 	}
 
 	&__body {

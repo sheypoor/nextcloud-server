@@ -44,7 +44,7 @@ $footer-height: 65px;
 
 	/** don't apply content header padding on the base layout */
 	&.layout-base #content {
-		padding-top: 0;
+		padding-block-start: 0;
 	}
 
 	p.info {
