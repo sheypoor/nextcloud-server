@@ -14,7 +14,7 @@ html { height:100%; }
 article, aside, dialog, figure, footer, header, hgroup, nav, section { display:block; }
 body { line-height:1.5; }
 table { border-collapse:separate; border-spacing:0; white-space:nowrap; }
-caption, th, td { text-align:left; font-weight:normal; }
+caption, th, td { text-align:start; font-weight:normal; }
 table, td, th { vertical-align:middle; }
 a { border:0; color: var(--color-main-text); text-decoration:none;}
 a, a *, input, input *, select, .button span, label { cursor:pointer; }
@@ -74,7 +74,7 @@ h4 {
 
 h2 {
 	font-size: 20px;
-	margin-bottom: 12px;
+	margin-block-end: 12px;
 	line-height: 140%;
 }
 h3 {
@@ -100,14 +100,14 @@ body {
 		height: 130px;
 		margin: 0 auto;
 		position: relative;
-		left: unset;
+		inset-inline-start: unset;
 	}
 }
 
 .wrapper {
 	width: 100%;
 	max-width: 700px;
-	margin-top: 10vh;
+	margin-block-start: 10vh;
 }
 
 /* Default FORM */
@@ -125,27 +125,27 @@ form.install-form fieldset input {
 	width: 100%;
 }
 form.install-form .strengthify-wrapper {
-	bottom: 17px;
+	inset-block-end: 17px;
 	width: calc(100% - 8px);
-	left: 4px;
-	top: unset;
+	inset-inline-start: 4px;
+	inset-block-start: unset;
 }
 
 form.install-form #show {
-	top: 18px;
+	inset-block-start: 18px;
 }
 
 form #sqliteInformation {
-	margin-top: 0.5rem;
-	margin-bottom: 20px;
+	margin-block-start: 0.5rem;
+	margin-block-end: 20px;
 }
 form #adminaccount, form #use_other_db {
-	margin-bottom: 15px;
-	text-align: left;
+	margin-block-end: 15px;
+	text-align: start;
 }
 form #adminaccount > legend,
 form #adminlogin {
-	margin-bottom: 1rem;
+	margin-block-end: 1rem;
 }
 form #advancedHeader {
 	width: 100%;
@@ -158,7 +158,7 @@ form fieldset legend, #datadirContent label {
 	margin: 0;
 }
 form #datadirField legend {
-	margin-bottom: 15px;
+	margin-block-end: 15px;
 }
 
 /* View more button */
@@ -181,7 +181,7 @@ form #datadirField legend {
 
 @media only screen and (max-width: 1024px) {
 	.wrapper {
-		margin-top: 0;
+		margin-block-start: 0;
 	}
 }
 
@@ -192,7 +192,7 @@ form #datadirField legend {
 
 	.submit-icon {
 		position: absolute;
-		right: 24px;
+		inset-inline-end: 24px;
 		transition: right 100ms ease-in-out;
 		pointer-events: none; /* The submit icon is positioned on the submit button.
 							 From the user point of view the icon is part of the
@@ -202,13 +202,13 @@ form #datadirField legend {
 	input.login:hover ~ .submit-icon.icon-confirm-white,
 	input.login:focus ~ .submit-icon.icon-confirm-white,
 	input.login:active ~ .submit-icon.icon-confirm-white {
-		right: 20px;
+		inset-inline-end: 20px;
 	}
 
 	.icon-loading-small {
 		position: absolute;
-		top: 22px;
-		right: 26px;
+		inset-block-start: 22px;
+		inset-inline-end: 26px;
 	}
 }
 
@@ -260,8 +260,8 @@ select {
 
 .icon-confirm.input-button-inline {
 	position: absolute;
-	right: 3px;
-	top: 5px;
+	inset-inline-end: 3px;
+	inset-block-start: 5px;
 }
 
 input[type='submit']:focus {
@@ -277,12 +277,12 @@ input[type='email'] {
 	cursor: text;
 	font-family: inherit;
 	font-weight: normal;
-	margin-left: 0;
-	margin-right: 0;
+	margin-inline-start: 0;
+	margin-inline-end: 0;
 }
 input[type='password'].password-with-toggle, input[type='text'].password-with-toggle {
 	width: 238px;
-	padding-right: 40px !important;
+	padding-inline-end: 40px !important;
 }
 input.login {
 	width: 260px;
@@ -316,8 +316,8 @@ a.primary:not(:disabled):focus {
 /* Checkboxes - white only for login */
 input[type='checkbox'].checkbox {
 	position: absolute;
-	left: -10000px;
-	top: auto;
+	inset-inline-start: -10000px;
+	inset-block-start: auto;
 	width: 1px;
 	height: 1px;
 	overflow: hidden;
@@ -334,7 +334,7 @@ input[type='checkbox'].checkbox + label:before {
 	display: inline-block;
 	vertical-align: middle;
 	margin: 3px;
-	margin-top: 1px;
+	margin-block-start: 1px;
 	border: 1px solid #888;
 	border-radius: 1px;
 	height: 10px;
@@ -370,7 +370,7 @@ input[type='checkbox'].checkbox--white:checked + label:before {
 .strengthify-wrapper {
 	display: inline-block;
 	position: relative;
-	top: -20px;
+	margin-block-start: -20px;
 	width: 250px;
 	border-radius: 0 0 3px 3px;
 	overflow: hidden;
@@ -385,8 +385,8 @@ input[type='checkbox'].checkbox--white:checked + label:before {
 /* Show password toggle */
 #show, #dbpassword-toggle {
 	position: absolute;
-	right: 2px;
-	top: -3px;
+	inset-inline-end: 2px;
+	inset-block-start: -3px;
 	display: flex;
 	justify-content: center;
 	width: 44px;
@@ -400,12 +400,12 @@ input[type='checkbox'].checkbox--white:checked + label:before {
 }
 #personal-show + label {
 	height: 14px;
-	margin-top: -25px;
-	left: 295px;
+	margin-block-start: -25px;
+	inset-inline-start: 295px;
 	display: block;
 }
 #passwordbutton {
-	margin-left: .5em;
+	margin-inline-start: .5em;
 }
 
 /* Dark subtle label text */
@@ -432,7 +432,7 @@ form .warning input[type='checkbox']+label {
 	border-radius: 3px; /* --border-radius */
 	margin: 12px 0;
 	border: 1px solid transparent;
-	text-align: left;
+	text-align: start;
 	align-items: center;
 	text-decoration: none !important;
 
@@ -487,8 +487,8 @@ form .warning input[type='checkbox']+label {
 /* fixes for update page TODO should be fixed some time in a proper way */
 /* this is just for an error while updating the ownCloud instance */
 .updateProgress .error {
-	margin-top: 10px;
-	margin-bottom: 10px;
+	margin-block-start: 10px;
+	margin-block-end: 10px;
 }
 
 /* Database selector on install page */
@@ -530,10 +530,10 @@ form #selectDbType {
 	user-select: none;
 }
 .grouptop, .groupmiddle {
-	margin-bottom: 8px !important;
+	margin-block-end: 8px !important;
 }
 .groupbottom {
-	margin-bottom: 13px;
+	margin-block-end: 13px;
 }
 .groupbottom input[type=submit] {
 	box-shadow: none !important;
@@ -548,7 +548,7 @@ form #selectDbType {
 .body-login-container {
 	display: flex;
 	flex-direction: column;
-	text-align: left;
+	text-align: start;
 	word-wrap: break-word;
 	border-radius: 10px; /* --border-radius-large */
 	cursor: default;
@@ -568,7 +568,7 @@ form #selectDbType {
 	}
 
 	p:not(:last-child) {
-		margin-bottom: 12px;
+		margin-block-end: 12px;
 	}
 }
 
@@ -578,7 +578,7 @@ form #selectDbType {
 	margin: 8px 0;
 }
 .infogroup:last-child {
-	margin-bottom: 0;
+	margin-block-end: 0;
 }
 p.info {
 	margin: 20px auto;
@@ -595,22 +595,22 @@ p.info {
 
 	.appList {
 		list-style: disc;
-		text-align: left;
-		margin-left: 25px;
-		margin-right: 25px;
+		text-align: start;
+		margin-inline-start: 25px;
+		margin-inline-end: 25px;
 	}
 
 	img.float-spinner {
-		float: left;
+		float: start;
 	}
 
 	a.update-show-detailed {
-		border-bottom: inherit;
+		border-block-end: inherit;
 	}
 }
 #update-progress-detailed {
-	text-align: left;
-	margin-bottom: 12px;
+	text-align: start;
+	margin-block-end: 12px;
 }
 .update-show-detailed {
 	padding: 12px;
@@ -653,8 +653,8 @@ p.info {
 
 /* Loading */
 .float-spinner {
-	margin-top: -32px;
-	padding-top: 32px;
+	margin-block-start: -32px;
+	padding-block-start: 32px;
 	height: 32px;
 	display: none;
 }
@@ -675,8 +675,8 @@ p.info {
 	width: 32px;
 	margin: -17px 0 0 -17px;
 	position: absolute;
-	top: 50%;
-	left: 50%;
+	inset-block-start: 50%;
+	inset-inline-start: 50%;
 	border-radius: 100%;
 	-webkit-animation: rotate .8s infinite linear;
 	animation: rotate .8s infinite linear;
@@ -736,14 +736,14 @@ img.icon-loading-small-dark, object.icon-loading-small-dark, video.icon-loading-
 
 /* FOOTER */
 footer {
-	margin-top: auto;
+	margin-block-start: auto;
 	.info .entity-name {
 		font-weight: bold;
 	}
 
 	&[role="contentinfo"] {
 		padding: 6px 24px;
-		margin-bottom: 1rem;
+		margin-block-end: 1rem;
 
 		.info {
 			margin: 0;
@@ -755,8 +755,8 @@ footer {
 label.infield,
 .hidden-visually {
 	position: absolute;
-	left: -10000px;
-	top: -10000px;
+	inset-inline-start: -10000px;
+	inset-block-start: -10000px;
 	width: 1px;
 	height: 1px;
 	overflow: hidden;
@@ -769,11 +769,11 @@ a.legal {
 .notecard {
 	color: var(--color-text-light);
 	background-color: var(--note-background);
-	border-left: 4px solid var(--note-theme);
+	border-inline-start: 4px solid var(--note-theme);
 	border-radius: var(--border-radius);
 	margin: 1rem 0;
 	padding: 1rem;
-	text-align: left;
+	text-align: start;
 
 	&.success {
 		--note-background: rgba(var(--color-success-rgb), 0.1);
@@ -791,12 +791,12 @@ a.legal {
 	}
 
 	&:last-child {
-		margin-bottom: 0;
+		margin-block-end: 0;
 	}
 
 	pre {
 		background-color: var(--color-background-dark);
-		margin-top: 1rem;
+		margin-block-start: 1rem;
 		padding: 1em 1.3em;
 		border-radius: var(--border-radius);
 	}
@@ -816,11 +816,11 @@ a.legal {
 .guest-box {
 	&.wide {
 		display: block;
-		text-align: left;
+		text-align: start;
 	}
 
 	fieldset {
-		margin-top: 0;
+		margin-block-start: 0;
 	}
 
 	.pre {
@@ -836,11 +836,11 @@ button.toggle-password {
 
 /** Utilities */
 .margin-top {
-	margin-top: 1rem !important;
+	margin-block-start: 1rem !important;
 }
 
 .text-left {
-	text-align: left !important;
+	text-align: start !important;
 }
 
 .hidden {

@@ -127,7 +127,7 @@ export default {
 
 <style lang="scss" scoped>
 .login-form {
-	text-align: left;
+	text-align: start;
 	font-size: 1rem;
 
 	&__fieldset {
@@ -140,7 +140,7 @@ export default {
 	&__link {
 		display: block;
 		font-weight: normal !important;
-		padding-bottom: 1rem;
+		padding-block-end: 1rem;
 		cursor: pointer;
 		font-size: var(--default-font-size);
 		text-align: center;
