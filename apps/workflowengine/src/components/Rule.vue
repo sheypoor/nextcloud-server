@@ -235,7 +235,7 @@ export default {
 
 		& > span {
 			min-width: 50px;
-			text-align: right;
+			text-align: end;
 			color: var(--color-text-maxcontrast);
 			padding-inline-end: 10px;
 			padding-top: 6px;

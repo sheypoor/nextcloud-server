@@ -97,7 +97,7 @@ dd {
 dt {
 	width: 130px;
 	white-space: nowrap;
-	text-align: right;
+	text-align: end;
 }
 
 kbd {
@@ -526,7 +526,7 @@ kbd {
 		}
 		.app-navigation-entry-utils-counter {
 			overflow: hidden;
-			text-align: right;
+			text-align: end;
 			font-size: 9pt;
 			line-height: 44px;
 			padding: 0 12px; /* Same padding as all li > a in the app-navigation */
