@@ -50,6 +50,12 @@
 		}
 	}
 
+	.header-menu {
+		&__wrapper {
+			right: unset;
+			inset-inline-end: 0;
+		}
+	}
 }
 
 /* HEADERS ------------------------------------------------------------------ */
