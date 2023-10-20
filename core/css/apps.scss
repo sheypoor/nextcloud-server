@@ -109,6 +109,16 @@ kbd {
 	white-space: nowrap;
 }
 
+textarea{
+	text-align: start;
+	unicode-bidi: plaintext;
+}
+
+input{
+	text-align: start;
+	unicode-bidi: plaintext;
+}
+
 
 /* APP STYLING ------------------------------------------------------------ */
 

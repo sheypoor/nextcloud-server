@@ -161,7 +161,7 @@ $header-icon-size: 20px;
 				height: 5px;
 				border-radius: 3px;
 				background-color: var(--color-primary-element-text);
-				inset-inline-start: 50%;
+				left: 50%;
 				inset-block-end: 6px;
 				display: block;
 				transition: all 0.1s ease-in-out;
@@ -196,7 +196,7 @@ $header-icon-size: 20px;
 			font-size: 12px;
 			color: var(--color-primary-element-text);
 			text-align: center;
-			inset-inline-start: 50%;
+			left: 50%;
 			inset-block-start: 45%;
 			display: block;
 			min-width: 100%;
@@ -294,7 +294,7 @@ $header-icon-size: 20px;
 	position: absolute;
 	display: block;
 	inset-block-start: 10px;
-	inset-inline-end: 10px;
+	right: 10px;
 }
 
 .unread-counter {
