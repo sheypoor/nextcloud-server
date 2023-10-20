@@ -266,7 +266,10 @@ export default Vue.extend({
 .actions-secondary-vue {
 	display: block !important;
 	float: right !important;
-	padding: 5px 0 0 4px !important;
+	padding-top: 5px !important;
+	padding-bottom: 0 !important;
+	padding-inline-end: 0 !important;
+	padding-inline-start: 4px !important;
 	pointer-events: none !important; // prevent activation of file row
 }
 </style>
