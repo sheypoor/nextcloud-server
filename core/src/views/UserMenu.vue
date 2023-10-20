@@ -153,6 +153,10 @@ export default {
 
 	&:deep {
 		.header-menu {
+			&__wrapper {
+				right: unset !important;
+				inset-inline-end: 0 !important;
+			}
 			&__trigger {
 				opacity: 1 !important;
 				&:focus-visible {
