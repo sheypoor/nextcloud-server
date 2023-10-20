@@ -626,7 +626,7 @@ li:not(.inline) .weather-status-menu-item {
 			border: 0;
 			border-radius: 0;
 			font-weight: normal;
-			padding-left: 40px;
+			padding-inline-start: 40px;
 
 			&:hover,
 			&:focus {
@@ -644,7 +644,7 @@ li:not(.inline) .weather-status-menu-item {
 		border: 0;
 		border-radius: var(--border-radius-pill);
 		font-weight: normal;
-		padding-left: 40px;
+		padding-inline-start: 40px;
 
 		&.icon-loading-small {
 			&::after {

@@ -154,7 +154,7 @@ input.ldapVerifyInput {
 .ldapInputColElement {
 	width: 35%;
 	display: inline-block;
-	padding-left: 10px;
+	padding-inline-start: 10px;
 }
 
 .ldapToggle {

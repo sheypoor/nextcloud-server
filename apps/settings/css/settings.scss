@@ -115,7 +115,7 @@ select {
 
 	.personal-info[class^='icon-'], .personal-info[class*=' icon-'] {
 		background-position: 0px 2px;
-		padding-left: 30px;
+		padding-inline-start: 30px;
 		opacity: 0.7;
 	}
 }
@@ -151,7 +151,7 @@ select {
 	}
 
 	&.icon-file {
-		padding-left: 48px;
+		padding-inline-start: 48px;
 		background-position: 24px;
 	}
 }
@@ -255,7 +255,7 @@ select {
 	}
 
 	.icon-federation-menu {
-		padding-left: 16px;
+		padding-inline-start: 16px;
 		background-size: 16px;
 		background-position: left center;
 		opacity: .3;
@@ -481,7 +481,7 @@ table.grid {
 		color: #999;
 		border-bottom: 1px solid var(--color-border);
 		padding: 0 .5em;
-		padding-left: .8em;
+		padding-inline-start: .8em;
 		text-align: left;
 		font-weight: normal;
 	}
@@ -489,7 +489,7 @@ table.grid {
 	td {
 		border-bottom: 1px solid var(--color-border);
 		padding: 0 .5em;
-		padding-left: .8em;
+		padding-inline-start: .8em;
 		text-align: left;
 		font-weight: normal;
 	}
@@ -497,7 +497,7 @@ table.grid {
 
 td, th {
 	&.name {
-		padding-left: .8em;
+		padding-inline-start: .8em;
 		min-width: 5em;
 		max-width: 12em;
 		text-overflow: ellipsis;
@@ -505,7 +505,7 @@ td, th {
 	}
 
 	&.password {
-		padding-left: .8em;
+		padding-inline-start: .8em;
 
 		> img {
 			visibility: hidden;
@@ -568,7 +568,7 @@ span.usersLastLoginTooltip {
 	}
 
 	li span.no-icon {
-		padding-left: 32px;
+		padding-inline-start: 32px;
 	}
 
 	ul li.active > span.utils {
@@ -618,14 +618,14 @@ span.version {
 	.official {
 		background-position: left center;
 		background-position: 5px center;
-		padding-left: 25px;
+		padding-inline-start: 25px;
 	}
 
 	.supported {
 		border-color: var(--color-success);
 		background-position: left center;
 		background-position: 5px center;
-		padding-left: 25px;
+		padding-inline-start: 25px;
 		color: var(--color-success);
 	}
 }
@@ -900,7 +900,7 @@ span.version {
 		height: $toolbar-height;
 		padding: $toolbar-padding;
 		// Leave room for app-navigation-toggle
-		padding-left: $toolbar-height;
+		padding-inline-start: $toolbar-height;
 		width: 100%;
 		background-color: var(--color-main-background);
 		position: sticky;
@@ -1027,7 +1027,7 @@ span.version {
 			list-style: decimal;
 
 			ol, ul {
-				padding-left: 15px;
+				padding-inline-start: 15px;
 			}
 		}
 
@@ -1039,7 +1039,7 @@ span.version {
 
 		ul {
 			ol, ul {
-				padding-left: 15px;
+				padding-inline-start: 15px;
 			}
 		}
 	}
@@ -1054,7 +1054,7 @@ span.version {
 		}
 
 		h2 {
-			padding-left: 6px;
+			padding-inline-start: 6px;
 			padding-top: 15px;
 			margin-bottom: 12px;
 			.enable {
@@ -1146,15 +1146,15 @@ table.grid td.date {
 	}
 
 	.indent {
-		padding-left: 28px;
+		padding-inline-start: 28px;
 	}
 
 	.double-indent {
-		padding-left: 56px;
+		padding-inline-start: 56px;
 	}
 
 	.nocheckbox {
-		padding-left: 20px;
+		padding-inline-start: 20px;
 	}
 
 	#s2id_linksExcludedGroups {

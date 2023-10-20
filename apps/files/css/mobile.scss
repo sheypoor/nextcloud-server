@@ -24,11 +24,11 @@ table td {
 
 /* remove shift for multiselect bar to account for missing navigation */
 table.multiselect thead {
-	padding-left: 0;
+	padding-inline-start: 0;
 }
 
 .fileList a.action.action-menu img {
-	padding-left: 0;
+	padding-inline-start: 0;
 }
 
 .fileList .fileActionsMenu {
