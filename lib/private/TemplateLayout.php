@@ -206,10 +206,12 @@ class TemplateLayout extends \OC_Template {
 		// Send the language and the locale to our layouts
 		$lang = \OC::$server->getL10NFactory()->findLanguage();
 		$locale = \OC::$server->getL10NFactory()->findLocale($lang);
+		$direction = \OC::$server->getL10NFactory()->getLanguageDirection($lang);
 
 		$lang = str_replace('_', '-', $lang);
 		$this->assign('language', $lang);
 		$this->assign('locale', $locale);
+		$this->assign('direction', $direction);
 
 		if (\OC::$server->getSystemConfig()->getValue('installed', false)) {
 			if (empty(self::$versionHash)) {
