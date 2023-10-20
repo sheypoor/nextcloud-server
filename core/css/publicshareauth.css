@@ -10,7 +10,7 @@ form fieldset > p {
 #email,
 #password {
 	margin: 5px 0;
-	padding-right: 45px;
+	padding-inline-end: 45px;
 	height: 45px;
 	box-sizing: border-box;
 	flex: 1 1 auto;

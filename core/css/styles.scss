@@ -300,7 +300,7 @@ body {
 }
 
 #pass2, input[name='personal-password-clone'] {
-	padding-right: 30px;
+	padding-inline-end: 30px;
 }
 
 .personal-show-container {
@@ -654,7 +654,7 @@ span.ui-icon {
 /* ---- TOOLTIPS ---- */
 
 .extra-data {
-	padding-right: 5px !important;
+	padding-inline-end: 5px !important;
 }
 
 /* ---- TAGS ---- */
@@ -709,7 +709,7 @@ li.crumb {
 	background-size: auto 24px;
 	flex: 0 0 auto;
 	order: 1;
-	padding-right: 7px;
+	padding-inline-end: 7px;
 	&.crumbmenu {
 		order: 2;
 		position: relative;
@@ -730,7 +730,7 @@ li.crumb {
 				max-height: 345px;
 				overflow-y: auto;
 				overflow-x: hidden;
-				padding-right: 5px;
+				padding-inline-end: 5px;
 				li.canDrop span:first-child {
 					background-image: url('../img/filetypes/folder-drag-accept.svg?v=1') !important;
 				}

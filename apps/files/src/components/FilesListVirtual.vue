@@ -701,7 +701,7 @@ tbody.files-list__tbody.files-list__tbody--grid {
 
 		.files-list__row-name-text {
 			margin: 0;
-			padding-right: 0;
+			padding-inline-end: 0;
 		}
 	}
 

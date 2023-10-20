@@ -357,7 +357,7 @@ kbd {
 					display: inline-block;
 					float: right;
 					.app-navigation-entry-utils-counter {
-						padding-right: 0 !important;
+						padding-inline-end: 0 !important;
 					}
 				}
 			}
@@ -549,7 +549,7 @@ kbd {
 	 */
 	.app-navigation-entry-edit {
 		padding-inline-start: 5px;
-		padding-right: 5px;
+		padding-inline-end: 5px;
 		display: block;
 		width: calc(100% - 1px); /* Avoid border overlapping */
 		transition: opacity 250ms ease-in-out;
@@ -933,7 +933,7 @@ $min-content-width: variables.$breakpoint-mobile - variables.$navigation-width -
 			padding-inline-start: 15px;
 		}
 		&:last-child {
-			padding-right: 15px;
+			padding-inline-end: 15px;
 		}
 
 		.icon {
@@ -1145,7 +1145,7 @@ $outter-margin: math.div($popoveritem-height - $popovericon-size, 2);
 			}
 			/* Add padding if contains icon+text */
 			&:not(:empty) {
-				padding-right: $outter-margin !important;
+				padding-inline-end: $outter-margin !important;
 			}
 			/* DEPRECATED! old img in popover fallback
 			 * TODO: to remove */
@@ -1394,7 +1394,7 @@ $outter-margin: math.div($popoveritem-height - $popovericon-size, 2);
 			text-overflow: ellipsis;
 			order: 1;
 			flex: 1 1 0px;
-			padding-right: 10px;
+			padding-inline-end: 10px;
 			cursor: pointer;
 		}
 

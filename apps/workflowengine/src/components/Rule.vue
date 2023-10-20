@@ -225,7 +225,7 @@ export default {
 		}
 		.icon-confirm {
 			background-position: right 27px;
-			padding-right: 20px;
+			padding-inline-end: 20px;
 			margin-inline-end: 20px;
 		}
 	}
@@ -237,7 +237,7 @@ export default {
 			min-width: 50px;
 			text-align: right;
 			color: var(--color-text-maxcontrast);
-			padding-right: 10px;
+			padding-inline-end: 10px;
 			padding-top: 6px;
 		}
 		.multiselect {
