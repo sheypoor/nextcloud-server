@@ -38,7 +38,7 @@ form #selectPartStatForm label {
 
 form #selectPartStatForm label:first-of-type {
   border-start-start-radius: 4px;
-  border-bottom-left-radius: 4px;
+  border-end-start-radius: 4px;
 }
 
 form #selectPartStatForm label:last-of-type {
