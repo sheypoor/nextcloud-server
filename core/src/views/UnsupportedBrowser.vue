@@ -188,12 +188,13 @@ $spacing: 30px;
 
 	&__continue {
 		display: block;
-		margin: $spacing auto;
+		margin-block: $spacing;
+		margin-inline: auto;
 	}
 
 	&__list {
-		margin-top: 2 * $spacing;
-		margin-bottom: $spacing;
+		margin-block-start: 2 * $spacing;
+		margin-block-end: $spacing;
 		li {
 			text-align: left;
 		}
