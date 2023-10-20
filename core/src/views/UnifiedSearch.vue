@@ -790,7 +790,7 @@ $input-padding: 6px;
 		// Loading spinner
 		&::after {
 			inset-inline-end: $input-padding;
-			left: auto;
+			inset-inline-start: auto;
 		}
 
 		&-input,

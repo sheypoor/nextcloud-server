@@ -449,7 +449,7 @@ var dragOptions={
 	revert: 'invalid',
 	revertDuration: 300,
 	opacity: 0.7,
-	cursorAt: { left: 24, top: 18 },
+	cursorAt: { inset-inline-start: 24, top: 18 },
 	helper: createDragShadow,
 	cursor: 'move',
 
@@ -496,7 +496,7 @@ var dragOptions={
 		const topTriggerY = scrollTriggerArea;
 
 		// Get the cursor position relative to the container
-		const containerOffset = scrollingArea.offset() ?? {left: 0, top: 0}
+		const containerOffset = scrollingArea.offset() ?? {inset-inline-start: 0, top: 0}
 		const cursorPositionY = event.pageY - containerOffset.top
 
 		const currentScrollTop = scrollingArea.scrollTop() ?? 0

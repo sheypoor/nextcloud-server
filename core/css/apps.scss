@@ -242,7 +242,7 @@ kbd {
 
 			/* align loader */
 			&.icon-loading-small:after {
-				left: 22px;
+				inset-inline-start: 22px;
 				top: 22px;
 			}
 
@@ -286,7 +286,7 @@ kbd {
 
 					/* align loader */
 					&.icon-loading-small:after {
-						left: 22px; /* 44px / 2 */
+						inset-inline-start: 22px; /* 44px / 2 */
 					}
 
 					> .app-navigation-entry-deleted {
@@ -432,7 +432,7 @@ kbd {
 
 			/* Needed for IE11; otherwise the button appears to the right of the
 			 * link. */
-			left: 0;
+			inset-inline-start: 0;
 
 			&:focus-visible {
 				opacity: 1;
@@ -635,7 +635,7 @@ kbd {
 					opacity 250ms ease-in-out,
 					z-index 250ms ease-in-out;
 		position: absolute;
-		left: 0;
+		inset-inline-start: 0;
 		background-color: var(--color-main-background);
 		box-sizing: border-box;
 	}
@@ -758,7 +758,7 @@ $min-content-width: variables.$breakpoint-mobile - variables.$navigation-width -
 	opacity: 0.7px;
 	height: calc(100vh - #{variables.$header-height});
 	background: var(--color-main-background);
-	border-left: 1px solid var(--color-border);
+	border-inset-inline-start: 1px solid var(--color-border);
 	flex-shrink: 0;
 	// no animations possible, use OC.Apps.showAppSidebar
 	&.disappear {
@@ -859,7 +859,7 @@ $min-content-width: variables.$breakpoint-mobile - variables.$navigation-width -
 			width: 44px;
 			height: 44px;
 			top: 0;
-			left: 0;
+			inset-inline-start: 0;
 			display: block;
 		}
 
@@ -1037,10 +1037,10 @@ $outter-margin: math.div($popoveritem-height - $popovericon-size, 2);
 	/* Align the popover to the left */
 	&.menu-left {
 		inset-inline-end: auto;
-		left: 0;
+		inset-inline-start: 0;
 		margin-inline-end: 0;
 		&:after {
-			left: 6px;
+			inset-inline-start: 6px;
 			inset-inline-end: auto;
 		}
 	}
@@ -1341,7 +1341,7 @@ $outter-margin: math.div($popoveritem-height - $popovericon-size, 2);
 			}
 			+ label {
 				top: 14px;
-				left: 7px;
+				inset-inline-start: 7px;
 				// hidden by default, only chown on hover-focus or if checked
 				display: none;
 				&::before {
@@ -1357,7 +1357,7 @@ $outter-margin: math.div($popoveritem-height - $popovericon-size, 2);
 		.app-content-list-item-star {
 			display: flex;
 			top: 10px;
-			left: 32px;
+			inset-inline-start: 32px;
 			background-size: 16px;
 			height: 20px;
 			width: 20px;

@@ -438,7 +438,7 @@ table td.filename .uploadtext {
 	font-weight: normal;
 	// checkbox width
 	margin-inline-start: 50px;
-	left: 0;
+	inset-inline-start: 0;
 	bottom: 0;
 	height: 20px;
 	padding: 0 4px;
@@ -636,7 +636,7 @@ a.action.action-setreminder {
 				/* hide text of the share action */
 				/* .hidden-visually for accessbility */
 				position: absolute;
-				left:-10000px;
+				inset-inline-start:-10000px;
 				top: auto;
 				width: 1px;
 				height: 1px;
@@ -779,7 +779,7 @@ table.dragshadow td.size {
 	z-index: 50;
 	position: absolute;
 	top: 0;
-	left: 0;
+	inset-inline-start: 0;
 	inset-inline-end: 0;
 	bottom: 0;
 	background-color: var(--color-main-background);
@@ -799,14 +799,14 @@ table.dragshadow td.size {
 .newFileMenu {
 	font-weight: 300;
 	top: 100%;
-	left: -48px !important;
+	inset-inline-start: -48px !important;
 	margin-top: 4px;
 	min-width: 100px;
 	z-index: 1001;
 
 	/* Center triangle */
 	&::after {
-		left: 84px !important;
+		inset-inline-start: 84px !important;
 	}
 }
 
@@ -851,7 +851,7 @@ table.dragshadow td.size {
 /* position controls for apps with app-navigation */
 
 .viewer-mode #app-navigation + #app-content .files-controls {
-	left: 0;
+	inset-inline-start: 0;
 }
 
 .files-filestable .filename .action .icon,
@@ -1024,7 +1024,7 @@ table.dragshadow td.size {
 					height: $grid-size;
 					padding: $grid-pad; // same as action icon bottom and right padding
 					top: 0;
-					left: 0;
+					inset-inline-start: 0;
 					z-index: -1; // make sure the default click is the link
 
 					.thumbnail {
@@ -1040,7 +1040,7 @@ table.dragshadow td.size {
 						 * Position is inherited from the selection while in grid view
 						 */
 						.favorite-mark {
-							left: auto;
+							inset-inline-start: auto;
 							top: -11px; // center in corner of thumbnail
 							inset-inline-end: -11px; // center in corner of thumbnail
 						}
@@ -1175,7 +1175,7 @@ table.dragshadow td.size {
 			&.filename .favorite-mark {
 				position: absolute;
 				top: -8px; // half the checkbox width, center on corner of thumbnail
-				left: -8px; // half the checkbox width, center on corner of thumbnail
+				inset-inline-start: -8px; // half the checkbox width, center on corner of thumbnail
 				display: flex;
 				z-index: 10;
 
@@ -1194,7 +1194,7 @@ table.dragshadow td.size {
 
 			/* Position actions menu below file */
 			.popovermenu {
-				left: 0;
+				inset-inline-start: 0;
 				width: $grid-size - 10px; // 2 * margin
 				margin: 0 5px;
 
@@ -1282,7 +1282,7 @@ table.dragshadow td.size {
 
 		/* Position actions menu correctly below 3-dot-menu */
 		.popovermenu {
-			left: -80px;
+			inset-inline-start: -80px;
 		}
 	}
 

@@ -115,7 +115,7 @@ $stack-shift: 6px;
 .files-list-drag-image {
 	position: absolute;
 	top: -9999px;
-	left: -9999px;
+	inset-inline-start: -9999px;
 	display: flex;
 	overflow: hidden;
 	align-items: center;

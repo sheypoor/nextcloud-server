@@ -39,14 +39,14 @@
 }
 
 .toast-error {
-	border-left: 3px solid var(--color-error);
+	border-inset-inline-start: 3px solid var(--color-error);
 }
 .toast-info {
-	border-left: 3px solid var(--color-primary-element);
+	border-inset-inline-start: 3px solid var(--color-primary-element);
 }
 .toast-warning {
-	border-left: 3px solid var(--color-warning);
+	border-inset-inline-start: 3px solid var(--color-warning);
 }
 .toast-success {
-	border-left: 3px solid var(--color-success);
+	border-inset-inline-start: 3px solid var(--color-success);
 }

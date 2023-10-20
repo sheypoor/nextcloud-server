@@ -211,7 +211,7 @@ export default {
 	.rule {
 		display: flex;
 		flex-wrap: wrap;
-		border-left: 5px solid var(--color-primary-element);
+		border-inset-inline-start: 5px solid var(--color-primary-element);
 
 		.trigger,
 		.action {

@@ -100,7 +100,7 @@ body {
 		height: 130px;
 		margin: 0 auto;
 		position: relative;
-		left: unset;
+		inset-inline-start: unset;
 	}
 }
 
@@ -127,7 +127,7 @@ form.install-form fieldset input {
 form.install-form .strengthify-wrapper {
 	bottom: 17px;
 	width: calc(100% - 8px);
-	left: 4px;
+	inset-inline-start: 4px;
 	top: unset;
 }
 
@@ -316,7 +316,7 @@ a.primary:not(:disabled):focus {
 /* Checkboxes - white only for login */
 input[type='checkbox'].checkbox {
 	position: absolute;
-	left: -10000px;
+	inset-inline-start: -10000px;
 	top: auto;
 	width: 1px;
 	height: 1px;
@@ -401,7 +401,7 @@ input[type='checkbox'].checkbox--white:checked + label:before {
 #personal-show + label {
 	height: 14px;
 	margin-top: -25px;
-	left: 295px;
+	inset-inline-start: 295px;
 	display: block;
 }
 #passwordbutton {
@@ -676,7 +676,7 @@ p.info {
 	margin: -17px 0 0 -17px;
 	position: absolute;
 	top: 50%;
-	left: 50%;
+	inset-inline-start: 50%;
 	border-radius: 100%;
 	-webkit-animation: rotate .8s infinite linear;
 	animation: rotate .8s infinite linear;
@@ -755,7 +755,7 @@ footer {
 label.infield,
 .hidden-visually {
 	position: absolute;
-	left: -10000px;
+	inset-inline-start: -10000px;
 	top: -10000px;
 	width: 1px;
 	height: 1px;
@@ -769,7 +769,7 @@ a.legal {
 .notecard {
 	color: var(--color-text-light);
 	background-color: var(--note-background);
-	border-left: 4px solid var(--note-theme);
+	border-inset-inline-start: 4px solid var(--note-theme);
 	border-radius: var(--border-radius);
 	margin: 1rem 0;
 	padding: 1rem;
