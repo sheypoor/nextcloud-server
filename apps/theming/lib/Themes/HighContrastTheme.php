@@ -105,7 +105,7 @@ class HighContrastTheme extends DefaultTheme implements ITheme {
 				opacity: 1 !important;
 			}
 			#app-navigation {
-				border-right: 1px solid var(--color-border);
+				border-inline-end: 1px solid var(--color-border);
 			}
 		";
 	}
