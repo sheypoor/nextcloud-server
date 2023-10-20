@@ -111,7 +111,7 @@ export default Vue.extend({
 	position: absolute;
 	z-index: 9999;
 	top: 0;
-	right: 0;
+	inset-inline-end: 0;
 	left: 0;
 	display: none;
 	align-items: center;
@@ -148,7 +148,7 @@ export default Vue.extend({
 	&__close {
 		position: absolute !important;
 		top: 10px;
-		right: 10px;
+		inset-inline-end: 10px;
 	}
 }
 

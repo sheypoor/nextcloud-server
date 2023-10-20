@@ -23,7 +23,7 @@
 
 .whatsNewPopover .icon-close {
   position: absolute;
-  right: 0;
+  inset-inline-end: 0;
 }
 
 .whatsNewPopover::after {

@@ -252,13 +252,13 @@ body {
 
 #show, #dbpassword {
 	position: absolute;
-	right: 1em;
+	inset-inline-end: 1em;
 	top: .8em;
 	float: right;
 }
 
 #show + label, #dbpassword + label {
-	right: 21px;
+	inset-inline-end: 21px;
 	top: 15px !important;
 	margin: -14px !important;
 	padding: 14px !important;
@@ -310,7 +310,7 @@ body {
 }
 #personal-show + label {
 	display: block;
-	right: 0;
+	inset-inline-end: 0;
 	margin-top: -43px;
 	margin-inline-end: -4px;
 	padding: 22px;

@@ -653,7 +653,7 @@ export default {
 
 		input[type='checkbox'].checkbox + label:before {
 			position: absolute;
-			right: 12px;
+			inset-inline-end: 12px;
 			top: 16px;
 		}
 

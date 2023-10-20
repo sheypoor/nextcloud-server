@@ -17,7 +17,7 @@
 	.toast-close {
 		position: absolute;
 		top: 0;
-		right: 0;
+		inset-inline-end: 0;
 		width: 38px;
 		opacity: 0.4;
 		padding: 12px;
@@ -35,7 +35,7 @@
 	}
 }
 .toastify.toastify-top {
-	right: 10px;
+	inset-inline-end: 10px;
 }
 
 .toast-error {
