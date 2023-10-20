@@ -628,7 +628,7 @@ export default {
 			background-color: var(--color-background-hover);
 			border: 2px solid var(--color-main-background);
 			border-radius: var(--border-radius-large);
-			text-align: left;
+			text-align: start;
 			overflow: hidden;
 			text-overflow: ellipsis;
 			white-space: nowrap;

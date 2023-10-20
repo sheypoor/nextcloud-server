@@ -12,7 +12,7 @@
 	display: flex;
 	align-items: center;
 	white-space: nowrap;
-	text-align: left;
+	text-align: start;
 }
 
 .tablerow input, .tablerow textarea {

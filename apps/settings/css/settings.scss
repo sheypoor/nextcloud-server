@@ -482,7 +482,7 @@ table.grid {
 		border-bottom: 1px solid var(--color-border);
 		padding: 0 .5em;
 		padding-inline-start: .8em;
-		text-align: left;
+		text-align: start;
 		font-weight: normal;
 	}
 
@@ -490,7 +490,7 @@ table.grid {
 		border-bottom: 1px solid var(--color-border);
 		padding: 0 .5em;
 		padding-inline-start: .8em;
-		text-align: left;
+		text-align: start;
 		font-weight: normal;
 	}
 }
@@ -1209,7 +1209,7 @@ table.grid td.date {
 @media (max-width: calc(variables.$breakpoint-mobile * 0.75)) {
 	.mail_settings p label:first-child {
 		width: unset;
-		text-align: left;
+		text-align: start;
 		display: block;
 		margin-top: calc(var(--default-grid-baseline) * 2);
 	}

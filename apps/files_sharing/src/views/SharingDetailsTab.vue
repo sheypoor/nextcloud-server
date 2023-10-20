@@ -994,7 +994,7 @@ export default {
 	&__advanced {
 		width: 100%;
 		margin-bottom: 0.5em;
-		text-align: left;
+		text-align: start;
 		padding-inline-start: 0;
 
 		section {

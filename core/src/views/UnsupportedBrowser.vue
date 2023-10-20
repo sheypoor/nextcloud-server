@@ -196,7 +196,7 @@ $spacing: 30px;
 		margin-block-start: 2 * $spacing;
 		margin-block-end: $spacing;
 		li {
-			text-align: left;
+			text-align: start;
 		}
 	}
 }
