@@ -317,7 +317,7 @@ $content-max-width: 640px;
 	&__header {
 		position: sticky;
 		height: 190px;
-		top: -40px;
+		inset-block-start: -40px;
 		background-color: var(--color-main-background-blur);
 		backdrop-filter: var(--filter-background-blur);
 		-webkit-backdrop-filter: var(--filter-background-blur);
@@ -326,7 +326,8 @@ $content-max-width: 640px;
 			align-self: flex-end;
 			width: 100%;
 			max-width: $profile-max-width;
-			margin: 0 auto;
+			margin-block-start: 0;
+			margin-inline-start: auto;
 			display: grid;
 			grid-template-rows: max-content max-content;
 			grid-template-columns: 240px 1fr;
@@ -343,29 +344,30 @@ $content-max-width: 640px;
 			&__displayname {
 				width: $content-max-width;
 				height: 45px;
-				margin-top: 128px;
+				margin-block-start: 128px;
 				// Override the global style declaration
-				margin-bottom: 0;
+				margin-block-end: 0;
 				font-size: 30px;
 				display: flex;
 				align-items: center;
 				cursor: text;
 
 				&:not(:last-child) {
-					margin-top: 100px;
-					margin-bottom: 4px;
+					margin-block-start: 100px;
+					margin-block-end: 4px;
 				}
 			}
 
 			&__edit-button {
 				border: none;
-				margin-left: 18px;
-				margin-top: 2px;
+				margin-inline-start: 18px;
+				margin-inline-end: 2px;
 				color: var(--color-primary-element-text);
 				background-color: var(--color-primary-element);
 				box-shadow: 0 0 0 2px var(--color-primary-element);
 				border-radius: var(--border-radius-pill);
-				padding: 0 18px;
+				padding-block: 0;
+				padding-inline: 18px;
 				font-size: var(--default-font-size);
 				height: 44px;
 				line-height: 44px;
@@ -381,16 +383,17 @@ $content-max-width: 640px;
 				.pencil-icon {
 					display: inline-block;
 					vertical-align: middle;
-					margin-top: 2px;
+					margin-block-start: 2px;
 				}
 			}
 
 			&__status-text {
 				width: max-content;
 				max-width: $content-max-width;
-				padding: 5px 10px;
-				margin-left: -12px;
-				margin-top: 2px;
+				padding-block: 5px;
+				padding-inline: 10px;
+				margin-inline-start: -12px;
+				margin-block-start: 2px;
 
 				&.interactive {
 					cursor: pointer;
@@ -411,11 +414,14 @@ $content-max-width: 640px;
 
 	&__sidebar {
 		position: sticky;
-		top: var(--header-height);
+		inset-block-start: var(--header-height);
 		align-self: flex-start;
-		padding-top: 20px;
+		padding-block-start: 20px;
 		min-width: 220px;
-		margin: -150px 20px 0 0;
+		margin-block-start: -150px;
+		margin-inline-start: 20px;
+		margin-block-end: 0;
+		margin-block-start: 0;
 
 		// Specificity hack is needed to override Avatar component styles
 		&::v-deep .avatar.avatardiv, h2 {
@@ -432,8 +438,8 @@ $content-max-width: 640px;
 
 		&::v-deep .avatar.avatardiv {
 			.avatardiv__user-status {
-				right: 14px;
-				bottom: 14px;
+				inset-inline-end: 14px;
+				inset-block-end: 14px;
 				width: 34px;
 				height: 34px;
 				background-size: 28px;
@@ -465,13 +471,17 @@ $content-max-width: 640px;
 
 	&__content {
 		max-width: $profile-max-width;
-		margin: 0 auto;
+		margin-block: 0;
+		margin-inline: auto;
 		display: flex;
 		width: 100%;
 	}
 
 	&__blocks {
-		margin: 18px 0 80px 0;
+		margin-block-start: 18px;
+		margin-inline-start: 0;
+		margin-block-end: 80px;
+		margin-inline-end: 0;
 		display: grid;
 		gap: 16px 0;
 		width: $content-max-width;
@@ -497,7 +507,7 @@ $content-max-width: 640px;
 		}
 
 		&-headline {
-			margin-top: 10px;
+			margin-block-start: 10px;
 
 			h3 {
 				font-weight: bold;
@@ -515,8 +525,8 @@ $content-max-width: 640px;
 		}
 
 		&-empty-info {
-			margin-top: 80px;
-			margin-right: 100px;
+			margin-block-start: 80px;
+			margin-inline-end: 100px;
 			display: flex;
 			flex-direction: column;
 			text-align: center;
@@ -524,7 +534,8 @@ $content-max-width: 640px;
 			h3 {
 				font-weight: bold;
 				font-size: 18px;
-				margin: 8px 0;
+				margin-block: 8px;
+				margin-inline: 0;
 			}
 		}
 	}
@@ -540,7 +551,9 @@ $content-max-width: 640px;
 				grid-template-columns: unset;
 
 				&__displayname {
-					margin: 80px 20px 0px!important;
+					margin-block-start: 80px !important;
+					margin-inline-start: 20px !important;
+					margin-block-end: 0px !important;
 					height: 1em;
 					width: unset;
 					display: unset;
@@ -550,11 +563,13 @@ $content-max-width: 640px;
 				&__edit-button {
 					width: fit-content;
 					display: block;
-					margin: 60px auto;
+					margin-block: 60px;
+					margin-inline: auto;
 				}
 
 				&__status-text {
-					margin: 4px auto;
+					margin-block: 4px;
+					margin-inline: auto;
 				}
 			}
 		}
@@ -566,8 +581,12 @@ $content-max-width: 640px;
 		&__blocks {
 			width: unset;
 			max-width: 600px;
-			margin: 0 auto;
-			padding: 20px 50px 50px 50px;
+			margin-block: 0;
+			margin-inline: auto;
+			padding-block-start: 20px;
+			padding-inline-start: 50px;
+			padding-block-end: 50px;
+			padding-inline-end: 50px;
 
 			&-empty-info {
 				margin: 0;
@@ -585,10 +604,11 @@ $content-max-width: 640px;
 	display: flex;
 	flex-direction: column;
 	gap: 8px 0;
-	margin-top: 20px;
+	margin-block-start: 20px;
 
 	&__primary {
-		margin: 0 auto;
+		margin-block: 0;
+		margin-inline: auto;
 	}
 
 	&__other {
