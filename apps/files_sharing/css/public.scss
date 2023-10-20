@@ -94,7 +94,7 @@ $download-button-section-height: 200px;
 
 /* fix multiselect bar offset on shared page */
 thead {
-	left: 0 !important;
+	inset-inline-start: 0 !important;
 }
 
 #data-upload-form {

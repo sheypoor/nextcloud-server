@@ -187,7 +187,7 @@ export default {
 
 	blockquote {
 		padding-inline-start: 1em;
-		border-left: 4px solid var(--color-primary-element);
+		border-inset-inline-start: 4px solid var(--color-primary-element);
 		color: var(--color-text-maxcontrast);
 		margin-inline-start: 0;
 		margin-inline-end: 0;

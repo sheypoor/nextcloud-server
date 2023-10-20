@@ -130,7 +130,7 @@ export default {
 		// Override Avatar component position to fix positioning on rerender
 		position: absolute !important;
 		top: 40px;
-		left: 18px;
+		inset-inline-start: 18px;
 		z-index: 1;
 
 		&:not(.avatardiv--unknown) {
@@ -145,7 +145,7 @@ export default {
 
 		span {
 			position: absolute;
-			left: 78px;
+			inset-inline-start: 78px;
 			overflow: hidden;
 			text-overflow: ellipsis;
 			overflow-wrap: anywhere;

@@ -42,7 +42,7 @@
 .versionsTabView img.preview {
 	position: relative;
 	top: 6px;
-	left: 10px;
+	inset-inline-start: 10px;
 	border: 1px solid var(--color-border-dark);		
 	cursor: default;
 	padding-inline-end: 0;

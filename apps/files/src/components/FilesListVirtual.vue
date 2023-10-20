@@ -395,7 +395,7 @@ export default Vue.extend({
 			position: absolute;
 			display: block;
 			top: 0;
-			left: 0;
+			inset-inline-start: 0;
 			inset-inline-end: 0;
 			bottom: 0;
 			opacity: .1;
@@ -659,7 +659,7 @@ tbody.files-list__tbody.files-list__tbody--grid {
 		position: absolute;
 		z-index: 9;
 		top: 0;
-		left: 0;
+		inset-inline-start: 0;
 		overflow: hidden;
 		width: var(--clickable-area);
 		height: var(--clickable-area);
