@@ -481,7 +481,10 @@ form .warning input[type='checkbox']+label {
 
 /* Additional login options */
 #remember_login {
-	margin: 18px 5px 0 16px !important;
+	margin-top: 18px !important;
+	margin-inline-end: 5px !important;
+	margin-bottom: 0 !important;
+	margin-inline-start: 16px !important;
 }
 
 /* fixes for update page TODO should be fixed some time in a proper way */

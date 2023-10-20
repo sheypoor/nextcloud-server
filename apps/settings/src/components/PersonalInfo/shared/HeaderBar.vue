@@ -160,6 +160,9 @@ export default {
 	}
 
 	.button-vue  {
-		margin: 0 0 0 auto !important;
+		margin-top: 0 !important;
+		margin-inline-end: 0 !important;
+		margin-bottom: 0 !important;
+		margin-inline-start: auto !important;
 	}
 </style>
