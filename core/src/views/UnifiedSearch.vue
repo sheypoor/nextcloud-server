@@ -756,7 +756,7 @@ $input-padding: 6px;
 			align-self: flex-start;
 			font-weight: bold;
 			font-size: 19px;
-			margin-left: 13px;
+			margin-inline-start: 13px;
 		}
 	}
 
@@ -771,7 +771,10 @@ $input-padding: 6px;
 	}
 
 	&__filters {
-		margin: $margin 0 $margin math.div($margin, 2);
+		margin-inline-start: $margin;
+		margin-block-start: 0;
+		margin-inline-end: $margin;
+		margin-block-end: math.div($margin, 2);
 		ul {
 			display: inline-flex;
 			justify-content: space-between;
@@ -781,7 +784,8 @@ $input-padding: 6px;
 	&__form {
 		position: relative;
 		width: 100%;
-		margin: $margin 0;
+		margin-block: $margin;
+		margin-inline: 0;
 
 		// Loading spinner
 		&::after {
@@ -818,7 +822,7 @@ $input-padding: 6px;
 			// Ellipsis earlier if reset button is here
 			.icon-loading-small &,
 			&--with-reset {
-				padding-right: $input-height;
+				padding-inline-end: $input-height;
 			}
 		}
 
@@ -833,7 +837,7 @@ $input-padding: 6px;
 			opacity: .5;
 			border: none;
 			background-color: transparent;
-			margin-right: 0;
+			margin-inline-end: 0;
 
 			&:hover,
 			&:focus,
@@ -851,8 +855,8 @@ $input-padding: 6px;
 		&-header {
 			display: block;
 			margin: $margin;
-			margin-bottom: $margin - 4px;
-			margin-left: 13px;
+			margin-block-end: $margin - 4px;
+			margin-inline-start: 13px;
 			color: var(--color-primary-element);
 			font-size: 19px;
 			font-weight: bold;
@@ -867,7 +871,8 @@ $input-padding: 6px;
 	}
 
 	.empty-content {
-		margin: 10vh 0;
+		margin-block: 10vh;
+		margin-inline: 0;
 
 		::v-deep .empty-content__title {
 			font-weight: normal;
