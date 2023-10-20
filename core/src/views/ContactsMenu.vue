@@ -167,8 +167,8 @@ export default {
 		&__search {
 			width: 100%;
 			height: 34px;
-			margin-block-start: 8px;
-			margin-inline-start: 0;
+			margin-block: 8px;
+			margin-inline: 0;
 		}
 
 		&__content {

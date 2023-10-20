@@ -231,9 +231,9 @@ export default {
 		width: auto !important;
 		height: 44px * 1.5 !important;
 		padding-block-start: 10px !important;
-		padding-inline-start: 12px !important;
-		padding-block-end: 5px !important;
 		padding-inline-end: 12px !important;
+		padding-block-end: 5px !important;
+		padding-inline-start: 12px !important;
 		align-items: flex-start !important;
 		color: var(--color-main-text) !important;
 

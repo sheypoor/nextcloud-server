@@ -75,7 +75,8 @@
 /* LOGO and APP NAME -------------------------------------------------------- */
 #nextcloud {
 	padding-block: 5px;
-	padding-inline: 86px; // logo width + 2* pa
+	padding-inline-start: 86px; // logo width + 2* pa
+	padding-inline-end: 0;
 	position: relative;
 	height: calc(100% - 4px);
 	box-sizing: border-box;
@@ -84,7 +85,7 @@
 	display: flex;
 	flex-wrap: wrap;
 	overflow: hidden;
-	margin-block-start: 2px;
+	margin: 2px;
 
 	&:hover, &:active {
 		opacity: 1;
@@ -243,7 +244,7 @@
 	z-index: 9999;
 	inset-block-start: -999px;
 	inset-inline-start: 3px;
-	padding-block-start: 11px;
+	padding: 11px;
 	display: flex;
 	flex-wrap: wrap;
 	gap: 11px;
