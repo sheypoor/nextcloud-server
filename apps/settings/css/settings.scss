@@ -418,7 +418,7 @@ table.nostyle {
 	}
 
 	li > div {
-		margin-left: 20px;
+		margin-inline-start: 20px;
 	}
 
 	.two-factor-provider-settings-icon {
@@ -591,7 +591,7 @@ span.usersLastLoginTooltip {
 }
 
 span.version {
-	margin-left: 1em;
+	margin-inline-start: 1em;
 	margin-inline-end: 1em;
 	color: var(--color-text-maxcontrast);
 }
@@ -893,7 +893,7 @@ span.version {
 	}
 
 	#app-list-update-all {
-		margin-left: 10px;
+		margin-inline-start: 10px;
 	}
 
 	.toolbar {
@@ -1033,7 +1033,7 @@ span.version {
 
 		> {
 			ul, ol {
-				margin-left: 19px;
+				margin-inline-start: 19px;
 			}
 		}
 
@@ -1060,7 +1060,7 @@ span.version {
 			.enable {
 				position: relative;
 				top: -1px;
-				margin-left: 12px;
+				margin-inline-start: 12px;
 			}
 
 			+ .section {
@@ -1175,7 +1175,7 @@ table.grid td.date {
 	/* 20 px left margin, 3 px right margin */
 	max-width: 600px;
 	height: 150px;
-	margin-left: 20px;
+	margin-inline-start: 20px;
 	box-sizing: border-box;
 }
 
@@ -1220,7 +1220,7 @@ table.grid td.date {
 }
 
 .cronlog {
-	margin-left: 10px;
+	margin-inline-start: 10px;
 }
 
 .status {
@@ -1279,7 +1279,7 @@ doesnotexist:-o-prefocus, .strengthify-wrapper {
 
 #postsetupchecks {
 	ul {
-		margin-left: 44px;
+		margin-inline-start: 44px;
 		list-style: disc;
 
 		li {

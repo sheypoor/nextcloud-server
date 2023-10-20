@@ -553,7 +553,7 @@ export default Vue.extend({
 				color: var(--color-main-text);
 				// Make some space for the outline
 				padding: 5px 10px;
-				margin-left: -10px;
+				margin-inline-start: -10px;
 				// Align two name and ext
 				display: inline-flex;
 			}
@@ -572,7 +572,7 @@ export default Vue.extend({
 			input {
 				width: 100%;
 				// Align with text, 0 - padding - border
-				margin-left: -8px;
+				margin-inline-start: -8px;
 				padding: 2px 6px;
 				border-width: 2px;
 

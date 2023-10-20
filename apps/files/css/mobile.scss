@@ -85,6 +85,6 @@ table.dragshadow {
 
 	/* Remove the margin to reduce the overlap between the name and the icons */
 	table.multiselect th .columntitle.name {
-		margin-left: 0;
+		margin-inline-start: 0;
 	}
 }

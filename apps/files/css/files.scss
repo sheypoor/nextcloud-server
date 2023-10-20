@@ -218,17 +218,17 @@ table.multiselect th .columntitle {
 }
 table th .columntitle.name {
 	padding-left: 0;
-	margin-left: 44px;
+	margin-inline-start: 44px;
 }
 
 table.multiselect th .columntitle.name {
-	margin-left: 0;
+	margin-inline-start: 0;
 }
 
 table th .sort-indicator {
 	width: 10px;
 	height: 8px;
-	margin-left: 5px;
+	margin-inline-start: 5px;
 	display: inline-block;
 	vertical-align: text-bottom;
 	opacity: .3;
@@ -354,7 +354,7 @@ table td.filename .thumbnail {
 	background-size: contain;
 	background-position: center;
 	background-repeat: no-repeat;
-	margin-left: 9px;
+	margin-inline-start: 9px;
 	margin-top: 9px;
 	border-radius: var(--border-radius);
 	cursor: pointer;
@@ -372,7 +372,7 @@ table tr[data-has-preview='true'] .thumbnail {
 
 table:not(.view-grid) td.filename input.filename {
 	width: 70% !important;
-	margin-left: 48px !important;
+	margin-inline-start: 48px !important;
 	cursor: text;
 }
 table td.filename form {
@@ -437,7 +437,7 @@ table td.filename .uploadtext {
 	position: absolute;
 	font-weight: normal;
 	// checkbox width
-	margin-left: 50px;
+	margin-inline-start: 50px;
 	left: 0;
 	bottom: 0;
 	height: 20px;
@@ -693,11 +693,11 @@ a.action.action-setreminder {
 	overflow: hidden;
 	text-overflow: ellipsis;
 	vertical-align: middle;
-	margin-left: 6px;
+	margin-inline-start: 6px;
 }
 
 .files-fileList .remoteAddress .userDomain {
-	margin-left: 0 !important;
+	margin-inline-start: 0 !important;
 }
 
 .files-fileList .favorite-mark.permanent {
@@ -917,7 +917,7 @@ table.dragshadow td.size {
 }
 
 .notCreatable {
-	margin-left: 12px;
+	margin-inline-start: 12px;
 	margin-inline-end: 44px;
 	margin-top: 12px;
 	color: var(--color-main-text);
@@ -1159,7 +1159,7 @@ table.dragshadow td.size {
 
 					input.filename {
 						width: 100%;
-						margin-left: 0;
+						margin-inline-start: 0;
 						cursor: text;
 					}
 				}
@@ -1230,7 +1230,7 @@ table.dragshadow td.size {
 				}
 
 				.info {
-				    margin-left: 0;
+				    margin-inline-start: 0;
 				}
 			}
 		}

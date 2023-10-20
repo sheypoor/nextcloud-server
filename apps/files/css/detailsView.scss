@@ -29,7 +29,7 @@
 }
 
 .app-sidebar .thumbnailContainer.large {
-	margin-left: -15px;
+	margin-inline-start: -15px;
 	margin-inline-end: -35px; /* 15 + 20 for the close button */
 	margin-top: -15px;
 }
@@ -68,7 +68,7 @@
 	overflow-x: hidden;
 	padding-top: 14px;
 	font-size: 80%;
-	margin-left: 0;
+	margin-inline-start: 0;
 }
 
 .app-sidebar .thumbnail {

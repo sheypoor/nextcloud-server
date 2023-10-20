@@ -171,7 +171,7 @@ export default {
 	.two-factor-loading {
 		display: inline-block;
 		vertical-align: sub;
-		margin-left: -2px;
+		margin-inline-start: -2px;
 		margin-inline-end: 1px;
 	}
 
