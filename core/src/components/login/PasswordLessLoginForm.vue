@@ -235,6 +235,7 @@ export default {
 	}
 
 	.update {
-		margin: 0 auto;
+		margin-block: 0;
+		margin-inline: auto;
 	}
 </style>
