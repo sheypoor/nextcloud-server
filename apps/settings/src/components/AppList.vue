@@ -286,10 +286,16 @@ export default {
 	.app-bundle-heading {
 		display: flex;
 		align-items: center;
-		margin: 20px 10px 20px 0;
+		margin-block-start: 20px;
+		margin-inline-end: 10px;
+		margin-block-end: 20px;
+		margin-inline-start: 0;
 	}
 	.app-bundle-header {
-		margin: 0 10px 0 50px;
+		margin-block-start: 0;
+		margin-inline-end: 10px;
+		margin-block-end: 0;
+		margin-inline-start: 50px;
 		font-weight: bold;
 		font-size: 20px;
 		line-height: 30px;

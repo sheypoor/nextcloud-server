@@ -169,7 +169,10 @@ export default {
 			color: var(--color-primary-element-text);
 			font-size: 18px;
 			font-weight: bold;
-			margin: 0 4px 8px 0;
+			margin-block-start: 0;
+			margin-inline-end: 4px;
+			margin-block-end: 8px;
+			margin-inline-start: 0;
 		}
 	}
 
@@ -181,7 +184,10 @@ export default {
 			color: var(--color-text-maxcontrast);
 			font-size: 14px;
 			font-weight: normal;
-			margin: 4px 4px 0 0;
+			margin-block-start: 4px;
+			margin-inline-end: 4px;
+			margin-block-end: 0;
+			margin-inline-start: 0;
 			line-height: 1.3;
 		}
 	}

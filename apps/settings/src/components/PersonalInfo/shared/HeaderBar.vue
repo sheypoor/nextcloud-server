@@ -136,7 +136,10 @@ export default {
 		font-weight: normal;
 		display: inline-flex;
 		width: 100%;
-		margin: 12px 0 0 0;
+		margin-block-start: 12px;
+		margin-inline-end: 0;
+		margin-block-end: 0;
+		margin-inline-start: 0;
 		gap: 8px;
 		align-items: center;
 		font-size: 16px;

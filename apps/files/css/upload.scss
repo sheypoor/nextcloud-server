@@ -147,7 +147,10 @@
 .oc-dialog .fileexists .icon {
 	width: 64px;
 	height: 64px;
-	margin: 0px 5px 5px 5px;
+	margin-block-start: 0px;
+	margin-inline-end: 5px;
+	margin-block-end: 5px;
+	margin-inline-start: 5px;
 	background-repeat: no-repeat;
 	background-size: 64px 64px;
 	float: left;

@@ -97,7 +97,10 @@ export default {
 .details {
 	display: flex;
 	flex-direction: column;
-	margin: 10px 32px 10px 0;
+	margin-block-start: 10px;
+	margin-inline-end: 32px;
+	margin-block-end: 10px;
+	margin-inline-start: 0;
 	gap: 16px 0;
 	color: var(--color-text-lighter);
 
