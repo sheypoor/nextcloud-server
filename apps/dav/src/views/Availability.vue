@@ -127,7 +127,10 @@ export default {
 
 <style lang="scss" scoped>
 :deep(.availability-day) {
-	padding: 0 10px 0 10px;
+	padding-block-start: 0;
+	padding-inline-end: 10px;
+	padding-block-end: 0;
+	padding-inline-start: 10px;
 	position: absolute;
 }
 :deep(.availability-slots) {
@@ -155,7 +158,10 @@ export default {
 	width: 120px;
 }
 .time-zone {
-	padding: 32px 12px 12px 0;
+	padding-block-start: 32px;
+	padding-inline-end: 12px;
+	padding-block-end: 12px;
+	padding-inline-start: 0;
     display: flex;
     flex-wrap: wrap;
 

@@ -625,7 +625,10 @@ export default {
 		label {
 			position: relative;
 			display: block;
-			padding: 48px 16px 14px 16px;
+			padding-block-start: 48px;
+			padding-inline-end: 16px;
+			padding-block-end: 14px;
+			padding-inline-start: 16px;
 			margin: 8px;
 			width: 140px;
 			background-color: var(--color-background-hover);

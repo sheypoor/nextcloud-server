@@ -84,7 +84,10 @@ export default {
 <style scoped lang="scss">
 .reference-file-picker {
 	flex-grow: 1;
-	padding: 12px 16px 16px 16px;
+	padding-block-start: 12px;
+	padding-inline-end: 16px;
+	padding-block-end: 16px;
+	padding-inline-start: 16px;
 
 	&:deep(.oc-dialog) {
 		transform: none !important;

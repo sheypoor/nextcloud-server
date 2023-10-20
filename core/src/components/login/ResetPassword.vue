@@ -144,7 +144,10 @@ export default {
 		cursor: pointer;
 		font-size: var(--default-font-size);
 		text-align: center;
-		padding: .5rem 1rem 1rem 1rem;
+		padding-block-start: .5rem;
+		padding-inline-end: 5rem;
+		padding-block-end: 1rem;
+		padding-inline-start: 1rem 1rem;
 	}
 }
 </style>

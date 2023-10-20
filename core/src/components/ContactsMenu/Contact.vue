@@ -106,7 +106,10 @@ export default {
 	display: flex;
 	position: relative;
 	align-items: center;
-	padding: 3px 3px 3px 10px;
+	padding-block-start: 3px;
+	padding-inline-end: 3px;
+	padding-block-end: 3px;
+	padding-inline-start: 10px;
 
 	&__action {
 		&__icon {

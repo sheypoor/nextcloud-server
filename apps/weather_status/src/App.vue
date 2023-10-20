@@ -606,7 +606,10 @@ li:not(.inline) .weather-status-menu-item {
 		display: block;
 		align-items: center;
 		color: var(--color-main-text);
-		padding: 10px 12px 5px 12px;
+		padding-block-start: 10px;
+		padding-inline-end: 12px;
+		padding-block-end: 5px;
+		padding-inline-start: 12px;
 		box-sizing: border-box;
 		opacity: 1;
 		white-space: nowrap;
