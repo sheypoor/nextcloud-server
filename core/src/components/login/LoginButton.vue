@@ -65,6 +65,6 @@ export default {
 
 <style lang="scss" scoped>
 .button-vue {
-	margin-top: .5rem;
+	margin-block-start: .5rem;
 }
 </style>
