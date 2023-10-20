@@ -58,7 +58,7 @@
 }
 
 .versionsTabView .version-details {
-	text-align: left;
+	text-align: start;
 }
 
 .versionsTabView .version-details > span {

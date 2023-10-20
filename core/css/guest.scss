@@ -14,7 +14,7 @@ html { height:100%; }
 article, aside, dialog, figure, footer, header, hgroup, nav, section { display:block; }
 body { line-height:1.5; }
 table { border-collapse:separate; border-spacing:0; white-space:nowrap; }
-caption, th, td { text-align:left; font-weight:normal; }
+caption, th, td { text-align: start; font-weight:normal; }
 table, td, th { vertical-align:middle; }
 a { border:0; color: var(--color-main-text); text-decoration:none;}
 a, a *, input, input *, select, .button span, label { cursor:pointer; }
@@ -141,7 +141,7 @@ form #sqliteInformation {
 }
 form #adminaccount, form #use_other_db {
 	margin-bottom: 15px;
-	text-align: left;
+	text-align: start;
 }
 form #adminaccount > legend,
 form #adminlogin {
@@ -432,7 +432,7 @@ form .warning input[type='checkbox']+label {
 	border-radius: 3px; /* --border-radius */
 	margin: 12px 0;
 	border: 1px solid transparent;
-	text-align: left;
+	text-align: start;
 	align-items: center;
 	text-decoration: none !important;
 
@@ -548,7 +548,7 @@ form #selectDbType {
 .body-login-container {
 	display: flex;
 	flex-direction: column;
-	text-align: left;
+	text-align: start;
 	word-wrap: break-word;
 	border-radius: 10px; /* --border-radius-large */
 	cursor: default;
@@ -595,7 +595,7 @@ p.info {
 
 	.appList {
 		list-style: disc;
-		text-align: left;
+		text-align: start;
 		margin-inline-start: 25px;
 		margin-inline-end: 25px;
 	}
@@ -609,7 +609,7 @@ p.info {
 	}
 }
 #update-progress-detailed {
-	text-align: left;
+	text-align: start;
 	margin-bottom: 12px;
 }
 .update-show-detailed {
@@ -773,7 +773,7 @@ a.legal {
 	border-radius: var(--border-radius);
 	margin: 1rem 0;
 	padding: 1rem;
-	text-align: left;
+	text-align: start;
 
 	&.success {
 		--note-background: rgba(var(--color-success-rgb), 0.1);
@@ -816,7 +816,7 @@ a.legal {
 .guest-box {
 	&.wide {
 		display: block;
-		text-align: left;
+		text-align: start;
 	}
 
 	fieldset {
@@ -840,7 +840,7 @@ button.toggle-password {
 }
 
 .text-left {
-	text-align: left !important;
+	text-align: start !important;
 }
 
 .hidden {

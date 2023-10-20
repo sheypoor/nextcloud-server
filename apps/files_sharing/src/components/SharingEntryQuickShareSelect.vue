@@ -254,7 +254,7 @@ export default {
 			outline: none;
 			width: 100%;
 			white-space: nowrap;
-			text-align: left;
+			text-align: start;
 
 			&:hover {
 				background-color: var(--color-background-dark);

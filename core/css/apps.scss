@@ -165,7 +165,7 @@ kbd {
 			padding: 10px;
 			padding-inline-start: 34px;
 			background-position: 10px center;
-			text-align: left;
+			text-align: start;
 			margin: 0;
 		}
 	}
@@ -833,7 +833,7 @@ $min-content-width: variables.$breakpoint-mobile - variables.$navigation-width -
 		box-shadow: none;
 		border: 0;
 		border-radius: calc(var(--default-clickable-area) / 2);
-		text-align: left;
+		text-align: start;
 		font-weight: normal;
 		font-size: 100%;
 		opacity: 0.8;

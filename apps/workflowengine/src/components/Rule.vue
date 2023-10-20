@@ -261,7 +261,7 @@ export default {
 		border-radius: var(--border-radius);
 		color: var(--color-text-maxcontrast);
 		font-weight: normal;
-		text-align: left;
+		text-align: start;
 		font-size: 1em;
 	}
 
