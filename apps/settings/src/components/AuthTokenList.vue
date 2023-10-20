@@ -125,7 +125,7 @@ export default {
 <style lang="scss">
 	#app-tokens-table {
 		tr > *:nth-child(2) {
-			padding-left: 6px;
+			padding-inline-start: 6px;
 		}
 
 		tr > *:nth-child(3) {

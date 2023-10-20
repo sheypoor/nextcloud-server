@@ -217,7 +217,7 @@ table.multiselect th .columntitle {
 	margin-inline-end: -20px;
 }
 table th .columntitle.name {
-	padding-left: 0;
+	padding-inline-start: 0;
 	margin-inline-start: 44px;
 }
 
@@ -443,7 +443,7 @@ table td.filename .uploadtext {
 	height: 20px;
 	padding: 0 4px;
 	// align with file name
-	padding-left: 1px;
+	padding-inline-start: 1px;
 	font-size: 11px;
 	// double the font size
 	line-height: 22px;
@@ -499,7 +499,7 @@ table td.selection {
 .files-fileList tr td.filename {
 	position: relative;
 	width: 100%;
-	padding-left: 0;
+	padding-inline-start: 0;
 	padding-right:0;
 	-webkit-transition:background-image 500ms; -moz-transition:background-image 500ms; -o-transition:background-image 500ms; transition:background-image 500ms;
 }
@@ -650,7 +650,7 @@ a.action.action-setreminder {
 		&.action-menu {
 			padding-top: 17px;
 			padding-bottom: 17px;
-			padding-left: 14px;
+			padding-inline-start: 14px;
 			padding-right: 14px;
 		}
 		&.no-permission {
@@ -734,7 +734,7 @@ a.action.action-setreminder {
 .files-filestable .summary .filesummary {
 	width: 100%;
 	/* Width of checkbox and file preview */
-	padding-left: 101px;
+	padding-inline-start: 101px;
 }
 /* Less whitespace needed on link share page
  * as there is a footer and action menus have fewer entries.
@@ -765,7 +765,7 @@ table.dragshadow {
 	z-index: 2000;
 }
 table.dragshadow td.filename {
-	padding-left:60px;
+	padding-inline-start:60px;
 	padding-right:16px;
 	height: 36px;
 
@@ -826,7 +826,7 @@ table.dragshadow td.size {
 	user-select: none;
 	display: flex;
 	top: 0;
-	padding-left: 50px; /* width of the nav toggle button; */
+	padding-inline-start: 50px; /* width of the nav toggle button; */
 
 	.actions {
 		> div,
@@ -1056,7 +1056,7 @@ table.dragshadow td.size {
 					height: 28px;
 					padding-top: 4px;
 					// checkbox margins
-					padding-left: calc(44px - 16px);
+					padding-inline-start: calc(44px - 16px);
 				}
 
 				.name {

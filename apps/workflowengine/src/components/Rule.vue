@@ -255,7 +255,7 @@ export default {
 	.check--add {
 		background-position: 7px center;
 		background-color: transparent;
-		padding-left: 6px;
+		padding-inline-start: 6px;
 		margin: 0;
 		width: 180px;
 		border-radius: var(--border-radius);
