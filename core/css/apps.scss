@@ -593,7 +593,7 @@ kbd {
 				border-bottom-right-radius: var(--border-radius);
 				border-top-right-radius: var(--border-radius);
 				border-bottom-left-radius: 0;
-				border-top-left-radius: 0;
+				border-start-start-radius: 0;
 			}
 		}
 	}
@@ -680,11 +680,11 @@ kbd {
 
 @media only screen and (max-width: variables.$breakpoint-mobile) {
 	#content {
-		border-top-left-radius: var(--border-radius-large);
+		border-start-start-radius: var(--border-radius-large);
 		border-top-right-radius: var(--border-radius-large);
 	}
 	#app-navigation {
-		border-top-left-radius: var(--border-radius-large);
+		border-start-start-radius: var(--border-radius-large);
 	}
 	#app-sidebar {
 		border-top-right-radius: var(--border-radius-large);
