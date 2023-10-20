@@ -310,9 +310,9 @@ export default {
 
 .set-status-modal {
 	padding-block-start: 8px;
-	padding-inline-start: 20px;
-	padding-block-end: 20px;
 	padding-inline-end: 20px;
+	padding-block-end: 20px;
+	padding-inline-start: 20px;
 
 	&__header {
 		text-align: center;

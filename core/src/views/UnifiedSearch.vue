@@ -771,10 +771,10 @@ $input-padding: 6px;
 	}
 
 	&__filters {
-		margin-inline-start: $margin;
-		margin-block-start: 0;
-		margin-inline-end: $margin;
-		margin-block-end: math.div($margin, 2);
+		margin-block-start: $margin;
+		margin-inline-end: 0;
+		margin-block-end: $margin;
+		margin-inline-start: math.div($margin, 2);
 		ul {
 			display: inline-flex;
 			justify-content: space-between;

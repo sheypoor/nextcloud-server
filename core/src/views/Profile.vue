@@ -326,8 +326,8 @@ $content-max-width: 640px;
 			align-self: flex-end;
 			width: 100%;
 			max-width: $profile-max-width;
-			margin-block-start: 0;
-			margin-inline-start: auto;
+			margin-block: 0;
+			margin-inline: auto;
 			display: grid;
 			grid-template-rows: max-content max-content;
 			grid-template-columns: 240px 1fr;
@@ -361,7 +361,7 @@ $content-max-width: 640px;
 			&__edit-button {
 				border: none;
 				margin-inline-start: 18px;
-				margin-inline-end: 2px;
+				margin-block-start: 2px;
 				color: var(--color-primary-element-text);
 				background-color: var(--color-primary-element);
 				box-shadow: 0 0 0 2px var(--color-primary-element);
@@ -419,9 +419,9 @@ $content-max-width: 640px;
 		padding-block-start: 20px;
 		min-width: 220px;
 		margin-block-start: -150px;
-		margin-inline-start: 20px;
+		margin-inline-end: 20px;
 		margin-block-end: 0;
-		margin-block-start: 0;
+		margin-inline-start: 0;
 
 		// Specificity hack is needed to override Avatar component styles
 		&::v-deep .avatar.avatardiv, h2 {
@@ -552,7 +552,7 @@ $content-max-width: 640px;
 
 				&__displayname {
 					margin-block-start: 80px !important;
-					margin-inline-start: 20px !important;
+					margin-inline: 20px !important;
 					margin-block-end: 0px !important;
 					height: 1em;
 					width: unset;
