@@ -230,7 +230,10 @@ export default {
 		flex-direction: column !important;
 		width: auto !important;
 		height: 44px * 1.5 !important;
-		padding: 10px 12px 5px 12px !important;
+		padding-block-start: 10px !important;
+		padding-inline-start: 12px !important;
+		padding-block-end: 5px !important;
+		padding-inline-end: 12px !important;
 		align-items: flex-start !important;
 		color: var(--color-main-text) !important;
 
@@ -261,7 +264,7 @@ export default {
 			&-placeholder {
 				width: 16px !important;
 				height: 24px !important;
-				margin-right: 10px !important;
+				margin-inline-end: 10px !important;
 				visibility: hidden !important;
 			}
 		}
@@ -275,7 +278,7 @@ export default {
 		&-icon {
 			width: 16px;
 			height: 16px;
-			margin-right: 10px;
+			margin-inline-end: 10px;
 			opacity: 1 !important;
 			background-size: 16px;
 			vertical-align: middle !important;
