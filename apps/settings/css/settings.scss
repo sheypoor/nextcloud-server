@@ -3,7 +3,7 @@
  See the COPYING-README file. */
 @use 'variables';
 @use 'sass:math';
-@import 'functions';	
+@import 'functions';
 
 input {
 	&#openid, &#webdav {
@@ -833,7 +833,10 @@ span.version {
 
 .followupsection {
 	display: block;
-	padding: 0 30px 30px 30px;
+	padding-block-start: 0;
+	padding-inline-end: 30px;
+	padding-block-end: 30px;
+	padding-inline-start: 30px;
 }
 
 .app-image {

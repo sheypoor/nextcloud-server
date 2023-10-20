@@ -142,7 +142,10 @@ kbd {
 	.app-navigation-caption {
 		font-weight: bold;
 		line-height: 44px;
-		padding: 10px 44px 0 44px;
+		padding-block-start: 10px;
+		padding-inline-end: 44px;
+		padding-block-end: 0;
+		padding-inline-start: 44px;
 		white-space: nowrap;
 		text-overflow: ellipsis;
 		box-shadow: none !important;
@@ -327,7 +330,10 @@ kbd {
 				justify-content: space-between;
 				line-height: 44px;
 				min-height: 44px;
-				padding: 0 12px 0 14px;
+				padding-block-start: 0;
+				padding-inline-end: 12px;
+				padding-block-end: 0;
+				padding-inline-start: 14px;
 				overflow: hidden;
 				box-sizing: border-box;
 				white-space: nowrap;
@@ -339,9 +345,15 @@ kbd {
 				/* TODO: forbid using img as icon in menu? */
 
 				&.svg {
-					padding: 0 12px 0 44px;
+					padding-block-start: 0;
+					padding-inline-end: 12px;
+					padding-block-end: 0;
+					padding-inline-start: 44px;
 					:focus-visible {
-						padding: 0 8px 0 42px;
+						padding-block-start: 0;
+						padding-inline-end: 8px;
+						padding-block-end: 0;
+						padding-inline-start: 42px;
 					}
 				}
 				&:first-child img {
@@ -796,7 +808,10 @@ $min-content-width: variables.$breakpoint-mobile - variables.$navigation-width -
 	}
 
 	.info-text {
-		padding: 5px 0 7px 22px;
+		padding-block-start: 5px;
+		padding-inline-end: 0;
+		padding-block-end: 7px;
+		padding-inline-start: 22px;
 		color: var(--color-text-lighter);
 	}
 	input {

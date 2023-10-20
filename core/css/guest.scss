@@ -395,7 +395,10 @@ input[type='checkbox'].checkbox--white:checked + label:before {
 }
 
 #pass2, input[name='personal-password-clone'] {
-	padding: .6em 2.5em .4em .4em;
+	padding-block-start: .6em;
+	padding-inline-end: 6em;
+	padding-block-end: 2.5em;
+	padding-inline-start: .5em .4em .4em;
 	width: 8em;
 }
 #personal-show + label {

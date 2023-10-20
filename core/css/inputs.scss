@@ -741,7 +741,10 @@ div.select2-container {
 				overflow: hidden;
 				text-overflow: ellipsis;
 				height: 25px;
-				padding: 3px 7px 4px 2px;
+				padding-block-start: 3px;
+				padding-inline-end: 7px;
+				padding-block-end: 4px;
+				padding-inline-start: 2px;
 				margin: 0;
 				cursor: pointer;
 				min-height: 1em;

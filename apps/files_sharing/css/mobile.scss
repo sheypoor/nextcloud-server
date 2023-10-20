@@ -32,7 +32,10 @@ table td.filename .nametext {
 
 /* some padding for better clickability */
 .files-fileList a.action img {
-	padding: 0 6px 0 12px;
+	padding-block-start: 0;
+	padding-inline-end: 6px;
+	padding-block-end: 0;
+	padding-inline-start: 12px;
 }
 /* hide text of the actions on mobile */
 .files-fileList a.action:not(.menuitem) span {
