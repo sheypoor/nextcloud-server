@@ -575,7 +575,7 @@ kbd {
 		input[type='text'] {
 			width: 100%;
 			min-width: 0; /* firefox hack: override auto */
-			border-bottom-right-radius: 0;
+			border-end-end-radius: 0;
 			border-start-end-radius: 0;
 		}
 		button,
@@ -590,7 +590,7 @@ kbd {
 				margin-inline-start: -1px;
 			}
 			&:last-child {
-				border-bottom-right-radius: var(--border-radius);
+				border-end-end-radius: var(--border-radius);
 				border-start-end-radius: var(--border-radius);
 				border-bottom-left-radius: 0;
 				border-start-start-radius: 0;
