@@ -161,13 +161,14 @@ export default {
 		label[for="contactsmenu__menu__search"] {
 			font-weight: bold;
 			font-size: 19px;
-			margin-left: 13px;
+			margin-inline-start: 13px;
 		}
 
 		&__search {
 			width: 100%;
 			height: 34px;
-			margin: 8px 0;
+			margin-block-start: 8px;
+			margin-inline-start: 0;
 		}
 
 		&__content {
@@ -183,7 +184,8 @@ export default {
 				a {
 					display: block;
 					width: 100%;
-					padding: 12px 0;
+					padding-block: 12px;
+					padding-inline: 0;
 					opacity: .5;
 				}
 			}
