@@ -106,7 +106,8 @@ export default {
 
 		&--message {
 			font-weight: bold;
-			padding: 0 6px;
+			padding-block: 0;
+			padding-inline: 6px;
 		}
 
 		&--clear-at {
