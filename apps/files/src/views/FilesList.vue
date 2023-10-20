@@ -484,10 +484,7 @@ $navigationToggleSize: 50px;
 		// Do not grow or shrink (vertically)
 		flex: 0 0;
 		// Align with the navigation toggle icon
-		margin-top: $margin;
-		margin-bottom: $margin;
-		margin-inline-end: $margin;
-		margin-inline-start: $navigationToggleSize;
+		margin: $margin $margin $margin $navigationToggleSize;
 		max-width: 100%;
 		> * {
 			// Do not grow or shrink (horizontally)
