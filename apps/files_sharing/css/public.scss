@@ -51,7 +51,7 @@ $download-button-section-height: 200px;
 #imgframe audio {
 	display: block;
 	margin-left: auto;
-	margin-right: auto;
+	margin-inline-end: auto;
 }
 
 #imgframe #viewer[data-handler=audios] {
@@ -116,7 +116,7 @@ thead {
 	max-width: 90%;
 	display: inline-block;
 	margin-left: auto;
-	margin-right: auto;
+	margin-inline-end: auto;
 	margin-top: 16px;
 }
 
@@ -166,7 +166,7 @@ thead {
 	display: inline-block;
 	vertical-align: text-top;
 	margin-bottom: 0;
-	margin-right: 5px;
+	margin-inline-end: 5px;
 	opacity: 1;
 }
 
@@ -204,14 +204,14 @@ thead {
 }
 
 #public-upload .emptycontent li img {
-	margin-right: 5px;
+	margin-inline-end: 5px;
 	position: relative;
 	top: 2px;
 }
 
 #drop-upload-progress-indicator span.icon-loading-small {
 	padding-left: 18px;
-	margin-right: 7px;
+	margin-inline-end: 7px;
 }
 
 #drop-uploaded-files li #drop-upload-name {

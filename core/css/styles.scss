@@ -306,13 +306,13 @@ body {
 .personal-show-container {
 	position: relative;
 	display: inline-block;
-	margin-right: 6px;
+	margin-inline-end: 6px;
 }
 #personal-show + label {
 	display: block;
 	right: 0;
 	margin-top: -43px;
-	margin-right: -4px;
+	margin-inline-end: -4px;
 	padding: 22px;
 }
 
@@ -725,7 +725,7 @@ li.crumb {
 		// Fix because of the display flex
 		.popovermenu {
 			top: 100%;
-			margin-right: 3px;
+			margin-inline-end: 3px;
 			ul {
 				max-height: 345px;
 				overflow-y: auto;
@@ -772,7 +772,7 @@ li.crumb {
 	}
 	&:last-child {
 		font-weight: bold;
-		margin-right: 10px;
+		margin-inline-end: 10px;
 		// Allow multiple span next to the main 'a'
 		a ~ span {
 			padding-left: 0;

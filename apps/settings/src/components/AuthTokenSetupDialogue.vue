@@ -198,14 +198,14 @@ export default {
 			position: relative;
 			top: 3px;
 			margin-left: 5px;
-			margin-right: 8px;
+			margin-inline-end: 8px;
 		}
 
 	}
 
 	.app-password-label {
 		display: table-cell;
-		margin-right: 1em;
+		margin-inline-end: 1em;
 		text-align: left;
 		vertical-align: middle;
 		width: 100px;
@@ -214,7 +214,7 @@ export default {
 	.app-name-text-field {
 		height: 44px !important;
 		padding-left: 12px;
-		margin-right: 12px;
+		margin-inline-end: 12px;
 		width: 200px;
 	}
 

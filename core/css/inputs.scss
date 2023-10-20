@@ -346,7 +346,7 @@ input {
 			width: $default-height;
 			padding: 7px 6px;
 			cursor: pointer;
-			margin-right: 0;
+			margin-inline-end: 0;
 			&:disabled {
 				cursor: default;
 				@include icon-color('confirm-fade', 'actions', variables.$color-black, 2, true);
@@ -530,7 +530,7 @@ div.select2-drop {
 	}
 	.avatar {
 		display: inline-block;
-		margin-right: 8px;
+		margin-inline-end: 8px;
 		vertical-align: middle;
 		img {
 			cursor: pointer;
@@ -745,7 +745,7 @@ div.select2-container {
 					min-height: 16px;
 					display: block;
 					opacity: 0.5;
-					margin-right: 5px;
+					margin-inline-end: 5px;
 					visibility: hidden;
 				}
 			}

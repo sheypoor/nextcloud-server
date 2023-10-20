@@ -160,7 +160,7 @@ export default {
     flex-wrap: wrap;
 
 	&__heading {
-		margin-right: calc(var(--default-grid-baseline) * 2);
+		margin-inline-end: calc(var(--default-grid-baseline) * 2);
 		line-height: var(--default-clickable-area);
 	}
 }

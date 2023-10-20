@@ -211,7 +211,7 @@ export default {
 		display: inline-block;
 		vertical-align: sub;
 		margin-left: 2px;
-		margin-right: 2px;
+		margin-inline-end: 2px;
 	}
 
 	.new-webauthn-device {

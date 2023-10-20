@@ -181,7 +181,7 @@ export default {
 	/* actions menu */
 	.menu {
 		top: 47px;
-		margin-right: 13px;
+		margin-inline-end: 13px;
 	}
 
 	.popovermenu::after {

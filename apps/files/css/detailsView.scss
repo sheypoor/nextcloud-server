@@ -30,7 +30,7 @@
 
 .app-sidebar .thumbnailContainer.large {
 	margin-left: -15px;
-	margin-right: -35px; /* 15 + 20 for the close button */
+	margin-inline-end: -35px; /* 15 + 20 for the close button */
 	margin-top: -15px;
 }
 
@@ -76,7 +76,7 @@
 	min-height: 75px;
 	display: inline-block;
 	float: left;
-	margin-right: 10px;
+	margin-inline-end: 10px;
 	background-size: contain;
 	background-repeat: no-repeat;
 }

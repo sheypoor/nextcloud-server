@@ -460,7 +460,7 @@ export default Vue.extend({
 			width: var(--icon-preview-size);
 			height: 100%;
 			// Show same padding as the checkbox right padding for visual balance
-			margin-right: var(--checkbox-padding);
+			margin-inline-end: var(--checkbox-padding);
 			color: var(--color-primary-element);
 
 			// Icon is also clickable
@@ -603,7 +603,7 @@ export default Vue.extend({
 		}
 
 		.files-list__row-action--inline {
-			margin-right: 7px;
+			margin-inline-end: 7px;
 		}
 
 		.files-list__row-mtime,

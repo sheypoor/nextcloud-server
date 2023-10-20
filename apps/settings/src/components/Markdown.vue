@@ -190,7 +190,7 @@ export default {
 		border-left: 4px solid var(--color-primary-element);
 		color: var(--color-text-maxcontrast);
 		margin-left: 0;
-		margin-right: 0;
+		margin-inline-end: 0;
 	}
 
 	}

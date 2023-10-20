@@ -345,7 +345,7 @@ kbd {
 					}
 				}
 				&:first-child img {
-					margin-right: 11px!important;
+					margin-inline-end: 11px!important;
 					width: 16px;
 					height: 16px;
 					// Legacy invert if bright background
@@ -564,7 +564,7 @@ kbd {
 		}
 		input {
 			padding: 5px;
-			margin-right: 0;
+			margin-inline-end: 0;
 			height: 38px;
 			&:hover,
 			&:focus {
@@ -883,7 +883,7 @@ $min-content-width: variables.$breakpoint-mobile - variables.$navigation-width -
 		&[type='checkbox'],
 		&[type='radio'] {
 			vertical-align: -2px;
-			margin-right: 4px;
+			margin-inline-end: 4px;
 		}
 	}
 }
@@ -943,7 +943,7 @@ $min-content-width: variables.$breakpoint-mobile - variables.$navigation-width -
 			background-size: 16px;
 			vertical-align: middle;
 			margin-top: -2px;
-			margin-right: 3px;
+			margin-inline-end: 3px;
 			opacity: .7;
 			cursor: pointer;
 		}
@@ -1028,7 +1028,7 @@ $outter-margin: math.div($popoveritem-height - $popovericon-size, 2);
 	&.menu-center {
 		transform: translateX(50%);
 		right: 50%;
-		margin-right: 0;
+		margin-inline-end: 0;
 		&:after {
 			right: 50%;
 			transform: translateX(50%);
@@ -1038,7 +1038,7 @@ $outter-margin: math.div($popoveritem-height - $popovericon-size, 2);
 	&.menu-left {
 		right: auto;
 		left: 0;
-		margin-right: 0;
+		margin-inline-end: 0;
 		&:after {
 			left: 6px;
 			right: auto;
@@ -1373,7 +1373,7 @@ $outter-margin: math.div($popoveritem-height - $popovericon-size, 2);
 			line-height: 40px;
 			border-radius: 50%;
 			vertical-align: middle;
-			margin-right: 10px;
+			margin-inline-end: 10px;
 			color: #fff;
 			text-align: center;
 			font-size: 1.5em;

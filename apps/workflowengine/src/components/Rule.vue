@@ -195,13 +195,13 @@ export default {
 			margin-left: 5px;
 		}
 		button:last-child{
-			margin-right: 10px;
+			margin-inline-end: 10px;
 		}
 	}
 
 	.error-message {
 		float: right;
-		margin-right: 10px;
+		margin-inline-end: 10px;
 	}
 
 	.flow-icon {
@@ -226,7 +226,7 @@ export default {
 		.icon-confirm {
 			background-position: right 27px;
 			padding-right: 20px;
-			margin-right: 20px;
+			margin-inline-end: 20px;
 		}
 	}
 	.trigger p, .action p {

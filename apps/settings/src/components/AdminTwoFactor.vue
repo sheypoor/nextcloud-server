@@ -172,7 +172,7 @@ export default {
 		display: inline-block;
 		vertical-align: sub;
 		margin-left: -2px;
-		margin-right: 1px;
+		margin-inline-end: 1px;
 	}
 
 	.top-margin {

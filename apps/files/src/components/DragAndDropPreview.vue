@@ -136,7 +136,7 @@ $stack-shift: 6px;
 
 	&__icon {
 		overflow: visible;
-		margin-right: 12px;
+		margin-inline-end: 12px;
 
 		img {
 			max-width: 100%;
