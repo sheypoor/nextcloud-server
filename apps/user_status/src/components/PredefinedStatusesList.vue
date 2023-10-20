@@ -95,6 +95,6 @@ export default {
 .predefined-statuses-list {
 	display: flex;
 	flex-direction: column;
-	margin-bottom: 10px;
+	margin-block-end: 10px;
 }
 </style>
