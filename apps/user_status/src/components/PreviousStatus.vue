@@ -99,7 +99,8 @@ export default {
 
 	&__message {
 		font-weight: bold;
-		padding: 0 6px;
+		padding-block: 0;
+		padding-inline: 6px;
 	}
 
 	&__clear-at {
