@@ -139,7 +139,7 @@
 	border: none;
 
 	.ui-tabs-nav.ui-corner-all {
-		border-bottom-left-radius: 0;
+		border-end-start-radius: 0;
 		border-end-end-radius: 0;
 	}
 
@@ -201,7 +201,7 @@
 
 	&.ui-corner-all {
 		border-radius: 0;
-		border-bottom-left-radius: var(--border-radius);
+		border-end-start-radius: var(--border-radius);
 		border-end-end-radius: var(--border-radius);
 	}
 
