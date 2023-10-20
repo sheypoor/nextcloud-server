@@ -87,7 +87,7 @@ $label-padding: 8px;
 		display: block;
 		margin: $label-padding;
 		padding: $label-padding;
-		padding-left: $icon-size + $label-padding * 2;
+		padding-inline-start: $icon-size + $label-padding * 2;
 		border: 2px solid var(--color-main-background);
 		border-radius: var(--border-radius-large);
 		background-color: var(--color-background-hover);
@@ -101,8 +101,8 @@ $label-padding: 8px;
 
 		span {
 			position: absolute;
-			top: calc(50% - math.div($icon-size, 2));
-			left: $label-padding;
+			inset-block-start: calc(50% - math.div($icon-size, 2));
+			inset-inline-start: $label-padding;
 			display: block;
 			width: $icon-size;
 			height: $icon-size;
