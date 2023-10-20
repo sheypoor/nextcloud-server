@@ -119,7 +119,7 @@ export default {
 		min-height: 36px;
 		padding: 0;
 		border: 2px solid var(--color-border-maxcontrast);
-		border-right: none;
+		border-inline-end: none;
 		border-radius: var(--border-radius) 0 0 var(--border-radius);
 
 		&:hover {
@@ -133,7 +133,10 @@ export default {
 		input {
 			width: 100%;
 			margin: 0;
-			border-radius: 0 var(--border-radius) var(--border-radius) 0;
+			border-start-start-radius: 0;
+			border-start-end-radius: var(--border-radius);
+			border-end-end-radius: var(--border-radius);
+			border-end-start-radius: 0;
 		}
 	}
 }
