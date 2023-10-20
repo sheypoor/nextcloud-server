@@ -225,7 +225,10 @@ export default {
 
 	.button-vue{
 		display:inline-block;
-		margin: 3px 3px 3px 3px;
+		margin-block-start: 3px;
+		margin-inline-end: 3px;
+		margin-block-end: 3px;
+		margin-inline-start: 3px;
 	}
 
 	.row {

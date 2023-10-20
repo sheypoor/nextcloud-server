@@ -4,9 +4,12 @@
 }
 
 #body-login .error-broken-link ul{
-	margin:10px 0 10px 0;
+	margin-block-start: 10px;
+	margin-inline-end: 0;
+	margin-block-end: 10px;
+	margin-inline-start: 0;
 }
 
 #body-login .error-broken-link ul li{
-	list-style: disc;list-style-position:inside;cursor:default;	
+	list-style: disc;list-style-position:inside;cursor:default;
 }

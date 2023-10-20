@@ -127,7 +127,10 @@
 	opacity: .5;
 }
 .ui-widget-shadow {
-	margin: -5px 0 0 -5px;
+	margin-block-start: -5px;
+	margin-inline-end: 5px;
+	margin-block-end: 0;
+	margin-inline-start: 0 -5px;
 	padding: 5px;
 	background: #000000 url('images/ui-bg_flat_10_000000_40x100.png') 50% 50% repeat-x;
 	opacity: .2;

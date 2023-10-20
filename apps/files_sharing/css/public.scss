@@ -152,7 +152,10 @@ thead {
 }
 
 #public-upload .emptycontent h2 {
-	margin: 10px 0 5px 0;
+	margin-block-start: 10px;
+	margin-inline-end: 0;
+	margin-block-end: 5px;
+	margin-inline-start: 0;
 }
 
 #public-upload .emptycontent h2+p {

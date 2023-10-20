@@ -553,7 +553,10 @@ export default {
 	}
 
 	& > .panel--content {
-		margin: 0 16px 16px 16px;
+		margin-block-start: 0;
+		margin-inline-end: 16px;
+		margin-block-end: 16px;
+		margin-inline-start: 16px;
 		height: 424px;
 		// We specifically do not want scrollbars inside widgets
 		overflow: visible;
