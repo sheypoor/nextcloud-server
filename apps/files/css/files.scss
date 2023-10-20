@@ -500,7 +500,7 @@ table td.selection {
 	position: relative;
 	width: 100%;
 	padding-inline-start: 0;
-	padding-right:0;
+	padding-inline-end:0;
 	-webkit-transition:background-image 500ms; -moz-transition:background-image 500ms; -o-transition:background-image 500ms; transition:background-image 500ms;
 }
 
@@ -651,7 +651,7 @@ a.action.action-setreminder {
 			padding-top: 17px;
 			padding-bottom: 17px;
 			padding-inline-start: 14px;
-			padding-right: 14px;
+			padding-inline-end: 14px;
 		}
 		&.no-permission {
 			&:hover, &:focus {
@@ -766,14 +766,14 @@ table.dragshadow {
 }
 table.dragshadow td.filename {
 	padding-inline-start:60px;
-	padding-right:16px;
+	padding-inline-end:16px;
 	height: 36px;
 
 	/* Override "max-width: 0" to prevent file name and size from overlapping */
 	max-width: unset;
 }
 table.dragshadow td.size {
-	padding-right:8px;
+	padding-inline-end:8px;
 }
 .mask {
 	z-index: 50;

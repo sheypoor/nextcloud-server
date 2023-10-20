@@ -191,7 +191,7 @@ export default {
 }
 
 .to-text {
-	padding-right: 12px;
+	padding-inline-end: 12px;
 }
 
 .empty-content {
