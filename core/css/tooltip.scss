@@ -19,7 +19,6 @@
     letter-spacing: normal;
     line-break: auto;
     line-height: 1.6;
-    text-align: left;
     text-align: start;
     text-decoration: none;
     text-shadow: none;
@@ -33,7 +32,7 @@
     opacity: 0;
     z-index: 100000;
     /* default to top */
-    margin-top: -3px;
+    margin-block-start: -3px;
     padding: 10px 0;
     filter: drop-shadow(0 1px 10px var(--color-box-shadow));
     &.in,
@@ -45,34 +44,34 @@
     }
     &.top .tooltip-arrow,
     &[x-placement^='top'] {
-        left: 50%;
-        margin-left: -10px;
+        inset-inline-start: 50%;
+        margin-inline-start: -10px;
     }
     &.bottom,
     &[x-placement^='bottom'] {
-        margin-top: 3px;
+        margin-block-start: 3px;
         padding: 10px 0;
     }
     &.right,
     &[x-placement^='right'] {
-        margin-left: 3px;
+        margin-inline-start: 3px;
         padding: 0 10px;
         .tooltip-arrow {
-            top: 50%;
-            left: 0;
-            margin-top: -10px;
+            inset-block-start: 50%;
+            inset-inline-start: 0;
+            margin-block-start: -10px;
             border-width: 10px 10px 10px 0;
             border-right-color: var(--color-main-background);
         }
     }
     &.left,
     &[x-placement^='left'] {
-        margin-left: -3px;
+        margin-inline-start: -3px;
         padding: 0 5px;
         .tooltip-arrow {
-            top: 50%;
-            right: 0;
-            margin-top: -10px;
+            inset-block-start: 50%;
+            inset-inline-end: 0;
+            margin-block-start: -10px;
             border-width: 10px 0 10px 10px;
             border-left-color: var(--color-main-background);
         }
@@ -83,18 +82,18 @@
     &[x-placement^='top'],
     &.top-right {
         .tooltip-arrow, .arrow {
-            bottom: 0;
+            inset-block-end: 0;
             border-width: 10px 10px 0;
             border-top-color: var(--color-main-background);
         }
     }
     &.top-left .tooltip-arrow {
-        right: 10px;
-        margin-bottom: -10px;
+        inset-inline-end: 10px;
+        margin-block-end: -10px;
     }
     &.top-right .tooltip-arrow {
-        left: 10px;
-        margin-bottom: -10px;
+        inset-inline-start: 10px;
+        margin-block-end: -10px;
     }
     /* BOTTOM */
     &.bottom,
@@ -102,23 +101,23 @@
     &.bottom-left,
     &.bottom-right {
         .tooltip-arrow, .arrow {
-            top: 0;
+            inset-block-start: 0;
             border-width: 0 10px 10px;
             border-bottom-color: var(--color-main-background);
         }
     }
     &[x-placement^='bottom'] .tooltip-arrow,
     &.bottom .tooltip-arrow {
-        left: 50%;
-        margin-left: -10px;
+        inset-inline-start: 50%;
+        margin-inline-start: -10px;
     }
     &.bottom-left .tooltip-arrow {
-        right: 10px;
-        margin-top: -10px;
+        inset-inline-end: 10px;
+        margin-block-start: -10px;
     }
     &.bottom-right .tooltip-arrow {
-        left: 10px;
-        margin-top: -10px;
+        inset-inline-start: 10px;
+        margin-block-start: -10px;
     }
 }
 

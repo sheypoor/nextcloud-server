@@ -302,7 +302,7 @@ export default {
 }
 
 #content {
-	padding-top: 0px;
+	padding-block-start: 0px;
 }
 </style>
 
@@ -317,7 +317,7 @@ $content-max-width: 640px;
 	&__header {
 		position: sticky;
 		height: 190px;
-		top: -40px;
+		inset-block-start: -40px;
 		background-color: var(--color-main-background-blur);
 		backdrop-filter: var(--filter-background-blur);
 		-webkit-backdrop-filter: var(--filter-background-blur);
@@ -343,24 +343,24 @@ $content-max-width: 640px;
 			&__displayname {
 				width: $content-max-width;
 				height: 45px;
-				margin-top: 128px;
+				margin-block-start: 128px;
 				// Override the global style declaration
-				margin-bottom: 0;
+				margin-block-end: 0;
 				font-size: 30px;
 				display: flex;
 				align-items: center;
 				cursor: text;
 
 				&:not(:last-child) {
-					margin-top: 100px;
-					margin-bottom: 4px;
+					margin-block-start: 100px;
+					margin-block-end: 4px;
 				}
 			}
 
 			&__edit-button {
 				border: none;
-				margin-left: 18px;
-				margin-top: 2px;
+				margin-inline-start: 18px;
+				margin-block-start: 2px;
 				color: var(--color-primary-element-text);
 				background-color: var(--color-primary-element);
 				box-shadow: 0 0 0 2px var(--color-primary-element);
@@ -381,7 +381,7 @@ $content-max-width: 640px;
 				.pencil-icon {
 					display: inline-block;
 					vertical-align: middle;
-					margin-top: 2px;
+					margin-block-start: 2px;
 				}
 			}
 
@@ -389,8 +389,8 @@ $content-max-width: 640px;
 				width: max-content;
 				max-width: $content-max-width;
 				padding: 5px 10px;
-				margin-left: -12px;
-				margin-top: 2px;
+				margin-inline-start: -12px;
+				margin-block-start: 2px;
 
 				&.interactive {
 					cursor: pointer;
@@ -411,9 +411,9 @@ $content-max-width: 640px;
 
 	&__sidebar {
 		position: sticky;
-		top: var(--header-height);
+		inset-block-start: var(--header-height);
 		align-self: flex-start;
-		padding-top: 20px;
+		padding-block-start: 20px;
 		min-width: 220px;
 		margin: -150px 20px 0 0;
 
@@ -432,8 +432,8 @@ $content-max-width: 640px;
 
 		&::v-deep .avatar.avatardiv {
 			.avatardiv__user-status {
-				right: 14px;
-				bottom: 14px;
+				inset-inline-end: 14px;
+				inset-block-end: 14px;
 				width: 34px;
 				height: 34px;
 				background-size: 28px;
@@ -497,7 +497,7 @@ $content-max-width: 640px;
 		}
 
 		&-headline {
-			margin-top: 10px;
+			margin-block-start: 10px;
 
 			h3 {
 				font-weight: bold;
@@ -515,8 +515,8 @@ $content-max-width: 640px;
 		}
 
 		&-empty-info {
-			margin-top: 80px;
-			margin-right: 100px;
+			margin-block-start: 80px;
+			margin-inline-end: 100px;
 			display: flex;
 			flex-direction: column;
 			text-align: center;
@@ -585,7 +585,7 @@ $content-max-width: 640px;
 	display: flex;
 	flex-direction: column;
 	gap: 8px 0;
-	margin-top: 20px;
+	margin-block-start: 20px;
 
 	&__primary {
 		margin: 0 auto;

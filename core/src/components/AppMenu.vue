@@ -162,7 +162,7 @@ $header-icon-size: 20px;
 				border-radius: 3px;
 				background-color: var(--color-primary-element-text);
 				left: 50%;
-				bottom: 6px;
+				inset-block-end: 6px;
 				display: block;
 				transition: all 0.1s ease-in-out;
 				opacity: 1;
@@ -197,7 +197,7 @@ $header-icon-size: 20px;
 			color: var(--color-primary-element-text);
 			text-align: center;
 			left: 50%;
-			top: 45%;
+			inset-block-start: 45%;
 			display: block;
 			min-width: 100%;
 			transform: translateX(-50%);
@@ -214,7 +214,7 @@ $header-icon-size: 20px;
 			.app-menu-entry--label {
 				opacity: 1;
 				font-weight: bolder;
-				bottom: 0;
+				inset-block-end: 0;
 				width: 100%;
 				text-overflow: ellipsis;
 				overflow: hidden;
@@ -231,12 +231,12 @@ $header-icon-size: 20px;
 		opacity: 1;
 
 		img {
-			margin-top: -8px;
+			margin-block-start: -8px;
 		}
 
 		.app-menu-entry--label {
 			opacity: 1;
-			bottom: 0;
+			inset-block-end: 0;
 		}
 
 		&::before, .app-menu-entry::before {
@@ -293,7 +293,7 @@ $header-icon-size: 20px;
 	border-radius: 50%;
 	position: absolute;
 	display: block;
-	top: 10px;
+	inset-block-start: 10px;
 	right: 10px;
 }
 

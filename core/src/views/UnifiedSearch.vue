@@ -745,7 +745,7 @@ $input-padding: 6px;
 		position: sticky;
 		// above search results
 		z-index: 2;
-		top: 0;
+		inset-block-start: 0;
 		display: inline-flex;
 		flex-direction: column;
 		align-items: center;
@@ -756,7 +756,7 @@ $input-padding: 6px;
 			align-self: flex-start;
 			font-weight: bold;
 			font-size: 19px;
-			margin-left: 13px;
+			margin-inline-start: 13px;
 		}
 	}
 
@@ -785,8 +785,8 @@ $input-padding: 6px;
 
 		// Loading spinner
 		&::after {
-			right: $input-padding;
-			left: auto;
+			inset-inline-end: $input-padding;
+			inset-inline-start: auto;
 		}
 
 		&-input,
@@ -818,14 +818,14 @@ $input-padding: 6px;
 			// Ellipsis earlier if reset button is here
 			.icon-loading-small &,
 			&--with-reset {
-				padding-right: $input-height;
+				padding-inline-end: $input-height;
 			}
 		}
 
 		&-reset, &-submit {
 			position: absolute;
-			top: 0;
-			right: 4px;
+			inset-block-start: 0;
+			inset-inline-end: 4px;
 			width: $input-height - $input-padding;
 			height: $input-height - $input-padding;
 			min-height: 30px;
@@ -833,7 +833,7 @@ $input-padding: 6px;
 			opacity: .5;
 			border: none;
 			background-color: transparent;
-			margin-right: 0;
+			margin-inline-end: 0;
 
 			&:hover,
 			&:focus,
@@ -843,7 +843,7 @@ $input-padding: 6px;
 		}
 
 		&-submit {
-			right: 28px;
+			inset-inline-end: 28px;
 		}
 	}
 
@@ -851,8 +851,8 @@ $input-padding: 6px;
 		&-header {
 			display: block;
 			margin: $margin;
-			margin-bottom: $margin - 4px;
-			margin-left: 13px;
+			margin-block-end: $margin - 4px;
+			margin-inline-start: 13px;
 			color: var(--color-primary-element);
 			font-size: 19px;
 			font-weight: bold;

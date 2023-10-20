@@ -216,7 +216,7 @@ export default {
 .dialog-row {
 	display: flex;
 	justify-content: end;
-	margin-top: 8px;
+	margin-block-start: 8px;
 }
 
 p {
@@ -226,7 +226,7 @@ p {
 	}
 
 	&:last-child {
-		margin-top: 10px;
+		margin-block-start: 10px;
 	}
 }
 
@@ -250,11 +250,11 @@ p {
 
 	.info {
 		h3, p {
-			text-align: left;
+			text-align: start;
 		}
 
 		h3 {
-			margin-top: 0;
+			margin-block-start: 0;
 		}
 
 		h3 > span.icon {

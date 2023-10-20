@@ -134,6 +134,6 @@ export default {
 	}
 
 	input[type=submit] {
-		margin-top: 20px;
+		margin-block-start: 20px;
 	}
 </style>

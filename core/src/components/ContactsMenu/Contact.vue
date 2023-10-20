@@ -133,7 +133,7 @@ export default {
 
 	&__body {
 		flex-grow: 1;
-		padding-left: 8px;
+		padding-inline-start: 8px;
 		min-width: 0;
 
 		div {
@@ -180,12 +180,12 @@ export default {
 
 	/* actions menu */
 	.menu {
-		top: 47px;
-		margin-right: 13px;
+		inset-block-start: 47px;
+		margin-inline-end: 13px;
 	}
 
 	.popovermenu::after {
-		right: 2px;
+		inset-inline-end: 2px;
 	}
 }
 </style>

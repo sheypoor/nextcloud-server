@@ -30,8 +30,8 @@
 
 .hidden-visually {
 	position: absolute;
-	left: -10000px;
-	top: -10000px;
+	inset-inline-start: -10000px;
+	inset-block-start: -10000px;
 	width: 1px;
 	height: 1px;
 	overflow: hidden;
