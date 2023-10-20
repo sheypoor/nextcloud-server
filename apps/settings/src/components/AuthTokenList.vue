@@ -129,7 +129,7 @@ export default {
 		}
 
 		tr > *:nth-child(3) {
-			text-align: right;
+			text-align: end;
 		}
 	}
 </style>

@@ -959,7 +959,7 @@ span.version {
 		.app-image {
 			width: 44px;
 			height: auto;
-			text-align: right;
+			text-align: end;
 		}
 
 		.app-image-icon svg,
@@ -973,7 +973,7 @@ span.version {
 		}
 
 		.actions {
-			text-align: right;
+			text-align: end;
 
 			.icon-loading-small {
 				display: inline-block;
@@ -1197,7 +1197,7 @@ table.grid td.date {
 	label:first-child {
 		display: inline-block;
 		width: 300px;
-		text-align: right;
+		text-align: end;
 	}
 
 	select:nth-child(2),

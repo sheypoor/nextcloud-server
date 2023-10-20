@@ -45,7 +45,7 @@
 
 .ldapWizardControls {
 	width: 60%;
-	text-align: right;
+	text-align: end;
 }
 
 .ldapWizardInfo {
@@ -65,7 +65,7 @@
 #ldapWizard1 .hostPortCombinatorSpan {
 	width: 14.5%;
 	display: inline-block;
-	text-align: right;
+	text-align: end;
 }
 
 #ldapWizard1 .host {
@@ -80,7 +80,7 @@
 }
 
 .tableCellLabel {
-	text-align: right;
+	text-align: end;
 	padding-inline-end: 25%;
 }
 
@@ -111,7 +111,7 @@
 	max-width: 200px;
 	display: inline-block;
 	vertical-align: top;
-	text-align: right;
+	text-align: end;
 	padding-top: 9px;
 	padding-inline-end: 5px;
 }
