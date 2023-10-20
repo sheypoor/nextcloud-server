@@ -87,7 +87,7 @@ export default {
 			display: inline-block;
 			vertical-align: middle;
 			margin-bottom: 2px;
-			margin-right: 4px;
+			margin-inline-end: 4px;
 
 			&.icon-invert {
 				filter: invert(1);
