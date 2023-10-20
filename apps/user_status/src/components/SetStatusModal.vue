@@ -309,12 +309,16 @@ export default {
 <style lang="scss" scoped>
 
 .set-status-modal {
-	padding: 8px 20px 20px 20px;
+	padding-block-start: 8px;
+	padding-inline-start: 20px;
+	padding-block-end: 20px;
+	padding-inline-end: 20px;
 
 	&__header {
 		text-align: center;
 		font-weight: bold;
-		margin: 15px 0;
+		margin-block: 15px;
+		margin-inline: 0;
 	}
 
 	&__online-status {
@@ -325,20 +329,20 @@ export default {
 	&__custom-input {
 		display: flex;
 		width: 100%;
-		margin-bottom: 10px;
+		margin-block-end: 10px;
 	}
 
 	&__automation-hint {
 		display: flex;
 		width: 100%;
-		margin-bottom: 10px;
+		margin-block-end: 10px;
 		color: var(--color-text-maxcontrast);
 	}
 
 	.status-buttons {
 		display: flex;
 		padding: 3px;
-		padding-left:0;
+		padding-inline-start: 0;
 		gap: 3px;
 	}
 }
