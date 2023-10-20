@@ -560,7 +560,10 @@ export default {
 
 	:deep {
 		.app-sidebar-header__description {
-			margin: 0 16px 4px 16px !important;
+			margin-top: 0 !important;
+			margin-inline-end: 16px !important;
+			margin-bottom: 4px !important;
+			margin-inline-start: 16px !important;
 		}
 	}
 
