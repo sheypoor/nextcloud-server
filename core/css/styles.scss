@@ -350,7 +350,7 @@ body {
 
 .error-wide {
 	width: 700px;
-	margin-left: -200px !important;
+	margin-inline-start: -200px !important;
 	.button {
 		color: black !important;
 	}
@@ -572,7 +572,7 @@ code {
 	}
 	/* AM/PM fix */
 	table.ui-timepicker tr .ui-timepicker-hour-cell:first-child {
-		margin-left: 30px;
+		margin-inline-start: 30px;
 	}
 	.ui-timepicker-table {
 		th {

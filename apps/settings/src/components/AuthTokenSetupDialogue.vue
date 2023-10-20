@@ -197,7 +197,7 @@ export default {
 			display: inline-block;
 			position: relative;
 			top: 3px;
-			margin-left: 5px;
+			margin-inline-start: 5px;
 			margin-inline-end: 8px;
 		}
 

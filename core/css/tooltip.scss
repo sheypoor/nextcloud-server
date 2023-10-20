@@ -46,7 +46,7 @@
     &.top .tooltip-arrow,
     &[x-placement^='top'] {
         left: 50%;
-        margin-left: -10px;
+        margin-inline-start: -10px;
     }
     &.bottom,
     &[x-placement^='bottom'] {
@@ -55,7 +55,7 @@
     }
     &.right,
     &[x-placement^='right'] {
-        margin-left: 3px;
+        margin-inline-start: 3px;
         padding: 0 10px;
         .tooltip-arrow {
             top: 50%;
@@ -67,7 +67,7 @@
     }
     &.left,
     &[x-placement^='left'] {
-        margin-left: -3px;
+        margin-inline-start: -3px;
         padding: 0 5px;
         .tooltip-arrow {
             top: 50%;
@@ -110,7 +110,7 @@
     &[x-placement^='bottom'] .tooltip-arrow,
     &.bottom .tooltip-arrow {
         left: 50%;
-        margin-left: -10px;
+        margin-inline-start: -10px;
     }
     &.bottom-left .tooltip-arrow {
         right: 10px;

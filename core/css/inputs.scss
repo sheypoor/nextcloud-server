@@ -334,7 +334,7 @@ input {
 	&[type='password'],
 	&[type='email'] {
 		+ .icon-confirm {
-			margin-left: -13px !important;
+			margin-inline-start: -13px !important;
 			border-left-color: transparent !important;
 			border-radius: 0 var(--border-radius-large) var(--border-radius-large) 0 !important;
 			border-width: 2px;
@@ -457,7 +457,7 @@ input {
 			// Detail description below label of checkbox or radio button
 			& + label ~ em {
 				display: inline-block;
-				margin-left: 25px;
+				margin-inline-start: 25px;
 			}
 			& + label ~ em:last-of-type {
 				margin-bottom: $checkbox-radio-size;
@@ -705,7 +705,7 @@ div.select2-container {
 			display: inline-flex;
 			align-items: center;
 			.close {
-				margin-left: 3px;
+				margin-inline-start: 3px;
 			}
 		}
 	}

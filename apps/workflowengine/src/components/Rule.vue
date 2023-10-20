@@ -192,7 +192,7 @@ export default {
 		justify-content: end;
 
 		button {
-			margin-left: 5px;
+			margin-inline-start: 5px;
 		}
 		button:last-child{
 			margin-inline-end: 10px;
