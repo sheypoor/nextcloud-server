@@ -335,7 +335,7 @@ input {
 	&[type='email'] {
 		+ .icon-confirm {
 			margin-inline-start: -13px !important;
-			border-left-color: transparent !important;
+			border-inline-start-color: transparent !important;
 			border-radius: 0 var(--border-radius-large) var(--border-radius-large) 0 !important;
 			border-width: 2px;
 			background-clip: padding-box;
@@ -377,7 +377,7 @@ input {
 		&:focus {
 			+ .icon-confirm {
 				border-color: var(--color-primary-element) !important;
-				border-left-color: transparent !important;
+				border-inline-start-color: transparent !important;
 				/* above previous input */
 				z-index: 2;
 			}
