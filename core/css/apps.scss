@@ -751,7 +751,7 @@ $min-content-width: variables.$breakpoint-mobile - variables.$navigation-width -
 	position: -webkit-sticky;
 	position: sticky;
 	top: variables.$header-height;
-	right:0;
+	inset-inline-end:0;
 	overflow-y: auto;
 	overflow-x: hidden;
 	z-index: 1500;
@@ -1002,7 +1002,7 @@ $outter-margin: math.div($popoveritem-height - $popovericon-size, 2);
 	z-index: 110;
 	margin: 5px;
 	margin-top: -5px;
-	right: 0;
+	inset-inline-end: 0;
 	filter: drop-shadow(0 1px 3px var(--color-box-shadow));
 	display: none;
 	will-change: filter;
@@ -1013,7 +1013,7 @@ $outter-margin: math.div($popoveritem-height - $popovericon-size, 2);
 		// = 16px/2 + 14px = 22px
 		// popover right margin is 5px, arrow width is 9px to center and border is 1px
 		// 22px - 9px - 5px - 1px = 7px
-		right: 7px;
+		inset-inline-end: 7px;
 		/* change this to adjust the arrow position */
 		border: solid transparent;
 		content: ' ';
@@ -1027,21 +1027,21 @@ $outter-margin: math.div($popoveritem-height - $popovericon-size, 2);
 	/* Center the popover */
 	&.menu-center {
 		transform: translateX(50%);
-		right: 50%;
+		inset-inline-end: 50%;
 		margin-inline-end: 0;
 		&:after {
-			right: 50%;
+			inset-inline-end: 50%;
 			transform: translateX(50%);
 		}
 	}
 	/* Align the popover to the left */
 	&.menu-left {
-		right: auto;
+		inset-inline-end: auto;
 		left: 0;
 		margin-inline-end: 0;
 		&:after {
 			left: 6px;
-			right: auto;
+			inset-inline-end: auto;
 		}
 	}
 
@@ -1423,7 +1423,7 @@ $outter-margin: math.div($popoveritem-height - $popovericon-size, 2);
 				margin: 0;
 				// action icon have -7px margin
 				// default popover is normally 5px
-				right: -2px;
+				inset-inline-end: -2px;
 			}
 		}
 	}

@@ -294,7 +294,7 @@ $header-icon-size: 20px;
 	position: absolute;
 	display: block;
 	top: 10px;
-	right: 10px;
+	inset-inline-end: 10px;
 }
 
 .unread-counter {

@@ -396,7 +396,7 @@ export default Vue.extend({
 			display: block;
 			top: 0;
 			left: 0;
-			right: 0;
+			inset-inline-end: 0;
 			bottom: 0;
 			opacity: .1;
 			z-index: -1;
@@ -506,7 +506,7 @@ export default Vue.extend({
 			&-favorite {
 				position: absolute;
 				top: 0px;
-				right: -10px;
+				inset-inline-end: -10px;
 			}
 
 			// Folder overlay
@@ -670,7 +670,7 @@ tbody.files-list__tbody.files-list__tbody--grid {
 	.files-list__row-icon-favorite {
 		position: absolute;
 		top: 0;
-		right: 0;
+		inset-inline-end: 0;
 		display: flex;
 		align-items: center;
 		justify-content: center;
@@ -707,7 +707,7 @@ tbody.files-list__tbody.files-list__tbody--grid {
 
 	.files-list__row-actions {
 		position: absolute;
-		right: 0;
+		inset-inline-end: 0;
 		bottom: 0;
 		width: var(--clickable-area);
 		height: var(--clickable-area);

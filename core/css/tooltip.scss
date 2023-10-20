@@ -71,7 +71,7 @@
         padding: 0 5px;
         .tooltip-arrow {
             top: 50%;
-            right: 0;
+            inset-inline-end: 0;
             margin-top: -10px;
             border-width: 10px 0 10px 10px;
             border-left-color: var(--color-main-background);
@@ -89,7 +89,7 @@
         }
     }
     &.top-left .tooltip-arrow {
-        right: 10px;
+        inset-inline-end: 10px;
         margin-bottom: -10px;
     }
     &.top-right .tooltip-arrow {
@@ -113,7 +113,7 @@
         margin-inline-start: -10px;
     }
     &.bottom-left .tooltip-arrow {
-        right: 10px;
+        inset-inline-end: 10px;
         margin-top: -10px;
     }
     &.bottom-right .tooltip-arrow {
